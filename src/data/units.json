@@ -1,0 +1,25 @@
+{
+  "length": {
+    "m": { "name": "Meter", "symbol": "m", "baseFactor": 1 },
+    "cm": { "name": "Centimeter", "symbol": "cm", "baseFactor": 0.01 },
+    "mm": { "name": "Millimeter", "symbol": "mm", "baseFactor": 0.001 },
+    "km": { "name": "Kilometer", "symbol": "km", "baseFactor": 1000 },
+    "in": { "name": "Inch", "symbol": "in", "baseFactor": 0.0254 },
+    "ft": { "name": "Foot", "symbol": "ft", "baseFactor": 0.3048 },
+    "yd": { "name": "Yard", "symbol": "yd", "baseFactor": 0.9144 },
+    "mi": { "name": "Mile", "symbol": "mi", "baseFactor": 1609.344 }
+  },
+  "weight": {
+    "kg": { "name": "Kilogram", "symbol": "kg", "baseFactor": 1 },
+    "g": { "name": "Gram", "symbol": "g", "baseFactor": 0.001 },
+    "mg": { "name": "Milligram", "symbol": "mg", "baseFactor": 0.000001 },
+    "mt": { "name": "Metric Ton", "symbol": "t", "baseFactor": 1000 },
+    "lb": { "name": "Pound", "symbol": "lb", "baseFactor": 0.45359237 },
+    "oz": { "name": "Ounce", "symbol": "oz", "baseFactor": 0.028349523125 }
+  },
+  "temperature": {
+    "c": { "name": "Celsius", "symbol": "°C", "baseFactor": 1 },
+    "f": { "name": "Fahrenheit", "symbol": "°F", "baseFactor": 1 },
+    "k": { "name": "Kelvin", "symbol": "K", "baseFactor": 1 }
+  }
+}

@@ -1,0 +1,14 @@
+[
+  { "categoryId": "length", "from": "cm", "to": "in" },
+  { "categoryId": "length", "from": "in", "to": "cm" },
+  { "categoryId": "length", "from": "km", "to": "mi" },
+  { "categoryId": "length", "from": "mi", "to": "km" },
+  { "categoryId": "length", "from": "m", "to": "ft" },
+  { "categoryId": "length", "from": "ft", "to": "m" },
+  { "categoryId": "weight", "from": "kg", "to": "lb" },
+  { "categoryId": "weight", "from": "lb", "to": "kg" },
+  { "categoryId": "weight", "from": "g", "to": "oz" },
+  { "categoryId": "weight", "from": "oz", "to": "g" },
+  { "categoryId": "temperature", "from": "c", "to": "f" },
+  { "categoryId": "temperature", "from": "f", "to": "c" }
+]

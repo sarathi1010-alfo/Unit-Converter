@@ -1,0 +1,17 @@
+[
+  {
+    "id": "length",
+    "name": "Length",
+    "description": "Convert distance and length units including metric and imperial systems."
+  },
+  {
+    "id": "weight",
+    "name": "Weight & Mass",
+    "description": "Convert weight and mass units across all major measurement systems."
+  },
+  {
+    "id": "temperature",
+    "name": "Temperature",
+    "description": "Convert between Celsius, Fahrenheit, and Kelvin temperature scales."
+  }
+]
