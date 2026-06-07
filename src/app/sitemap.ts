@@ -32,6 +32,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   ];
 
+  const staticPages = [
+    '/privacy-policy',
+    '/terms-of-service',
+    '/contact',
+    '/about'
+  ].map((route) => ({
+    url: `${baseUrl}${route}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.5,
+  }));
+
   return [
     {
       url: baseUrl,
@@ -41,6 +53,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...categoryRoutes,
     ...pairRoutes,
-    ...guideRoutes
+    ...guideRoutes,
+    ...staticPages
   ];
 }
