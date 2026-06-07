@@ -1,6 +1,7 @@
 import { Suspense } from "react";
 import { ConverterForm } from "@/components/converter/ConverterForm";
 import { RelatedLinks } from "@/components/seo/RelatedLinks";
+import { RelatedToolsWidget } from "@/components/layout/RelatedToolsWidget";
 import { getAllCategories } from "@/lib/pairs";
 import Link from "next/link";
 import popularPairsData from "@/data/popularPairs.json";
@@ -58,6 +59,8 @@ export default function Home() {
         <h2 className="text-2xl font-bold text-slate-900 mb-6">Popular Conversions</h2>
         <RelatedLinks links={popularLinks} />
       </section>
+
+      <RelatedToolsWidget />
     </div>
   );
 }

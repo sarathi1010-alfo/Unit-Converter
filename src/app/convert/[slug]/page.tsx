@@ -4,6 +4,8 @@ import { ConverterForm } from "@/components/converter/ConverterForm";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { ConversionTable } from "@/components/converter/ConversionTable";
 import { FAQAccordion } from "@/components/seo/FAQAccordion";
+import { AdBlock } from "@/components/ads/AdBlock";
+import { RelatedToolsWidget } from "@/components/layout/RelatedToolsWidget";
 import { generateAllPairs, getPairBySlug, getUnitsForCategory } from "@/lib/conversion_helpers";
 import { type CategoryId } from "@/lib/conversion";
 import type { Metadata } from "next";
@@ -143,6 +145,8 @@ export default async function ConversionPairPage(
         </Suspense>
       </section>
 
+      <AdBlock type="in-content" />
+
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <div className="lg:col-span-2 space-y-12">
           <section>
@@ -173,6 +177,8 @@ export default async function ConversionPairPage(
           </section>
         </div>
       </div>
+
+      <RelatedToolsWidget />
     </div>
   );
 }
