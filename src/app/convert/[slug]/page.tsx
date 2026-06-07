@@ -8,12 +8,14 @@ import { AdBlock } from "@/components/ads/AdBlock";
 import { RelatedToolsWidget } from "@/components/layout/RelatedToolsWidget";
 import { generateAllPairs, getPairBySlug, getUnitsForCategory } from "@/lib/conversion_helpers";
 import { type CategoryId } from "@/lib/conversion";
+import { SITE_URL } from "@/lib/seo";
 import type { Metadata } from "next";
 
 interface WebApplicationStructuredData {
   "@context": "https://schema.org";
   "@type": "WebApplication";
   "name": string;
+  "url"?: string;
   "applicationCategory": string;
   "operatingSystem": string;
   "description": string;
@@ -37,11 +39,18 @@ export async function generateMetadata(
   const fromName = units[pair.from]?.name || pair.from.toUpperCase();
   const toName = units[pair.to]?.name || pair.to.toUpperCase();
 
+  const path = `/convert/${params.slug}`;
+
   return {
     title: `${fromName} to ${toName} Converter`,
     description: `Convert ${fromName.toLowerCase()} to ${toName.toLowerCase()} instantly. Includes formula, examples, and a quick reference conversion table.`,
     alternates: {
-      canonical: `/convert/${params.slug}`
+      canonical: path,
+    },
+    openGraph: {
+      url: path,
+      title: `${fromName} to ${toName} Converter | alfo.online`,
+      description: `Convert ${fromName.toLowerCase()} to ${toName.toLowerCase()} instantly. Includes formula, examples, and a quick reference conversion table.`,
     }
   };
 }
@@ -68,6 +77,7 @@ export default async function ConversionPairPage(
     "@context": "https://schema.org",
     "@type": "WebApplication",
     "name": `${fromUnit.name} to ${toUnit.name} Converter`,
+    "url": `${SITE_URL}/convert/${params.slug}`,
     "applicationCategory": "Utility",
     "operatingSystem": "All",
     "description": `Free online tool to convert ${fromUnit.name} to ${toUnit.name}.`

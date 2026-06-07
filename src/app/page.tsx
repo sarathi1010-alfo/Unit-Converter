@@ -5,6 +5,16 @@ import { RelatedToolsWidget } from "@/components/layout/RelatedToolsWidget";
 import { getAllCategories } from "@/lib/pairs";
 import Link from "next/link";
 import popularPairsData from "@/data/popularPairs.json";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    url: "/",
+  }
+};
 
 export default function Home() {
   const categories = getAllCategories();
