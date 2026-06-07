@@ -10,9 +10,9 @@ export function Header() {
           UnitConverter
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
-          <Link href="/category/length" className="hover:text-primary transition-colors">Length</Link>
-          <Link href="/category/weight" className="hover:text-primary transition-colors">Weight</Link>
-          <Link href="/category/temperature" className="hover:text-primary transition-colors">Temperature</Link>
+          <Link href="/category/length-converter" className="hover:text-primary transition-colors">Length</Link>
+          <Link href="/category/weight-converter" className="hover:text-primary transition-colors">Weight</Link>
+          <Link href="/category/temperature-converter" className="hover:text-primary transition-colors">Temperature</Link>
         </nav>
       </div>
     </header>

@@ -13,16 +13,16 @@ export function Footer() {
         <div>
           <span className="font-semibold text-slate-900 block mb-4">Categories</span>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li><Link href="/category/length" className="hover:text-primary">Length</Link></li>
-            <li><Link href="/category/weight" className="hover:text-primary">Weight & Mass</Link></li>
-            <li><Link href="/category/temperature" className="hover:text-primary">Temperature</Link></li>
+            <li><Link href="/category/length-converter" className="hover:text-primary">Length</Link></li>
+            <li><Link href="/category/weight-converter" className="hover:text-primary">Weight & Mass</Link></li>
+            <li><Link href="/category/temperature-converter" className="hover:text-primary">Temperature</Link></li>
           </ul>
         </div>
         <div>
           <span className="font-semibold text-slate-900 block mb-4">Popular Guides</span>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li><Link href="/convert/cm-to-inches" className="hover:text-primary">CM to Inches</Link></li>
-            <li><Link href="/convert/kg-to-lbs" className="hover:text-primary">KG to LBS</Link></li>
+            <li><Link href="/guides/cm-to-inches" className="hover:text-primary">CM to Inches</Link></li>
+            <li><Link href="/convert/kg-to-lb" className="hover:text-primary">KG to LBS</Link></li>
             <li><Link href="/convert/c-to-f" className="hover:text-primary">Celsius to Fahrenheit</Link></li>
           </ul>
         </div>

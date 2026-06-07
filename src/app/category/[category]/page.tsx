@@ -47,7 +47,7 @@ export default async function CategoryPage(
   const categoryLinks = popularPairsData
     .filter((p) => p.categoryId === categoryId)
     .map((p) => ({
-      href: `/${p.from}-to-${p.to}`,
+      href: `/convert/${p.from}-to-${p.to}`,
       label: `${p.from.toUpperCase()} to ${p.to.toUpperCase()}`,
     }));
 
