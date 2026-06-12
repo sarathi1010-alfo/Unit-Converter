@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import "@/app/globals.css";
+import { SITE_URL } from "@/lib/utils";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "UnitConverter - Fast, Visual, SEO-First",
   description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
   other: {

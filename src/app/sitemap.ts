@@ -1,11 +1,12 @@
 import { MetadataRoute } from 'next';
 import { generateAllPairs, getAllCategories } from '@/lib/conversion_helpers';
 import { classifyIntent, getIntentPriority } from '@/lib/intent';
+import { SITE_URL } from '@/lib/utils';
 
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://unitconverter.com'; // Change to actual domain
+  const baseUrl = SITE_URL;
 
   // Get dynamic conversion pair routes
   const pairRoutes = generateAllPairs().map((pair) => {
