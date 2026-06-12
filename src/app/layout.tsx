@@ -4,12 +4,25 @@ import { Footer } from "@/components/layout/Footer";
 import "@/app/globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://unitconverter.com"),
   title: "UnitConverter - Fast, Visual, SEO-First",
   description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
+  openGraph: {
+    title: "UnitConverter - Fast, Visual, SEO-First",
+    description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
+    siteName: "UnitConverter",
+    type: "website"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "UnitConverter - Fast, Visual, SEO-First",
+    description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples."
+  },
   other: {
     "google-adsense-account": "ca-pub-6393936268623951"
   }
 };
+
 
 export default function RootLayout({
   children,

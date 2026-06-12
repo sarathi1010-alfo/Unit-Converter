@@ -1,9 +1,13 @@
+import { Metadata } from "next";
 import { Suspense } from "react";
 import { ConverterForm } from "@/components/converter/ConverterForm";
 import { RelatedLinks } from "@/components/seo/RelatedLinks";
 import { getAllCategories } from "@/lib/pairs";
 import Link from "next/link";
 import popularPairsData from "@/data/popularPairs.json";
+
+
+export const metadata: Metadata = { alternates: { canonical: '/' } };
 
 export default function Home() {
   const categories = getAllCategories();
