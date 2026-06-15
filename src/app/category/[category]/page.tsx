@@ -27,6 +27,7 @@ export async function generateMetadata(
   return {
     title: `${category.name} Converter | UnitConverter`,
     description: category.description,
+    alternates: { canonical: `/category/${params.category}` }
   };
 }
 
