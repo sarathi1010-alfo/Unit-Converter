@@ -145,7 +145,7 @@ export default async function ConversionPairPage(
       />
 
       <Breadcrumbs items={[
-        { label: `${categoryId.charAt(0).toUpperCase() + categoryId.slice(1)} Converter`, href: `/category/${categoryId}` },
+        { label: `${categoryId.charAt(0).toUpperCase() + categoryId.slice(1)} Converter`, href: `/category/${categoryId}-converter` },
         { label: `${fromUnit.symbol} to ${toUnit.symbol}` }
       ]} />
 

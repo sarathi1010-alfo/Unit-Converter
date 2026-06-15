@@ -24,7 +24,7 @@ export default function Home() {
   const categories = getAllCategories();
 
   const popularLinks = popularPairsData.map(pair => ({
-    href: `/${pair.from}-to-${pair.to}`,
+    href: `/convert/${pair.from}-to-${pair.to}`,
     label: `${pair.from.toUpperCase()} to ${pair.to.toUpperCase()}`
   }));
 
@@ -54,7 +54,7 @@ export default function Home() {
           {categories.map((category) => (
             <Link
               key={category.id}
-              href={`/${category.id}-converter`}
+              href={`/category/${category.id}-converter`}
               className="block p-6 bg-white border border-slate-200 rounded-2xl hover:border-primary/50 hover:shadow-md transition-all group"
             >
               <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-primary transition-colors">
