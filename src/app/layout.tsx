@@ -6,8 +6,10 @@ import { RecentlyLaunchedStrip } from "@/components/layout/RecentlyLaunchedStrip
 import { METADATA_BASE } from "@/lib/seo";
 import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 import "@/app/globals.css";
+import { SITE_URL } from "@/lib/utils";
 
 export const metadata: Metadata = {
+ alfo-ecosystem-standardization-10716047684776820565
   metadataBase: METADATA_BASE,
   title: "UnitConverter - Fast, Visual, SEO-First | alfo.online",
   description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
@@ -30,11 +32,30 @@ export const metadata: Metadata = {
     title: "UnitConverter - Fast, Visual, SEO-First | alfo.online",
     description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
     images: ["/og-image.jpg"],
+fix-sitemap-site-url-4794970102639254297
+  metadataBase: new URL(SITE_URL),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://unitconverter.com"),
+ jules-16680094041159827713-0e0fd200
+  title: "UnitConverter - Fast, Visual, SEO-First",
+  description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
+  openGraph: {
+    title: "UnitConverter - Fast, Visual, SEO-First",
+    description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
+    siteName: "UnitConverter",
+    type: "website"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "UnitConverter - Fast, Visual, SEO-First",
+    description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples."
+ jules-16680094041159827713-0e0fd200
   },
   other: {
-    "google-adsense-account": "ca-pub-6393936268623951"
+    "google-adsense-account": "ca-pub-6393936268623951",
+    "monetag": "86950f5308b2a836fd804730ef0e5e7d"
   }
 };
+
 
 export default function RootLayout({
   children,
@@ -45,6 +66,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="google-adsense-account" content="ca-pub-6393936268623951" />
+        <meta name="monetag" content="86950f5308b2a836fd804730ef0e5e7d" />
       </head>
       <body className="min-h-screen flex flex-col bg-[#F8FAFC]">
         {process.env.NEXT_PUBLIC_GTM_ID && (

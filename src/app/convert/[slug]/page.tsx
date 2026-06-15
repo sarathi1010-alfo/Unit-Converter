@@ -4,9 +4,14 @@ import { ConverterForm } from "@/components/converter/ConverterForm";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { ConversionTable } from "@/components/converter/ConversionTable";
 import { FAQAccordion } from "@/components/seo/FAQAccordion";
+ alfo-ecosystem-standardization-10716047684776820565
 import { AdBlock } from "@/components/ads/AdBlock";
 import { RelatedToolsWidget } from "@/components/layout/RelatedToolsWidget";
+import { TrustReinforcement } from "@/components/seo/TrustReinforcement";
+import { AICitationBlock } from "@/components/seo/AICitationBlock";
+ jules-16680094041159827713-0e0fd200
 import { generateAllPairs, getPairBySlug, getUnitsForCategory } from "@/lib/conversion_helpers";
+import { logPagePerformance } from "@/lib/searchIntelligence";
 import { type CategoryId } from "@/lib/conversion";
 import { SITE_URL } from "@/lib/seo";
 import type { Metadata } from "next";
@@ -60,6 +65,15 @@ export default async function ConversionPairPage(
 ) {
   const params = await props.params;
   const pair = getPairBySlug(params.slug);
+
+  // Log intelligence for this page rendering
+  logPagePerformance(`/convert/${params.slug}`, {
+    impressions: 0, // Mock initial state
+    ctr: 0,
+    averagePosition: 0,
+    isIndexed: true,
+  }).catch(console.error);
+
 
   if (!pair) {
     if (params.slug.endsWith("-converter")) {
@@ -144,6 +158,16 @@ export default async function ConversionPairPage(
         </p>
       </section>
 
+      <AICitationBlock
+        summary={`To convert ${fromUnit.name} to ${toUnit.name}, simply multiply your value by the conversion factor or use the calculator below. 1 ${fromUnit.name} is equal to ${fromUnit.baseFactor / toUnit.baseFactor} ${toUnit.name}.`}
+        keyPoints={[
+          `${fromUnit.name} (${fromUnit.symbol}) is a unit of ${categoryId}.`,
+          `${toUnit.name} (${toUnit.symbol}) is a unit of ${categoryId}.`,
+          `This converter provides instant, accurate calculations using standard international conversion rates.`
+        ]}
+        entityFocus={`${categoryId} Conversion`}
+      />
+
       <section className="max-w-3xl">
         <Suspense fallback={<div className="h-64 bg-white rounded-2xl border border-slate-200 animate-pulse"></div>}>
           <ConverterForm
@@ -159,6 +183,10 @@ export default async function ConversionPairPage(
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <div className="lg:col-span-2 space-y-12">
+          <section>
+            <TrustReinforcement />
+          </section>
+
           <section>
             <h2 className="text-2xl font-bold text-slate-900 mb-6">
               {fromUnit.name} to {toUnit.name} Conversion Table

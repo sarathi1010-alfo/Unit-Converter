@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { Suspense } from "react";
 import { ConverterForm } from "@/components/converter/ConverterForm";
 import { RelatedLinks } from "@/components/seo/RelatedLinks";
@@ -15,6 +16,9 @@ export const metadata: Metadata = {
     url: "/",
   }
 };
+
+
+export const metadata: Metadata = { alternates: { canonical: '/' } };
 
 export default function Home() {
   const categories = getAllCategories();

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "validate:seo": "npx --yes tsx scripts/validate-seo.ts"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.1",
