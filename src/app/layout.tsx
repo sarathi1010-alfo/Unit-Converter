@@ -6,10 +6,8 @@ import { RecentlyLaunchedStrip } from "@/components/layout/RecentlyLaunchedStrip
 import { METADATA_BASE } from "@/lib/seo";
 import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 import "@/app/globals.css";
-import { SITE_URL } from "@/lib/utils";
 
 export const metadata: Metadata = {
- alfo-ecosystem-standardization-10716047684776820565
   metadataBase: METADATA_BASE,
   title: "UnitConverter - Fast, Visual, SEO-First | alfo.online",
   description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
@@ -18,9 +16,10 @@ export const metadata: Metadata = {
     title: "UnitConverter - Fast, Visual, SEO-First | alfo.online",
     description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
     type: "website",
+    siteName: "UnitConverter",
     images: [
       {
-        url: "/og-image.jpg", // Next.js will automatically expand this relative to metadataBase
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "UnitConverter Preview",
@@ -32,23 +31,6 @@ export const metadata: Metadata = {
     title: "UnitConverter - Fast, Visual, SEO-First | alfo.online",
     description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
     images: ["/og-image.jpg"],
-fix-sitemap-site-url-4794970102639254297
-  metadataBase: new URL(SITE_URL),
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://unitconverter.com"),
- jules-16680094041159827713-0e0fd200
-  title: "UnitConverter - Fast, Visual, SEO-First",
-  description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
-  openGraph: {
-    title: "UnitConverter - Fast, Visual, SEO-First",
-    description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
-    siteName: "UnitConverter",
-    type: "website"
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "UnitConverter - Fast, Visual, SEO-First",
-    description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples."
- jules-16680094041159827713-0e0fd200
   },
   other: {
     "google-adsense-account": "ca-pub-6393936268623951",

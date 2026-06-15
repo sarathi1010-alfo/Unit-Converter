@@ -15,9 +15,7 @@ export function Header() {
           </span>
         </div>
 
-        <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
-          fix-404-links-16103454276698663418
-          <Link href="/category/length-converter" className="hover:text-primary transition-colors">Length</Link>
+        <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">          <Link href="/category/length-converter" className="hover:text-primary transition-colors">Length</Link>
           <Link href="/category/weight-converter" className="hover:text-primary transition-colors">Weight</Link>
           <Link href="/category/temperature-converter" className="hover:text-primary transition-colors">Temperature</Link>
           <div className="relative group cursor-pointer">
@@ -35,9 +33,7 @@ export function Header() {
             </div>
           </div>
           <Link href="/guides" className="hover:text-primary transition-colors">Blog</Link>
-          <Link href="/about" className="hover:text-primary transition-colors">About</Link>
- jules-16680094041159827713-0e0fd200
-        </nav>
+          <Link href="/about" className="hover:text-primary transition-colors">About</Link>        </nav>
       </div>
     </header>
   );
