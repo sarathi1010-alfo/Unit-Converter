@@ -1,3 +1,5 @@
+import fs from 'fs';
+import path from 'path';
 import { MetadataRoute } from 'next';
 import { generateAllPairs, getAllCategories } from '@/lib/conversion_helpers';
 import { classifyIntent, getIntentPriority } from '@/lib/intent';
@@ -6,7 +8,10 @@ import { SITE_URL } from '@/lib/utils';
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
+ fix-sitemap-site-url-4794970102639254297
   const baseUrl = SITE_URL;
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://unitconverter.com';
+ jules-16680094041159827713-0e0fd200
 
   // Get dynamic conversion pair routes
   const pairRoutes = generateAllPairs().map((pair) => {
@@ -33,14 +38,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
   });
 
   // Custom manual guides/pages
-  const guideRoutes = [
-    {
-      url: `${baseUrl}/guides/cm-to-inches`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: getIntentPriority(classifyIntent('/guides/cm-to-inches')),
-    }
-  ];
+
+
+  const guidesDir = path.join(process.cwd(), 'content/guides');
+  let guideRoutes: { url: string; lastModified: Date; changeFrequency: "monthly"; priority: number }[] = [];
+  if (fs.existsSync(guidesDir)) {
+    const files = fs.readdirSync(guidesDir);
+    guideRoutes = files.map(file => {
+      const slug = file.replace(/\.mdx?$/, '');
+      const path = `/guides/${slug}`;
+      return {
+        url: `${baseUrl}${path}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly' as const,
+        priority: getIntentPriority(classifyIntent(path)),
+      };
+    });
+  }
+
+
+  const staticPages = ['/privacy-policy', '/terms-and-conditions', '/contact'].map(path => ({
+    url: `${baseUrl}${path}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: getIntentPriority(classifyIntent(path)),
+  }));
 
   return [
     {
@@ -51,6 +73,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...categoryRoutes,
     ...pairRoutes,
-    ...guideRoutes
+    ...guideRoutes,
+    ...staticPages
   ];
 }
