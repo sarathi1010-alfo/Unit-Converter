@@ -4,17 +4,23 @@ import { ConverterForm } from "@/components/converter/ConverterForm";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { ConversionTable } from "@/components/converter/ConversionTable";
 import { FAQAccordion } from "@/components/seo/FAQAccordion";
+ alfo-ecosystem-standardization-10716047684776820565
+import { AdBlock } from "@/components/ads/AdBlock";
+import { RelatedToolsWidget } from "@/components/layout/RelatedToolsWidget";
 import { TrustReinforcement } from "@/components/seo/TrustReinforcement";
 import { AICitationBlock } from "@/components/seo/AICitationBlock";
+ jules-16680094041159827713-0e0fd200
 import { generateAllPairs, getPairBySlug, getUnitsForCategory } from "@/lib/conversion_helpers";
 import { logPagePerformance } from "@/lib/searchIntelligence";
 import { type CategoryId } from "@/lib/conversion";
+import { SITE_URL } from "@/lib/seo";
 import type { Metadata } from "next";
 
 interface WebApplicationStructuredData {
   "@context": "https://schema.org";
   "@type": "WebApplication";
   "name": string;
+  "url"?: string;
   "applicationCategory": string;
   "operatingSystem": string;
   "description": string;
@@ -38,11 +44,18 @@ export async function generateMetadata(
   const fromName = units[pair.from]?.name || pair.from.toUpperCase();
   const toName = units[pair.to]?.name || pair.to.toUpperCase();
 
+  const path = `/convert/${params.slug}`;
+
   return {
     title: `${fromName} to ${toName} Converter`,
     description: `Convert ${fromName.toLowerCase()} to ${toName.toLowerCase()} instantly. Includes formula, examples, and a quick reference conversion table.`,
     alternates: {
-      canonical: `/convert/${params.slug}`
+      canonical: path,
+    },
+    openGraph: {
+      url: path,
+      title: `${fromName} to ${toName} Converter | alfo.online`,
+      description: `Convert ${fromName.toLowerCase()} to ${toName.toLowerCase()} instantly. Includes formula, examples, and a quick reference conversion table.`,
     }
   };
 }
@@ -78,6 +91,7 @@ export default async function ConversionPairPage(
     "@context": "https://schema.org",
     "@type": "WebApplication",
     "name": `${fromUnit.name} to ${toUnit.name} Converter`,
+    "url": `${SITE_URL}/convert/${params.slug}`,
     "applicationCategory": "Utility",
     "operatingSystem": "All",
     "description": `Free online tool to convert ${fromUnit.name} to ${toUnit.name}.`
@@ -165,6 +179,8 @@ export default async function ConversionPairPage(
         </Suspense>
       </section>
 
+      <AdBlock type="in-content" />
+
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <div className="lg:col-span-2 space-y-12">
           <section>
@@ -199,6 +215,8 @@ export default async function ConversionPairPage(
           </section>
         </div>
       </div>
+
+      <RelatedToolsWidget />
     </div>
   );
 }
