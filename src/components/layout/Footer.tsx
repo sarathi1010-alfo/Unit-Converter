@@ -11,31 +11,45 @@ export function Footer() {
           </p>
         </div>
         <div>
-          <span className="font-semibold text-slate-900 block mb-4">Categories</span>
+          <span className="font-semibold text-slate-900 block mb-4">Tools Hub</span>
           <ul className="space-y-2 text-sm text-slate-600">
+            fix-404-links-16103454276698663418
             <li><Link href="/category/length-converter" className="hover:text-primary">Length</Link></li>
             <li><Link href="/category/weight-converter" className="hover:text-primary">Weight & Mass</Link></li>
             <li><Link href="/category/temperature-converter" className="hover:text-primary">Temperature</Link></li>
+            <li><a href="#" className="hover:text-primary">Resume Forge</a></li>
+            <li><a href="#" className="hover:text-primary">PDF Utility</a></li>
+            <li><a href="#" className="hover:text-primary">Palette Flow</a></li>
+            <li><a href="#" className="hover:text-primary">QR Generator</a></li>
+            <li><a href="#" className="hover:text-primary">EMI Calculator</a></li>
+            jules-16680094041159827713-0e0fd200
           </ul>
         </div>
         <div>
-          <span className="font-semibold text-slate-900 block mb-4">Popular Guides</span>
+          <span className="font-semibold text-slate-900 block mb-4">Legal & About</span>
           <ul className="space-y-2 text-sm text-slate-600">
+            fix-404-links-16103454276698663418
             <li><Link href="/guides/cm-to-inches" className="hover:text-primary">CM to Inches</Link></li>
             <li><Link href="/convert/kg-to-lb" className="hover:text-primary">KG to LBS</Link></li>
             <li><Link href="/convert/c-to-f" className="hover:text-primary">Celsius to Fahrenheit</Link></li>
+            <li><Link href="/privacy-policy" className="hover:text-primary">Privacy Policy</Link></li>
+            <li><Link href="/terms-of-service" className="hover:text-primary">Terms of Service</Link></li>
+            <li><Link href="/contact" className="hover:text-primary">Contact Us</Link></li>
+            <li><Link href="/about" className="hover:text-primary">About Us</Link></li>
+            jules-16680094041159827713-0e0fd200
           </ul>
         </div>
         <div>
-          <span className="font-semibold text-slate-900 block mb-4">Legal</span>
+          <span className="font-semibold text-slate-900 block mb-4">Social</span>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li><Link href="/privacy-policy" className="hover:text-primary">Privacy Policy</Link></li>
-            <li><Link href="/terms" className="hover:text-primary">Terms of Service</Link></li>
+            <li><a href="https://twitter.com/alfo_online" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Twitter</a></li>
+            <li><a href="https://github.com/alfo-online" target="_blank" rel="noopener noreferrer" className="hover:text-primary">GitHub</a></li>
+            <li><a href="https://linkedin.com/company/alfo-online" target="_blank" rel="noopener noreferrer" className="hover:text-primary">LinkedIn</a></li>
           </ul>
         </div>
       </div>
       <div className="max-w-5xl mx-auto px-4 mt-12 pt-8 border-t border-slate-200 text-center text-sm text-slate-500">
-        &copy; {new Date().getFullYear()} UnitConverter. All rights reserved.
+        &copy; {new Date().getFullYear()} alfo.online — All rights reserved
       </div>
     </footer>
   );
