@@ -2,9 +2,13 @@ import type { Metadata } from "next";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import "@/app/globals.css";
+import { SITE_URL } from "@/lib/utils";
 
 export const metadata: Metadata = {
+fix-sitemap-site-url-4794970102639254297
+  metadataBase: new URL(SITE_URL),
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://unitconverter.com"),
+ jules-16680094041159827713-0e0fd200
   title: "UnitConverter - Fast, Visual, SEO-First",
   description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
   openGraph: {

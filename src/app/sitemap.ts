@@ -3,11 +3,15 @@ import path from 'path';
 import { MetadataRoute } from 'next';
 import { generateAllPairs, getAllCategories } from '@/lib/conversion_helpers';
 import { classifyIntent, getIntentPriority } from '@/lib/intent';
+import { SITE_URL } from '@/lib/utils';
 
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
+ fix-sitemap-site-url-4794970102639254297
+  const baseUrl = SITE_URL;
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://unitconverter.com';
+ jules-16680094041159827713-0e0fd200
 
   // Get dynamic conversion pair routes
   const pairRoutes = generateAllPairs().map((pair) => {
