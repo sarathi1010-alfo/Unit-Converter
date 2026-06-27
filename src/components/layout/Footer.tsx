@@ -22,7 +22,6 @@ export function Footer() {
             <li><a href="#" className="hover:text-primary">Palette Flow</a></li>
             <li><a href="#" className="hover:text-primary">QR Generator</a></li>
             <li><a href="#" className="hover:text-primary">EMI Calculator</a></li>
-            jules-16680094041159827713-0e0fd200
           </ul>
         </div>
         <div>
@@ -36,7 +35,6 @@ export function Footer() {
             <li><Link href="/terms-of-service" className="hover:text-primary">Terms of Service</Link></li>
             <li><Link href="/contact" className="hover:text-primary">Contact Us</Link></li>
             <li><Link href="/about" className="hover:text-primary">About Us</Link></li>
-            jules-16680094041159827713-0e0fd200
           </ul>
         </div>
         <div>
