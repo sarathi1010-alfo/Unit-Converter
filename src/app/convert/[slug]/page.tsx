@@ -4,12 +4,10 @@ import { ConverterForm } from "@/components/converter/ConverterForm";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { ConversionTable } from "@/components/converter/ConversionTable";
 import { FAQAccordion } from "@/components/seo/FAQAccordion";
- alfo-ecosystem-standardization-10716047684776820565
 import { AdBlock } from "@/components/ads/AdBlock";
 import { RelatedToolsWidget } from "@/components/layout/RelatedToolsWidget";
 import { TrustReinforcement } from "@/components/seo/TrustReinforcement";
 import { AICitationBlock } from "@/components/seo/AICitationBlock";
- jules-16680094041159827713-0e0fd200
 import { generateAllPairs, getPairBySlug, getUnitsForCategory } from "@/lib/conversion_helpers";
 import { logPagePerformance } from "@/lib/searchIntelligence";
 import { type CategoryId } from "@/lib/conversion";
@@ -145,7 +143,7 @@ export default async function ConversionPairPage(
       />
 
       <Breadcrumbs items={[
-        { label: `${categoryId.charAt(0).toUpperCase() + categoryId.slice(1)} Converter`, href: `/category/${categoryId}-converter` },
+        { label: `${categoryId.charAt(0).toUpperCase() + categoryId.slice(1)} Converter`, href: `/category/${categoryId}` },
         { label: `${fromUnit.symbol} to ${toUnit.symbol}` }
       ]} />
 

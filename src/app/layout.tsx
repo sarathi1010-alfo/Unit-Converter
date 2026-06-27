@@ -9,8 +9,7 @@ import "@/app/globals.css";
 import { SITE_URL } from "@/lib/utils";
 
 export const metadata: Metadata = {
- alfo-ecosystem-standardization-10716047684776820565
-  metadataBase: METADATA_BASE,
+   metadataBase: METADATA_BASE,
   title: "UnitConverter - Fast, Visual, SEO-First | alfo.online",
   description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
   keywords: "free unit converter, visual unit converter, length converter, weight converter, custom conversions",
@@ -32,23 +31,6 @@ export const metadata: Metadata = {
     title: "UnitConverter - Fast, Visual, SEO-First | alfo.online",
     description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
     images: ["/og-image.jpg"],
-fix-sitemap-site-url-4794970102639254297
-  metadataBase: new URL(SITE_URL),
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://unitconverter.com"),
- jules-16680094041159827713-0e0fd200
-  title: "UnitConverter - Fast, Visual, SEO-First",
-  description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
-  openGraph: {
-    title: "UnitConverter - Fast, Visual, SEO-First",
-    description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
-    siteName: "UnitConverter",
-    type: "website"
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "UnitConverter - Fast, Visual, SEO-First",
-    description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples."
- jules-16680094041159827713-0e0fd200
   },
   other: {
     "google-adsense-account": "ca-pub-6393936268623951",
