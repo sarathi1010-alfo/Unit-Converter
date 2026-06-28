@@ -3,7 +3,6 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { AdBlock } from "@/components/ads/AdBlock";
 import { RecentlyLaunchedStrip } from "@/components/layout/RecentlyLaunchedStrip";
-import { METADATA_BASE } from "@/lib/seo";
 import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 import "@/app/globals.css";
 import { SITE_URL } from "@/lib/utils";
@@ -14,12 +13,13 @@ export const metadata: Metadata = {
   description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
   keywords: "free unit converter, visual unit converter, length converter, weight converter, custom conversions",
   openGraph: {
-    title: "UnitConverter - Fast, Visual, SEO-First | alfo.online",
+    title: "UnitConverter - Fast, Visual, SEO-First",
     description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
+    siteName: "UnitConverter",
     type: "website",
     images: [
       {
-        url: "/og-image.jpg", // Next.js will automatically expand this relative to metadataBase
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "UnitConverter Preview",
@@ -37,7 +37,6 @@ export const metadata: Metadata = {
     "monetag": "86950f5308b2a836fd804730ef0e5e7d"
   }
 };
-
 
 export default function RootLayout({
   children,

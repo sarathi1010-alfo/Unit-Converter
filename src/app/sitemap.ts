@@ -3,7 +3,6 @@ import path from 'path';
 import { MetadataRoute } from 'next';
 import { generateAllPairs, getAllCategories } from '@/lib/conversion_helpers';
 import { SITE_URL } from '@/lib/seo';
-
 import { classifyIntent, getIntentPriority } from '@/lib/intent';
 
 export const dynamic = 'force-static';
@@ -13,10 +12,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Get dynamic conversion pair routes
   const pairRoutes = generateAllPairs().map((pair) => {
-    const path = `/convert/${pair.slug}`;
-    const intent = classifyIntent(path);
+    const routePath = `/convert/${pair.slug}`;
+    const intent = classifyIntent(routePath);
     return {
-      url: `${baseUrl}${path}`,
+      url: `${baseUrl}${routePath}`,
       lastModified: new Date(),
       changeFrequency: 'weekly' as const,
       priority: getIntentPriority(intent),
@@ -25,10 +24,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Get dynamic category routes
   const categoryRoutes = getAllCategories().map((cat) => {
-    const path = `/category/${cat.id}-converter`;
-    const intent = classifyIntent(path);
+    const routePath = `/category/${cat.id}-converter`;
+    const intent = classifyIntent(routePath);
     return {
-      url: `${baseUrl}${path}`,
+      url: `${baseUrl}${routePath}`,
       lastModified: new Date(),
       changeFrequency: 'weekly' as const,
       priority: getIntentPriority(intent),
@@ -36,20 +35,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
   });
 
   // Custom manual guides/pages
-
-
   const guidesDir = path.join(process.cwd(), 'content/guides');
   let guideRoutes: { url: string; lastModified: Date; changeFrequency: "monthly"; priority: number }[] = [];
   if (fs.existsSync(guidesDir)) {
     const files = fs.readdirSync(guidesDir);
     guideRoutes = files.map(file => {
       const slug = file.replace(/\.mdx?$/, '');
-      const path = `/guides/${slug}`;
+      const routePath = `/guides/${slug}`;
       return {
-        url: `${baseUrl}${path}`,
+        url: `${baseUrl}${routePath}`,
         lastModified: new Date(),
         changeFrequency: 'monthly' as const,
-        priority: getIntentPriority(classifyIntent(path)),
+        priority: getIntentPriority(classifyIntent(routePath)),
       };
     });
   }
