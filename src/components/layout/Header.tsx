@@ -36,7 +36,6 @@ export function Header() {
           </div>
           <Link href="/guides" className="hover:text-primary transition-colors">Blog</Link>
           <Link href="/about" className="hover:text-primary transition-colors">About</Link>
- jules-16680094041159827713-0e0fd200
         </nav>
       </div>
     </header>
