@@ -8,7 +8,7 @@ import { classifyIntent, getIntentPriority } from '@/lib/intent';
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = SITE_URL;
+   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://unitconverter.com';
 
   // Get dynamic conversion pair routes
   const pairRoutes = generateAllPairs().map((pair) => {
@@ -51,17 +51,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
-  const staticPages = [
-    '/privacy-policy',
-    '/terms-of-service',
-    '/contact',
-    '/about'
-  ].map((route) => ({
-    url: `${baseUrl}${route}`,
+
+  const staticPages = ['/privacy-policy', '/terms-and-conditions', '/contact'].map(path => ({
+    url: `${baseUrl}${path}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
-    priority: 0.5,
+    priority: getIntentPriority(classifyIntent(path)),
   }));
+
+
 
   return [
     {

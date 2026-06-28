@@ -16,10 +16,6 @@ export function Header() {
         </div>
 
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
-          fix-404-links-16103454276698663418
-          <Link href="/category/length-converter" className="hover:text-primary transition-colors">Length</Link>
-          <Link href="/category/weight-converter" className="hover:text-primary transition-colors">Weight</Link>
-          <Link href="/category/temperature-converter" className="hover:text-primary transition-colors">Temperature</Link>
           <div className="relative group cursor-pointer">
             <span className="flex items-center gap-1 hover:text-primary transition-colors">
               Related Tools <ChevronDown className="w-4 h-4" />

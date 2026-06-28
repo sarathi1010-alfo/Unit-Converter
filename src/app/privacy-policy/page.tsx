@@ -1,11 +1,3 @@
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Privacy Policy | UnitConverter",
-  description: "Privacy policy for UnitConverter.",
-  alternates: { canonical: "/privacy-policy" },
-};
-
 export default function PrivacyPolicyPage() {
   const currentDate = new Date().toLocaleDateString("en-US", {
     month: "long",

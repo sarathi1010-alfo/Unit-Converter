@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Mail, MessageSquare } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Contact Us | UnitConverter",

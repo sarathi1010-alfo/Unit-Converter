@@ -7,7 +7,6 @@ import { getAllCategories } from "@/lib/pairs";
 import Link from "next/link";
 import popularPairsData from "@/data/popularPairs.json";
 
-
 export const metadata: Metadata = {
   alternates: {
     canonical: "/",

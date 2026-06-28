@@ -8,8 +8,8 @@ import "@/app/globals.css";
 import { SITE_URL } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(SITE_URL),
-  title: "UnitConverter - Fast, Visual, SEO-First",
+   metadataBase: METADATA_BASE,
+  title: "UnitConverter - Fast, Visual, SEO-First | alfo.online",
   description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
   keywords: "free unit converter, visual unit converter, length converter, weight converter, custom conversions",
   openGraph: {
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "UnitConverter - Fast, Visual, SEO-First",
+    title: "UnitConverter - Fast, Visual, SEO-First | alfo.online",
     description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
     images: ["/og-image.jpg"],
   },

@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { SITE_URL } from '@/lib/utils';
+import { SITE_URL } from '@/lib/seo';
 
 export const dynamic = 'force-static';
 
@@ -24,6 +24,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/_next/'],
     },
-    sitemap: `${SITE_URL}/sitemap.xml`,
+    sitemap: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://unitconverter.com'}/sitemap.xml`,
   };
 }

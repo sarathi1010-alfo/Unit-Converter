@@ -13,10 +13,6 @@ export function Footer() {
         <div>
           <span className="font-semibold text-slate-900 block mb-4">Tools Hub</span>
           <ul className="space-y-2 text-sm text-slate-600">
-            fix-404-links-16103454276698663418
-            <li><Link href="/category/length-converter" className="hover:text-primary">Length</Link></li>
-            <li><Link href="/category/weight-converter" className="hover:text-primary">Weight & Mass</Link></li>
-            <li><Link href="/category/temperature-converter" className="hover:text-primary">Temperature</Link></li>
             <li><a href="#" className="hover:text-primary">Resume Forge</a></li>
             <li><a href="#" className="hover:text-primary">PDF Utility</a></li>
             <li><a href="#" className="hover:text-primary">Palette Flow</a></li>
@@ -27,10 +23,6 @@ export function Footer() {
         <div>
           <span className="font-semibold text-slate-900 block mb-4">Legal & About</span>
           <ul className="space-y-2 text-sm text-slate-600">
-            fix-404-links-16103454276698663418
-            <li><Link href="/guides/cm-to-inches" className="hover:text-primary">CM to Inches</Link></li>
-            <li><Link href="/convert/kg-to-lb" className="hover:text-primary">KG to LBS</Link></li>
-            <li><Link href="/convert/c-to-f" className="hover:text-primary">Celsius to Fahrenheit</Link></li>
             <li><Link href="/privacy-policy" className="hover:text-primary">Privacy Policy</Link></li>
             <li><Link href="/terms-of-service" className="hover:text-primary">Terms of Service</Link></li>
             <li><Link href="/contact" className="hover:text-primary">Contact Us</Link></li>
