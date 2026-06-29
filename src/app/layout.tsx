@@ -5,7 +5,7 @@ import { AdBlock } from "@/components/ads/AdBlock";
 import { RecentlyLaunchedStrip } from "@/components/layout/RecentlyLaunchedStrip";
 import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 import "@/app/globals.css";
-import { SITE_URL } from "@/lib/utils";
+import { METADATA_BASE } from "@/lib/seo";
 
 export const metadata: Metadata = {
    metadataBase: METADATA_BASE,
