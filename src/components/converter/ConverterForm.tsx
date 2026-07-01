@@ -80,11 +80,19 @@ export function ConverterForm({
             <select
               value={categoryId}
               onChange={handleCategoryChange}
+              name="category"
               className="w-full sm:w-auto px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/20"
             >
               <option value="length">Length</option>
               <option value="weight">Weight</option>
               <option value="temperature">Temperature</option>
+              <option value="volume">Volume</option>
+              <option value="area">Area</option>
+              <option value="speed">Speed</option>
+              <option value="data">Digital Data</option>
+              <option value="currency">Currency</option>
+              <option value="cooking">Cooking</option>
+              <option value="clothing">Clothing & Shoes</option>
             </select>
           </div>
           <button
@@ -117,6 +125,7 @@ export function ConverterForm({
           <div className="relative">
             <input
               type="number"
+              name="value"
               value={value}
               onChange={(e) => setValue(e.target.value)}
               className="w-full text-2xl p-4 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary/20"
@@ -124,6 +133,7 @@ export function ConverterForm({
             />
             <select
               value={fromUnit}
+              name="from"
               onChange={(e) => {
                 if (!isPairLocked) setFromUnit(e.target.value);
                 else router.push(`/convert/${e.target.value}-to-${toUnit}?value=${value}`);
@@ -150,11 +160,15 @@ export function ConverterForm({
         {/* Output Side */}
         <div className="w-full flex-1">
           <div className="relative">
-            <div className="w-full text-2xl p-4 bg-primary/5 border border-primary/20 rounded-xl text-primary font-semibold truncate">
+            <div
+              data-testid="result-display"
+              className="w-full text-2xl p-4 bg-primary/5 border border-primary/20 rounded-xl text-primary font-semibold truncate"
+            >
               {isInvalid ? "0" : formattedResult}
             </div>
             <select
               value={toUnit}
+              name="to"
               onChange={(e) => {
                 if (!isPairLocked) setToUnit(e.target.value);
                 else router.push(`/convert/${fromUnit}-to-${e.target.value}?value=${value}`);

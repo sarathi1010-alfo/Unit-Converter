@@ -21,5 +21,35 @@
     "c": { "name": "Celsius", "symbol": "°C", "baseFactor": 1 },
     "f": { "name": "Fahrenheit", "symbol": "°F", "baseFactor": 1 },
     "k": { "name": "Kelvin", "symbol": "K", "baseFactor": 1 }
+  },
+  "volume": {
+    "l": { "name": "Liter", "symbol": "L", "baseFactor": 1 },
+    "ml": { "name": "Milliliter", "symbol": "mL", "baseFactor": 0.001 },
+    "gal": { "name": "Gallon (US)", "symbol": "gal", "baseFactor": 3.78541 }
+  },
+  "area": {
+    "sqm": { "name": "Square Meter", "symbol": "m²", "baseFactor": 1 },
+    "sqft": { "name": "Square Foot", "symbol": "ft²", "baseFactor": 0.092903 }
+  },
+  "speed": {
+    "kmh": { "name": "Kilometer per Hour", "symbol": "km/h", "baseFactor": 1 },
+    "mph": { "name": "Mile per Hour", "symbol": "mph", "baseFactor": 1.60934 }
+  },
+  "data": {
+    "b": { "name": "Byte", "symbol": "B", "baseFactor": 1 },
+    "mb": { "name": "Megabyte", "symbol": "MB", "baseFactor": 1000000 },
+    "gb": { "name": "Gigabyte", "symbol": "GB", "baseFactor": 1000000000 }
+  },
+  "currency": {
+    "usd": { "name": "US Dollar", "symbol": "$", "baseFactor": 1 },
+    "eur": { "name": "Euro", "symbol": "€", "baseFactor": 0.92 }
+  },
+  "cooking": {
+    "ml": { "name": "Milliliter", "symbol": "mL", "baseFactor": 1 },
+    "cups": { "name": "Cups (US)", "symbol": "cups", "baseFactor": 236.588 }
+  },
+  "clothing": {
+    "us": { "name": "US Size", "symbol": "US", "baseFactor": 1 },
+    "eu": { "name": "EU Size", "symbol": "EU", "baseFactor": 1 }
   }
 }
