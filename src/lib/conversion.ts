@@ -1,6 +1,16 @@
 import unitsData from '@/data/units.json';
 
-export type CategoryId = 'length' | 'weight' | 'temperature';
+export type CategoryId =
+  | 'length'
+  | 'weight'
+  | 'temperature'
+  | 'volume'
+  | 'area'
+  | 'speed'
+  | 'data'
+  | 'currency'
+  | 'cooking'
+  | 'clothing';
 
 export interface Unit {
   id: string;
@@ -29,14 +39,18 @@ export function convertTemperature(value: number, from: string, to: string): num
 
   let celsius = value;
   // Convert to Celsius first
-  if (from === 'f') {
+  if (from === 'c') {
+    celsius = value;
+  } else if (from === 'f') {
     celsius = (value - 32) * 5 / 9;
   } else if (from === 'k') {
     celsius = value - 273.15;
   }
 
   // Convert Celsius to target
-  if (to === 'f') {
+  if (to === 'c') {
+    return celsius;
+  } else if (to === 'f') {
     return (celsius * 9 / 5) + 32;
   } else if (to === 'k') {
     return celsius + 273.15;
@@ -45,11 +59,30 @@ export function convertTemperature(value: number, from: string, to: string): num
   return celsius;
 }
 
+export function convertClothing(value: number, from: string, to: string): number {
+  if (from === to) return value;
+
+  // Standard US Men's to EU shoe size conversion
+  // Formula: EU = US + 33 (approximate common standard)
+  if (from === 'shoe-size-us' && to === 'shoe-size-eu') {
+    return value + 33;
+  }
+  if (from === 'shoe-size-eu' && to === 'shoe-size-us') {
+    return value - 33;
+  }
+
+  return value;
+}
+
 export function convert(value: number, fromUnitId: string, toUnitId: string, categoryId: CategoryId): number {
   if (fromUnitId === toUnitId) return value;
 
   if (categoryId === 'temperature') {
     return convertTemperature(value, fromUnitId, toUnitId);
+  }
+
+  if (categoryId === 'clothing') {
+    return convertClothing(value, fromUnitId, toUnitId);
   }
 
   const units = getUnitsForCategory(categoryId);
