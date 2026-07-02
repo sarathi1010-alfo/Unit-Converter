@@ -1,6 +1,6 @@
 import unitsData from '@/data/units.json';
 
-export type CategoryId = 'length' | 'weight' | 'temperature';
+export type CategoryId = 'length' | 'weight' | 'temperature' | 'volume' | 'area' | 'speed' | 'data' | 'currency' | 'cooking' | 'clothing';
 
 export interface Unit {
   id: string;
@@ -45,11 +45,30 @@ export function convertTemperature(value: number, from: string, to: string): num
   return celsius;
 }
 
+export function convertClothing(value: number, from: string, to: string): number {
+  if (from === to) return value;
+
+  // Simple US to EU shoe size conversion approximation
+  // US Men's to EU: EU = US + 33 (Approx)
+  // This is a simplified logic for the purpose of the tool
+  if (from === 'us' && to === 'eu') {
+    return value + 33;
+  } else if (from === 'eu' && to === 'us') {
+    return value - 33;
+  }
+
+  return value;
+}
+
 export function convert(value: number, fromUnitId: string, toUnitId: string, categoryId: CategoryId): number {
   if (fromUnitId === toUnitId) return value;
 
   if (categoryId === 'temperature') {
     return convertTemperature(value, fromUnitId, toUnitId);
+  }
+
+  if (categoryId === 'clothing') {
+    return convertClothing(value, fromUnitId, toUnitId);
   }
 
   const units = getUnitsForCategory(categoryId);

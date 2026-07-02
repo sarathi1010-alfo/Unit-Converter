@@ -70,6 +70,11 @@ export default function Home() {
       <section>
         <h2 className="text-2xl font-bold text-slate-900 mb-6">Popular Conversions</h2>
         <RelatedLinks links={popularLinks} />
+        <div className="mt-6 p-4 bg-primary/5 rounded-xl border border-primary/10">
+          <p className="text-sm text-slate-600">
+            Want to learn how to convert faster? Check our guide on <Link href="/blog/quick-unit-conversion-guide" className="text-primary font-bold hover:underline">How to Convert Units Quickly and Accurately</Link>.
+          </p>
+        </div>
       </section>
 
       <RelatedToolsWidget />

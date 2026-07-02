@@ -75,6 +75,12 @@ export default async function CategoryPage(
         <section>
           <h2 className="text-2xl font-bold text-slate-900 mb-6">Common {category.name} Conversions</h2>
           <RelatedLinks links={categoryLinks} />
+          <div className="mt-8 p-6 bg-slate-50 rounded-2xl border border-slate-200">
+            <h3 className="text-lg font-bold text-slate-900 mb-2">Pro Tip: Manual Calculation</h3>
+            <p className="text-slate-600 text-sm mb-4">
+              Learn the mathematical principles behind these conversions in our <a href="/blog/quick-unit-conversion-guide" className="text-primary hover:underline font-medium">comprehensive conversion guide</a>.
+            </p>
+          </div>
         </section>
       )}
     </div>
