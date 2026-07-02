@@ -68,7 +68,12 @@ export default function Home() {
 
       {/* Popular Conversions */}
       <section>
-        <h2 className="text-2xl font-bold text-slate-900 mb-6">Popular Conversions</h2>
+        <div className="flex justify-between items-end mb-6">
+          <h2 className="text-2xl font-bold text-slate-900">Popular Conversions</h2>
+          <Link href="/blog/quick-unit-conversion-guide" className="text-primary hover:underline text-sm font-medium">
+            Read: How to convert units fast &rarr;
+          </Link>
+        </div>
         <RelatedLinks links={popularLinks} />
       </section>
 

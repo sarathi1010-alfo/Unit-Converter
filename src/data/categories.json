@@ -13,5 +13,40 @@
     "id": "temperature",
     "name": "Temperature",
     "description": "Convert between Celsius, Fahrenheit, and Kelvin temperature scales."
+  },
+  {
+    "id": "volume",
+    "name": "Volume",
+    "description": "Convert volume units including liters, gallons, and more."
+  },
+  {
+    "id": "area",
+    "name": "Area",
+    "description": "Convert area units like square feet, square meters, and acres."
+  },
+  {
+    "id": "speed",
+    "name": "Speed",
+    "description": "Convert speed units including kilometers per hour and miles per hour."
+  },
+  {
+    "id": "data",
+    "name": "Digital Data",
+    "description": "Convert digital storage units like megabytes, gigabytes, and terabytes."
+  },
+  {
+    "id": "currency",
+    "name": "Currency",
+    "description": "Convert between major world currencies (mock data)."
+  },
+  {
+    "id": "cooking",
+    "name": "Cooking",
+    "description": "Convert common cooking measurements like cups, spoons, and milliliters."
+  },
+  {
+    "id": "clothing",
+    "name": "Clothing & Shoes",
+    "description": "Convert international shoe sizes and clothing measurements."
   }
 ]
