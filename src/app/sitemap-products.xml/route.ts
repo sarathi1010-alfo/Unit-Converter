@@ -8,15 +8,22 @@ export async function GET() {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://unitflow.alfo.online';
 
   // Get dynamic conversion pair routes
-  const pairRoutes = generateAllPairs().map((pair) => {
-    const routePath = `/convert/${pair.slug}`;
-    const intent = classifyIntent(routePath);
-    return {
-      loc: `${baseUrl}${routePath}`,
-      lastmod: new Date().toISOString().split('T')[0],
-      changefreq: 'weekly',
-      priority: getIntentPriority(intent),
-    };
+  const pairRoutes = generateAllPairs().flatMap((pair) => {
+    // We support both /convert/slug and /category/slug
+    const paths = [
+      `/convert/${pair.slug}`,
+      `/${pair.categoryId}/${pair.slug}`
+    ];
+
+    return paths.map(routePath => {
+      const intent = classifyIntent(routePath);
+      return {
+        loc: `${baseUrl}${routePath}`,
+        lastmod: new Date().toISOString().split('T')[0],
+        changefreq: 'weekly',
+        priority: getIntentPriority(intent),
+      };
+    });
   });
 
   // Get dynamic category routes

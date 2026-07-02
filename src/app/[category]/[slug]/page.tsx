@@ -9,40 +9,30 @@ import { RelatedToolsWidget } from "@/components/layout/RelatedToolsWidget";
 import { TrustReinforcement } from "@/components/seo/TrustReinforcement";
 import { AICitationBlock } from "@/components/seo/AICitationBlock";
 import { generateAllPairs, getPairBySlug, getUnitsForCategory } from "@/lib/conversion_helpers";
-import { logPagePerformance } from "@/lib/searchIntelligence";
 import { type CategoryId } from "@/lib/conversion";
 import { SITE_URL } from "@/lib/seo";
 import type { Metadata } from "next";
 
-interface WebApplicationStructuredData {
-  "@context": "https://schema.org";
-  "@type": "WebApplication";
-  "name": string;
-  "url"?: string;
-  "applicationCategory": string;
-  "operatingSystem": string;
-  "description": string;
-}
-
 export async function generateStaticParams() {
   const pairs = generateAllPairs();
   return pairs.map((pair) => ({
+    category: pair.categoryId,
     slug: pair.slug,
   }));
 }
 
 export async function generateMetadata(
-  props: { params: Promise<{ slug: string }> }
+  props: { params: Promise<{ category: string; slug: string }> }
 ): Promise<Metadata> {
   const params = await props.params;
   const pair = getPairBySlug(params.slug);
-  if (!pair) return { title: "Not Found" };
+  if (!pair || pair.categoryId !== params.category) return { title: "Not Found" };
 
   const units = getUnitsForCategory(pair.categoryId as CategoryId);
   const fromName = units[pair.from]?.name || pair.from.toUpperCase();
   const toName = units[pair.to]?.name || pair.to.toUpperCase();
 
-  const path = `/convert/${params.slug}`;
+  const path = `/${params.category}/${params.slug}`;
 
   return {
     title: `${fromName} to ${toName} Converter`,
@@ -58,25 +48,13 @@ export async function generateMetadata(
   };
 }
 
-export default async function ConversionPairPage(
-  props: { params: Promise<{ slug: string }> }
+export default async function CategoryConversionPairPage(
+  props: { params: Promise<{ category: string; slug: string }> }
 ) {
   const params = await props.params;
   const pair = getPairBySlug(params.slug);
 
-  // Log intelligence for this page rendering
-  logPagePerformance(`/convert/${params.slug}`, {
-    impressions: 0, // Mock initial state
-    ctr: 0,
-    averagePosition: 0,
-    isIndexed: true,
-  }).catch(console.error);
-
-
-  if (!pair) {
-    if (params.slug.endsWith("-converter")) {
-      notFound();
-    }
+  if (!pair || pair.categoryId !== params.category) {
     notFound();
   }
 
@@ -85,23 +63,15 @@ export default async function ConversionPairPage(
   const fromUnit = units[pair.from];
   const toUnit = units[pair.to];
 
-  const appJsonLd: WebApplicationStructuredData = {
+  const appJsonLd = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     "name": `${fromUnit.name} to ${toUnit.name} Converter`,
-    "url": `${SITE_URL}/convert/${params.slug}`,
+    "url": `${SITE_URL}/${params.category}/${params.slug}`,
     "applicationCategory": "Utility",
     "operatingSystem": "All",
     "description": `Free online tool to convert ${fromUnit.name} to ${toUnit.name}.`
   };
-
-  const relatedPairs = generateAllPairs()
-    .filter(p => p.categoryId === pair.categoryId && p.slug !== pair.slug && (p.from === pair.from || p.to === pair.to))
-    .slice(0, 6)
-    .map(p => ({
-      href: `/convert/${p.slug}`,
-      label: `${units[p.from]?.name || p.from} to ${units[p.to]?.name || p.to}`
-    }));
 
   const conversionFactor = categoryId === 'temperature' || categoryId === 'clothing'
     ? 'non-linear'
@@ -167,7 +137,7 @@ export default async function ConversionPairPage(
       </section>
 
       <AICitationBlock
-        summary={`To convert ${fromUnit.name} to ${toUnit.name}, simply multiply your value by the conversion factor or use the calculator below. ${conversionFactor === 'non-linear' ? 'This conversion follows a non-linear scale.' : `1 ${fromUnit.name} is equal to ${conversionFactor} ${toUnit.name}.`}`}
+        summary={`To convert ${fromUnit.name} to ${toUnit.name}, simply enter your value into the calculator. ${conversionFactor === 'non-linear' ? 'This conversion follows a non-linear scale.' : `1 ${fromUnit.name} is equal to ${conversionFactor} ${toUnit.name}.`}`}
         keyPoints={[
           `${fromUnit.name} (${fromUnit.symbol}) is a unit of ${categoryId}.`,
           `${toUnit.name} (${toUnit.symbol}) is a unit of ${categoryId}.`,
@@ -207,19 +177,6 @@ export default async function ConversionPairPage(
           <section>
             <h2 className="text-2xl font-bold text-slate-900 mb-6">Frequently Asked Questions</h2>
             <FAQAccordion items={faqs} />
-          </section>
-        </div>
-
-        <div className="space-y-8">
-          <section>
-            <h3 className="text-lg font-bold text-slate-900 mb-4">Related Conversions</h3>
-            <div className="flex flex-col gap-2">
-              {relatedPairs.map((rp, i) => (
-                <a key={i} href={rp.href} className="text-primary hover:underline text-sm font-medium">
-                  {rp.label}
-                </a>
-              ))}
-            </div>
           </section>
         </div>
       </div>

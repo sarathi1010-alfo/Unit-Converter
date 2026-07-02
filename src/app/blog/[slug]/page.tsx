@@ -46,7 +46,12 @@ export default async function BlogPostPage(
   }
 
   const source = fs.readFileSync(filePath, "utf8");
-  const { content, frontmatter } = await compileMDX<{ title?: string }>({
+  const { content, frontmatter } = await compileMDX<{
+    title?: string;
+    description?: string;
+    date?: string;
+    lastModified?: string;
+  }>({
     source,
     options: { parseFrontmatter: true },
     components: {
@@ -56,18 +61,29 @@ export default async function BlogPostPage(
 
   const pageTitle = frontmatter?.title || params.slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 
-  // Basic article schema
+  // Enhanced article schema
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": pageTitle,
+    "description": frontmatter?.description || `Read our comprehensive guide on ${pageTitle.toLowerCase()}.`,
+    "datePublished": frontmatter?.date || "2024-05-20",
+    "dateModified": frontmatter?.lastModified || frontmatter?.date || "2024-05-20",
     "author": {
       "@type": "Organization",
       "name": "alfo.online editorial"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "UnitConverter"
+      "name": "UnitConverter",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://unitflow.alfo.online/favicon.ico"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://unitflow.alfo.online/blog/${params.slug}`
     }
   };
 

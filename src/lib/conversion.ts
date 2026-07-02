@@ -62,12 +62,11 @@ export function convertTemperature(value: number, from: string, to: string): num
 export function convertClothing(value: number, from: string, to: string): number {
   if (from === to) return value;
 
-  // Standard US Men's to EU shoe size conversion
-  // Formula: EU = US + 33 (approximate common standard)
-  if (from === 'shoe-size-us' && to === 'shoe-size-eu') {
+  // Simple US to EU shoe size conversion approximation
+  // US Men's to EU: EU = US + 33 (Approx)
+  if (from === 'us' && to === 'eu') {
     return value + 33;
-  }
-  if (from === 'shoe-size-eu' && to === 'shoe-size-us') {
+  } else if (from === 'eu' && to === 'us') {
     return value - 33;
   }
 

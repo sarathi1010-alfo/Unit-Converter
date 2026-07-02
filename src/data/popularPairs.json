@@ -11,11 +11,11 @@
   { "categoryId": "weight", "from": "oz", "to": "g" },
   { "categoryId": "temperature", "from": "c", "to": "f" },
   { "categoryId": "temperature", "from": "f", "to": "c" },
-  { "categoryId": "volume", "from": "liters", "to": "gallons" },
-  { "categoryId": "area", "from": "sq-feet", "to": "sq-meters" },
+  { "categoryId": "volume", "from": "l", "to": "gal" },
+  { "categoryId": "area", "from": "sqft", "to": "sqm" },
   { "categoryId": "speed", "from": "kmh", "to": "mph" },
   { "categoryId": "data", "from": "mb", "to": "gb" },
   { "categoryId": "currency", "from": "usd", "to": "eur" },
   { "categoryId": "cooking", "from": "cups", "to": "ml" },
-  { "categoryId": "clothing", "from": "shoe-size-us", "to": "shoe-size-eu" }
+  { "categoryId": "clothing", "from": "us", "to": "eu" }
 ]
