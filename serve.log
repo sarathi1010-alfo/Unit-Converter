@@ -1,0 +1,206 @@
+npm warn exec The following package was not found and will be installed: serve@14.2.6
+ INFO  Accepting connections at http://localhost:3000
+ HTTP  7/3/2026 11:05:44 AM ::1 GET /
+ HTTP  7/3/2026 11:05:44 AM ::1 Returned 200 in 23 ms
+ HTTP  7/3/2026 11:05:44 AM ::1 GET /_next/static/chunks/3718cbfnk-60o.css
+ HTTP  7/3/2026 11:05:44 AM ::1 GET /_next/static/chunks/44q0rc0pno6br.js
+ HTTP  7/3/2026 11:05:44 AM ::1 Returned 200 in 5 ms
+ HTTP  7/3/2026 11:05:44 AM ::1 Returned 200 in 4 ms
+ HTTP  7/3/2026 11:05:44 AM ::1 GET /_next/static/chunks/27jktro2p5rq9.js
+ HTTP  7/3/2026 11:05:44 AM ::1 Returned 200 in 3 ms
+ HTTP  7/3/2026 11:05:44 AM ::1 GET /_next/static/chunks/2ncdmtj91g36a.js
+ HTTP  7/3/2026 11:05:44 AM ::1 GET /_next/static/chunks/082obv3v03b-9.js
+ HTTP  7/3/2026 11:05:44 AM ::1 GET /_next/static/chunks/turbopack-0aqelvgw0mz1q.js
+ HTTP  7/3/2026 11:05:44 AM ::1 GET /_next/static/chunks/0e0jkfy-0a41m.js
+ HTTP  7/3/2026 11:05:44 AM ::1 GET /_next/static/chunks/14mrh2-p_w84d.js
+ HTTP  7/3/2026 11:05:44 AM ::1 GET /_next/static/chunks/0audhetmrqu39.js
+ HTTP  7/3/2026 11:05:44 AM ::1 Returned 200 in 7 ms
+ HTTP  7/3/2026 11:05:44 AM ::1 Returned 200 in 7 ms
+ HTTP  7/3/2026 11:05:44 AM ::1 Returned 200 in 7 ms
+ HTTP  7/3/2026 11:05:44 AM ::1 Returned 200 in 6 ms
+ HTTP  7/3/2026 11:05:44 AM ::1 Returned 200 in 12 ms
+ HTTP  7/3/2026 11:05:44 AM ::1 Returned 200 in 15 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 HEAD /about
+ HTTP  7/3/2026 11:05:45 AM ::1 HEAD /guides
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 4 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 7 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 GET /__next._head.txt?_rsc=7h4NYy5eoyMcNlUN
+ HTTP  7/3/2026 11:05:45 AM ::1 GET /__next._index.txt?_rsc=yIp22O3xgPPxC28X
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 4 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 3 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 GET /about/__next._tree.txt?_rsc=5CB68i4pnAekjehf
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 3 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 HEAD /category/temperature-converter
+ HTTP  7/3/2026 11:05:45 AM ::1 GET /guides/__next._tree.txt?_rsc=5CB68i4pnAekjehf
+ HTTP  7/3/2026 11:05:45 AM ::1 HEAD /category/weight-converter
+ HTTP  7/3/2026 11:05:45 AM ::1 HEAD /category/length-converter
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 6 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 5 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 4 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 404 in 8 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 GET /category/temperature-converter/__next._tree.txt?_rsc=5CB68i4pnAekjehf
+ HTTP  7/3/2026 11:05:45 AM ::1 GET /category/weight-converter/__next._tree.txt?_rsc=5CB68i4pnAekjehf
+ HTTP  7/3/2026 11:05:45 AM ::1 GET /category/length-converter/__next._tree.txt?_rsc=5CB68i4pnAekjehf
+ HTTP  7/3/2026 11:05:45 AM ::1 GET /about/__next._head.txt?_rsc=7h4NYy5eoyMcNlUN
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 6 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 4 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 4 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 4 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 GET /category/temperature-converter/__next._head.txt?_rsc=7h4NYy5eoyMcNlUN
+ HTTP  7/3/2026 11:05:45 AM ::1 GET /category/temperature-converter/__next.category.txt?_rsc=WFqdCuYmWv74alYF
+ HTTP  7/3/2026 11:05:45 AM ::1 GET /category/temperature-converter/__next.category.$d$category.txt?_rsc=yhVbYucZ45ulvoIi
+ HTTP  7/3/2026 11:05:45 AM ::1 GET /category/temperature-converter/__next.category.$d$category.__PAGE__.txt?_rsc=A0S_4ZFSn8RSpy9J
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 5 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 5 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 4 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 4 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 GET /category/weight-converter/__next._head.txt?_rsc=7h4NYy5eoyMcNlUN
+ HTTP  7/3/2026 11:05:45 AM ::1 GET /category/weight-converter/__next.category.$d$category.txt?_rsc=yhVbYucZ45ulvoIi
+ HTTP  7/3/2026 11:05:45 AM ::1 GET /category/weight-converter/__next.category.$d$category.__PAGE__.txt?_rsc=A0S_4ZFSn8RSpy9J
+ HTTP  7/3/2026 11:05:45 AM ::1 GET /category/length-converter/__next._head.txt?_rsc=7h4NYy5eoyMcNlUN
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 4 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 3 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 3 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 3 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 GET /category/length-converter/__next.category.$d$category.txt?_rsc=yhVbYucZ45ulvoIi
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 2 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 GET /category/length-converter/__next.category.$d$category.__PAGE__.txt?_rsc=A0S_4ZFSn8RSpy9J
+ HTTP  7/3/2026 11:05:45 AM ::1 GET /about/__next.about.txt?_rsc=n4tDNspjD4yS_Xnd
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 2 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 1 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 GET /about/__next.about.__PAGE__.txt?_rsc=hzcUC6YqarYE9pKE
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 1 ms
+ HTTP  7/3/2026 11:05:45 AM ::1 GET /__next.__PAGE__.txt?_rsc=8nTjltbQWvg6NcbE
+ HTTP  7/3/2026 11:05:45 AM ::1 Returned 200 in 1 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /blog/quick-unit-conversion-guide
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 200 in 2 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /_next/static/chunks/3718cbfnk-60o.css
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /_next/static/chunks/44q0rc0pno6br.js
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 304 in 1 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 304 in 1 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /_next/static/chunks/27jktro2p5rq9.js
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /_next/static/chunks/2ncdmtj91g36a.js
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /_next/static/chunks/082obv3v03b-9.js
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /_next/static/chunks/turbopack-0aqelvgw0mz1q.js
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /_next/static/chunks/0e0jkfy-0a41m.js
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /_next/static/chunks/14mrh2-p_w84d.js
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 304 in 2 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 304 in 2 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 304 in 3 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 304 in 2 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 304 in 3 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 304 in 4 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 HEAD /blog
+ HTTP  7/3/2026 11:05:46 AM ::1 HEAD /
+ HTTP  7/3/2026 11:05:46 AM ::1 HEAD /about
+ HTTP  7/3/2026 11:05:46 AM ::1 HEAD /guides
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 304 in 1 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 200 in 1 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /__next._tree.txt?_rsc=3_oR6Fg-zRkzBiLa
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 200 in 6 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 200 in 7 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 200 in 3 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /about/__next._tree.txt?_rsc=3_oR6Fg-zRkzBiLa
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 200 in 1 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /blog/__next._tree.txt?_rsc=3_oR6Fg-zRkzBiLa
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /guides/__next._tree.txt?_rsc=3_oR6Fg-zRkzBiLa
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 200 in 1 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 404 in 1 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /__next._head.txt?_rsc=xfpwTii5_Q83wyW5
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /__next._index.txt?_rsc=nuq7yE8_abkBjiVZ
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 200 in 1 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 200 in 0 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /blog/__next._head.txt?_rsc=xfpwTii5_Q83wyW5
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 200 in 1 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /blog/__next.blog.txt?_rsc=FeTrtWVc_HJx3ENG
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /blog/__next.blog.__PAGE__.txt?_rsc=VZZK8zQH8pqxlhW-
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 200 in 4 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /_next/static/chunks/0audhetmrqu39.js
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 304 in 0 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 200 in 2 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /__next.__PAGE__.txt?_rsc=WPhLGlxNX-a4sMW-
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 200 in 1 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /about/__next._head.txt?_rsc=xfpwTii5_Q83wyW5
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 200 in 0 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /about/__next.about.txt?_rsc=g-rnQK9Gp1PEuxeJ
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 200 in 1 ms
+ HTTP  7/3/2026 11:05:46 AM ::1 GET /about/__next.about.__PAGE__.txt?_rsc=LDl-htIxm34avvMW
+ HTTP  7/3/2026 11:05:46 AM ::1 Returned 200 in 1 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /length/ft-to-m
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 200 in 4 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /_next/static/chunks/3718cbfnk-60o.css
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /_next/static/chunks/44q0rc0pno6br.js
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 304 in 3 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 304 in 6 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /_next/static/chunks/27jktro2p5rq9.js
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /_next/static/chunks/2ncdmtj91g36a.js
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /_next/static/chunks/082obv3v03b-9.js
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /_next/static/chunks/turbopack-0aqelvgw0mz1q.js
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /_next/static/chunks/0e0jkfy-0a41m.js
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /_next/static/chunks/14mrh2-p_w84d.js
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 304 in 4 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 304 in 4 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 304 in 4 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 304 in 5 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 304 in 6 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 304 in 6 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /_next/static/chunks/0gg47qfjfxwae.js
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /_next/static/chunks/0audhetmrqu39.js
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 304 in 1 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 200 in 4 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 HEAD /category/length-converter
+ HTTP  7/3/2026 11:05:48 AM ::1 HEAD /about
+ HTTP  7/3/2026 11:05:48 AM ::1 HEAD /guides
+ HTTP  7/3/2026 11:05:48 AM ::1 HEAD /
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 304 in 0 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 200 in 3 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 200 in 2 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 200 in 4 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /__next._tree.txt?_rsc=kU2zFPC8MEmuYQ0K
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /category/length-converter/__next._tree.txt?_rsc=kU2zFPC8MEmuYQ0K
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 200 in 3 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 200 in 1 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /about/__next._tree.txt?_rsc=kU2zFPC8MEmuYQ0K
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /guides/__next._tree.txt?_rsc=kU2zFPC8MEmuYQ0K
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 200 in 1 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 404 in 6 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /__next._head.txt?_rsc=3RM61SDXFF4YdeLZ
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /__next._index.txt?_rsc=PGLarpJgxEkxzufK
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /category/length-converter/__next._head.txt?_rsc=3RM61SDXFF4YdeLZ
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /category/length-converter/__next.category.txt?_rsc=Jczkre1XULbTsEmR
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 200 in 3 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 200 in 2 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 200 in 2 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 200 in 4 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /category/length-converter/__next.category.$d$category.txt?_rsc=ajR87bEQhNRK4t3A
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /category/length-converter/__next.category.$d$category.__PAGE__.txt?_rsc=8Y52nc8Au_3SpwAa
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /__next.__PAGE__.txt?_rsc=m5jY1WlE15yyXWD9
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 200 in 2 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 200 in 1 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 200 in 1 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /about/__next._head.txt?_rsc=3RM61SDXFF4YdeLZ
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 200 in 1 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /about/__next.about.txt?_rsc=RhNsnRKeLzRlKWJx
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 200 in 1 ms
+ HTTP  7/3/2026 11:05:48 AM ::1 GET /about/__next.about.__PAGE__.txt?_rsc=LoB2rk6nINkK8D5B
+ HTTP  7/3/2026 11:05:48 AM ::1 Returned 200 in 1 ms
+ HTTP  7/3/2026 11:05:49 AM ::1 GET /length/ft-to-m.txt?value=10&_rsc=EWzKgJbR5e1_e6Mw
+ HTTP  7/3/2026 11:05:49 AM ::1 Returned 200 in 5 ms
+ HTTP  7/3/2026 11:05:49 AM ::1 HEAD /category/length-converter
+ HTTP  7/3/2026 11:05:49 AM ::1 HEAD /
+ HTTP  7/3/2026 11:05:49 AM ::1 HEAD /about
+ HTTP  7/3/2026 11:05:49 AM ::1 HEAD /guides
+ HTTP  7/3/2026 11:05:49 AM ::1 Returned 304 in 10 ms
+ HTTP  7/3/2026 11:05:49 AM ::1 Returned 200 in 14 ms
+ HTTP  7/3/2026 11:05:49 AM ::1 Returned 200 in 12 ms
+ HTTP  7/3/2026 11:05:49 AM ::1 GET /length/ft-to-m.txt?value=10&_rsc=hL04QPcAZNxehQMn
+ HTTP  7/3/2026 11:05:49 AM ::1 Returned 200 in 1 ms
+ HTTP  7/3/2026 11:05:49 AM ::1 GET /__next._tree.txt?_rsc=kU2zFPC8MEmuYQ0K
+ HTTP  7/3/2026 11:05:49 AM ::1 Returned 200 in 13 ms
+ HTTP  7/3/2026 11:05:49 AM ::1 Returned 304 in 2 ms
+ HTTP  7/3/2026 11:05:49 AM ::1 GET /category/length-converter/__next._tree.txt?_rsc=kU2zFPC8MEmuYQ0K
+ HTTP  7/3/2026 11:05:49 AM ::1 GET /about/__next._tree.txt?_rsc=kU2zFPC8MEmuYQ0K
+ HTTP  7/3/2026 11:05:49 AM ::1 GET /guides/__next._tree.txt?_rsc=kU2zFPC8MEmuYQ0K
+ HTTP  7/3/2026 11:05:49 AM ::1 Returned 304 in 1 ms
+ HTTP  7/3/2026 11:05:49 AM ::1 Returned 304 in 1 ms
+ HTTP  7/3/2026 11:05:49 AM ::1 Returned 404 in 1 ms
