@@ -46,7 +46,7 @@ export default async function BlogPostPage(
   }
 
   const source = fs.readFileSync(filePath, "utf8");
-  const { content, frontmatter } = await compileMDX<{ title?: string }>({
+  const { content, frontmatter } = await compileMDX<{ title?: string, description?: string, datePublished?: string, dateModified?: string }>({
     source,
     options: { parseFrontmatter: true },
     components: {
@@ -56,11 +56,14 @@ export default async function BlogPostPage(
 
   const pageTitle = frontmatter?.title || params.slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 
-  // Basic article schema
+  // Enhanced article schema
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": pageTitle,
+    "description": frontmatter?.description || `Learn everything you need to know about ${pageTitle.toLowerCase()}.`,
+    "datePublished": frontmatter?.datePublished || "2024-06-01",
+    "dateModified": frontmatter?.dateModified || new Date().toISOString().split('T')[0],
     "author": {
       "@type": "Organization",
       "name": "alfo.online editorial"

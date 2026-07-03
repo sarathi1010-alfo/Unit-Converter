@@ -32,6 +32,14 @@ export default function AboutPage() {
         alfo.online team. We focus on creating tools that solve specific problems beautifully.
       </p>
 
+      <div className="mt-8 p-6 bg-primary/5 rounded-2xl border border-primary/10">
+        <h3 className="mt-0">Educational Content</h3>
+        <p>
+          We are committed to helping you understand the math behind measurement. Check out our latest guide on <a href="/blog/quick-unit-conversion-guide" className="text-primary font-bold hover:underline">how to convert units quickly and accurately</a> for tips, tricks, and mental math shortcuts.
+        </p>
+        <p className="text-xs text-slate-500 italic mt-2">Last Modified: July 3, 2024</p>
+      </div>
+
       <div className="mt-12 p-6 bg-slate-50 border border-slate-200 rounded-2xl text-center">
         <h3 className="mt-0">Powered by alfo.online</h3>
         <p className="mb-0">Building the next generation of internet utilities.</p>
