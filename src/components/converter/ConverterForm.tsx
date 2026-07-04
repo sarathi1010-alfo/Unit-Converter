@@ -90,6 +90,7 @@ export function ConverterForm({
               <option value="area">Area</option>
               <option value="speed">Speed</option>
               <option value="data">Digital Data</option>
+              <option value="pressure">Pressure</option>
               <option value="currency">Currency</option>
               <option value="cooking">Cooking</option>
               <option value="clothing">Clothing & Shoes</option>

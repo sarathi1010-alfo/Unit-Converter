@@ -3,60 +3,66 @@
     "id": "length",
     "name": "Length",
     "description": "Convert distance and length units including metric and imperial systems.",
-    "lastModified": "2024-05-20"
+    "lastModified": "2026-01-01"
   },
   {
     "id": "weight",
     "name": "Weight & Mass",
     "description": "Convert weight and mass units across all major measurement systems.",
-    "lastModified": "2024-05-20"
+    "lastModified": "2026-01-01"
   },
   {
     "id": "temperature",
     "name": "Temperature",
     "description": "Convert between Celsius, Fahrenheit, and Kelvin temperature scales.",
-    "lastModified": "2024-05-20"
+    "lastModified": "2026-01-01"
   },
   {
     "id": "volume",
     "name": "Volume",
     "description": "Convert volume units for liquids and dry measurements.",
-    "lastModified": "2024-05-20"
+    "lastModified": "2026-01-01"
   },
   {
     "id": "area",
     "name": "Area",
     "description": "Convert area measurements for land and floor space.",
-    "lastModified": "2024-05-20"
+    "lastModified": "2026-01-01"
   },
   {
     "id": "speed",
     "name": "Speed",
     "description": "Convert speed and velocity units for travel and physics.",
-    "lastModified": "2024-05-20"
+    "lastModified": "2026-01-01"
   },
   {
     "id": "data",
     "name": "Digital Data",
     "description": "Convert digital storage units from bytes to terabytes.",
-    "lastModified": "2024-05-20"
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "pressure",
+    "name": "Pressure",
+    "description": "Convert pressure units including pascals, psi, bar, and atmospheres.",
+    "lastModified": "2026-01-01"
   },
   {
     "id": "currency",
     "name": "Currency",
     "description": "Convert between major global currencies (Static exchange rates).",
-    "lastModified": "2024-05-20"
+    "lastModified": "2026-01-01"
   },
   {
     "id": "cooking",
     "name": "Cooking",
     "description": "Convert kitchen measurements like cups, spoons, and milliliters.",
-    "lastModified": "2024-05-20"
+    "lastModified": "2026-01-01"
   },
   {
     "id": "clothing",
     "name": "Clothing & Shoes",
     "description": "Convert international clothing and shoe sizes.",
-    "lastModified": "2024-05-20"
+    "lastModified": "2026-01-01"
   }
 ]
