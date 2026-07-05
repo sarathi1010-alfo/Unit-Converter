@@ -18,6 +18,9 @@ export const metadata: Metadata = {
 
 
 
+/**
+ * Last Updated: 2025-01-24
+ */
 export default function Home() {
   const categories = getAllCategories();
 
