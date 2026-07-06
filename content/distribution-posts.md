@@ -27,6 +27,15 @@ Why use UnitFlow?
 
 Check it out: https://unitflow.alfo.online/
 
+### Post 4: The 4-Step Checklist
+Accuracy is a habit. Follow this 4-step checklist for every conversion:
+1️⃣ Verify starting units
+2️⃣ Use a trusted factor
+3️⃣ Use the factor-label method
+4️⃣ Perform a sanity check
+
+Full details: https://unitflow.alfo.online/blog/quick-unit-conversion-guide
+
 ## LinkedIn Posts
 
 ### Post 1: Professional Accuracy
@@ -47,6 +56,11 @@ Try it here: https://unitflow.alfo.online/
 
 #ProductivityTools #WorkSmarter #WebTools
 
+### Post 3: Historical Failures
+The Gimli Glider (1983) ran out of fuel mid-flight due to a pounds-to-kilograms error. ✈️ Luckily, the pilots landed safely, but it highlights why unit awareness is crucial.
+
+Learn how to avoid these mistakes: https://unitflow.alfo.online/blog/quick-unit-conversion-guide
+
 ## Pinterest Pin Ideas
 
 ### Pin 1: The Fibonacci Hack
@@ -63,13 +77,3 @@ Try it here: https://unitflow.alfo.online/
 - **Title:** Cooking Conversions Made Easy
 - **Description:** How many milliliters are in a cup? How do you convert grams to ounces? Get the cheat sheet and use our clean visuals for your next recipe.
 - **Link:** https://unitflow.alfo.online/cooking/cups-to-ml
-
-### Pin 4: Travel Temperature Hack
-- **Title:** How to Estimate Celsius to Fahrenheit in Seconds
-- **Description:** Traveling to a country using the metric system? Use this "Double + 30" rule to quickly estimate the weather without a calculator.
-- **Link:** https://unitflow.alfo.online/blog/quick-unit-conversion-guide
-
-### Pin 5: UnitFlow UI Showcase
-- **Title:** The Cleanest Unit Converter on the Web
-- **Description:** Tired of ad-cluttered tools? Try UnitFlow for a minimalist, high-speed conversion experience.
-- **Link:** https://unitflow.alfo.online/

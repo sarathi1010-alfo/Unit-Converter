@@ -25,6 +25,9 @@ export default function AboutPage() {
         UnitConverter as part of the <strong>alfo.online</strong> ecosystem to prove that utility
         apps should be clean, respectful of your time, and highly performant.
       </p>
+      <p>
+        Beyond just calculations, we aim to educate. Check out our <a href="/blog/quick-unit-conversion-guide">Quick Unit Conversion Guide</a> to learn about the math behind the measurements and how to avoid common conversion errors.
+      </p>
 
       <h2>Part of the Ecosystem</h2>
       <p>
