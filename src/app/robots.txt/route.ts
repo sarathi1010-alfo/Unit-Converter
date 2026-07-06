@@ -384,6 +384,7 @@ Allow: /
 ------------------------------------------------------------------------------
 SITEMAPS – UNITFLOW.ALFO.ONLINE
 ------------------------------------------------------------------------------
+Sitemap: ${baseUrl}/sitemap-index.xml
 Sitemap: ${baseUrl}/sitemap.xml
 Sitemap: ${baseUrl}/sitemap-articles.xml
 Sitemap: ${baseUrl}/sitemap-products.xml
