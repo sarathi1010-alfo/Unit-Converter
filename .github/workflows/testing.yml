@@ -37,7 +37,7 @@ permissions:
   pull-requests: write
 
 env:
-  GH_TOKEN: ${{ secrets.PAT }}
+  GH_TOKEN: ${{ secrets.PAT || github.token }}
 
 jobs:
   # ── Incoming / upcoming: fires live on open, push, reopen ──
@@ -47,8 +47,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.head_ref }}
-          token: ${{ secrets.PAT }}
           fetch-depth: 2
 
       - name: Run auto-fix
@@ -63,14 +61,28 @@ jobs:
 
       - name: Submit changed URLs to Google Indexing API
         run: |
-          # >>> CUSTOMIZE THIS: map changed files to real URLs for your site <<<
+          # Only run if GCP_SA_KEY is present
+          if [ -z "${{ secrets.GCP_SA_KEY }}" ]; then
+            echo "GCP_SA_KEY is missing, skipping indexing"
+            exit 0
+          fi
           echo '${{ secrets.GCP_SA_KEY }}' > /tmp/gcp-key.json
           gcloud auth activate-service-account --key-file=/tmp/gcp-key.json --quiet
           ACCESS_TOKEN=$(gcloud auth print-access-token)
           rm -f /tmp/gcp-key.json
 
           for f in $(git diff --name-only HEAD~1 HEAD); do
-            url="https://example.com/${f%.md}"
+            if [[ $f == content/blog/*.md* ]]; then
+               slug=$(basename "${f%.md*}")
+               url="https://unitflow.alfo.online/blog/$slug"
+            elif [[ $f == content/guides/*.md* ]]; then
+               slug=$(basename "${f%.md*}")
+               url="https://unitflow.alfo.online/guides/$slug"
+            else
+               continue
+            fi
+
+            echo "Indexing: $url"
             curl -s -X POST \
               -H "Authorization: Bearer $ACCESS_TOKEN" \
               -H "Content-Type: application/json" \
@@ -127,8 +139,6 @@ jobs:
 
       - uses: actions/checkout@v4
         with:
-          ref: ${{ steps.ref.outputs.headref }}
-          token: ${{ secrets.PAT }}
           fetch-depth: 2
 
       - name: Run auto-fix
@@ -144,14 +154,27 @@ jobs:
 
       - name: Submit changed URLs to Google Indexing API
         run: |
-          # >>> CUSTOMIZE THIS: map changed files to real URLs for your site <<<
+          if [ -z "${{ secrets.GCP_SA_KEY }}" ]; then
+            echo "GCP_SA_KEY is missing, skipping indexing"
+            exit 0
+          fi
           echo '${{ secrets.GCP_SA_KEY }}' > /tmp/gcp-key.json
           gcloud auth activate-service-account --key-file=/tmp/gcp-key.json --quiet
           ACCESS_TOKEN=$(gcloud auth print-access-token)
           rm -f /tmp/gcp-key.json
 
           for f in $(git diff --name-only HEAD~1 HEAD); do
-            url="https://example.com/${f%.md}"
+            if [[ $f == content/blog/*.md* ]]; then
+               slug=$(basename "${f%.md*}")
+               url="https://unitflow.alfo.online/blog/$slug"
+            elif [[ $f == content/guides/*.md* ]]; then
+               slug=$(basename "${f%.md*}")
+               url="https://unitflow.alfo.online/guides/$slug"
+            else
+               continue
+            fi
+
+            echo "Indexing: $url"
             curl -s -X POST \
               -H "Authorization: Bearer $ACCESS_TOKEN" \
               -H "Content-Type: application/json" \

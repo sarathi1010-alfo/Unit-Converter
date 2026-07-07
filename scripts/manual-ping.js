@@ -9,16 +9,16 @@ const INDEXNOW_KEY = process.env.INDEXNOW_KEY || 'manual_trigger_key';
 
 const NEW_URLS = [
   `${SITE_URL}/blog/quick-unit-conversion-guide`,
-  `${SITE_URL}/convert/ft-to-m`,
-  `${SITE_URL}/convert/kg-to-lb`,
-  `${SITE_URL}/convert/c-to-f`,
-  `${SITE_URL}/convert/l-to-gal`,
-  `${SITE_URL}/convert/sqft-to-sqm`,
-  `${SITE_URL}/convert/kmh-to-mph`,
-  `${SITE_URL}/convert/mb-to-gb`,
-  `${SITE_URL}/convert/usd-to-eur`,
-  `${SITE_URL}/convert/cups-to-ml`,
-  `${SITE_URL}/convert/us-to-eu`
+  `${SITE_URL}/length/ft-to-m`,
+  `${SITE_URL}/weight/kg-to-lb`,
+  `${SITE_URL}/temperature/c-to-f`,
+  `${SITE_URL}/volume/l-to-gal`,
+  `${SITE_URL}/area/sqft-to-sqm`,
+  `${SITE_URL}/speed/kmh-to-mph`,
+  `${SITE_URL}/data/mb-to-gb`,
+  `${SITE_URL}/currency/usd-to-eur`,
+  `${SITE_URL}/cooking/cups-to-ml`,
+  `${SITE_URL}/clothing/us-to-eu`
 ];
 
 async function pingGoogle() {
