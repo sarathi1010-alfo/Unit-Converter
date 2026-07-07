@@ -42,7 +42,7 @@ export async function generateMetadata(
   const fromName = units[pair.from]?.name || pair.from.toUpperCase();
   const toName = units[pair.to]?.name || pair.to.toUpperCase();
 
-  const path = `/convert/${params.slug}`;
+  const path = `/${pair.categoryId}/${params.slug}`;
 
   return {
     title: `${fromName} to ${toName} Converter`,

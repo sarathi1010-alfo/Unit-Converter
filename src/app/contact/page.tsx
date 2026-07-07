@@ -69,6 +69,11 @@ export default function ContactPage() {
           Send Message
         </button>
       </form>
+
+      <div className="mt-12 text-center text-sm text-slate-500">
+        Interested in learning more about conversion accuracy? Check out our <a href="/blog/quick-unit-conversion-guide" className="text-primary hover:underline">Quick Unit Conversion Guide</a>.
+        <p className="mt-2 italic">Last updated: February 2025</p>
+      </div>
     </div>
   );
 }
