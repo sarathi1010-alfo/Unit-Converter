@@ -37,7 +37,7 @@ export default function AboutPage() {
 
       <div className="mt-12 p-6 bg-slate-50 border border-slate-200 rounded-2xl text-center">
         <h3 className="mt-0">Powered by alfo.online</h3>
-        <p className="mb-0">Building the next generation of internet utilities.</p>
+        <p className="mb-0 text-slate-500 text-sm italic">Last updated: February 2025</p>
       </div>
     </article>
   );

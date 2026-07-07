@@ -105,16 +105,18 @@ export default async function ConversionPairPage(
 
   const faqs = [
     {
+      question: `How many ${toUnit.name} are in a ${fromUnit.name}?`,
+      answer: categoryId === 'temperature' || categoryId === 'clothing'
+        ? `Conversion between ${fromUnit.name} and ${toUnit.name} follows a non-linear formula. Use our calculator for an accurate result.`
+        : `There are ${fromUnit.baseFactor / toUnit.baseFactor} ${toUnit.name} in 1 ${fromUnit.name}.`
+    },
+    {
       question: `How do I convert ${fromUnit.name} to ${toUnit.name}?`,
       answer: `Enter your value in ${fromUnit.name} into the converter above. It will instantly calculate and display the equivalent value in ${toUnit.name}.`
     },
     {
       question: `What is the symbol for ${fromUnit.name}?`,
       answer: `The symbol for ${fromUnit.name} is "${fromUnit.symbol}".`
-    },
-    {
-      question: `What is the symbol for ${toUnit.name}?`,
-      answer: `The symbol for ${toUnit.name} is "${toUnit.symbol}".`
     }
   ];
 
