@@ -37,7 +37,7 @@ permissions:
   pull-requests: write
 
 env:
-  GH_TOKEN: ${{ secrets.PAT }}
+  GH_TOKEN: ${{ secrets.PAT || github.token }}
 
 jobs:
   # ── Incoming / upcoming: fires live on open, push, reopen ──
@@ -66,7 +66,7 @@ jobs:
           # >>> CUSTOMIZE THIS: map changed files to real URLs for your site <<<
           echo '${{ secrets.GCP_SA_KEY }}' > /tmp/gcp-key.json
           gcloud auth activate-service-account --key-file=/tmp/gcp-key.json --quiet
-          ACCESS_TOKEN=$(gcloud auth print-access-token)
+          ACCESS_TOKEN=$(gcloud auth print-access-token --scopes=https://www.googleapis.com/auth/indexing)
           rm -f /tmp/gcp-key.json
 
           for f in $(git diff --name-only HEAD~1 HEAD); do
@@ -147,7 +147,7 @@ jobs:
           # >>> CUSTOMIZE THIS: map changed files to real URLs for your site <<<
           echo '${{ secrets.GCP_SA_KEY }}' > /tmp/gcp-key.json
           gcloud auth activate-service-account --key-file=/tmp/gcp-key.json --quiet
-          ACCESS_TOKEN=$(gcloud auth print-access-token)
+          ACCESS_TOKEN=$(gcloud auth print-access-token --scopes=https://www.googleapis.com/auth/indexing)
           rm -f /tmp/gcp-key.json
 
           for f in $(git diff --name-only HEAD~1 HEAD); do
