@@ -37,7 +37,7 @@ permissions:
   pull-requests: write
 
 env:
-  GH_TOKEN: ${{ secrets.PAT || github.token }}
+  GH_TOKEN: ${{ github.token }}
 
 jobs:
   # ── Incoming / upcoming: fires live on open, push, reopen ──
@@ -70,7 +70,16 @@ jobs:
           rm -f /tmp/gcp-key.json
 
           for f in $(git diff --name-only HEAD~1 HEAD); do
-            url="https://example.com/${f%.md}"
+            if [[ $f == content/blog/*.mdx ]]; then
+              slug=$(basename "${f%.mdx}")
+              url="https://unitflow.alfo.online/blog/$slug"
+            elif [[ $f == content/guides/*.mdx ]]; then
+              slug=$(basename "${f%.mdx}")
+              url="https://unitflow.alfo.online/guides/$slug"
+            else
+              continue
+            fi
+
             curl -s -X POST \
               -H "Authorization: Bearer $ACCESS_TOKEN" \
               -H "Content-Type: application/json" \
@@ -151,7 +160,16 @@ jobs:
           rm -f /tmp/gcp-key.json
 
           for f in $(git diff --name-only HEAD~1 HEAD); do
-            url="https://example.com/${f%.md}"
+            if [[ $f == content/blog/*.mdx ]]; then
+              slug=$(basename "${f%.mdx}")
+              url="https://unitflow.alfo.online/blog/$slug"
+            elif [[ $f == content/guides/*.mdx ]]; then
+              slug=$(basename "${f%.mdx}")
+              url="https://unitflow.alfo.online/guides/$slug"
+            else
+              continue
+            fi
+
             curl -s -X POST \
               -H "Authorization: Bearer $ACCESS_TOKEN" \
               -H "Content-Type: application/json" \
@@ -170,7 +188,6 @@ jobs:
       - name: Merge PRs ascending, resolving conflicts via Jules
         env:
           JULES_API_KEY: ${{ secrets.JULES_API_KEY }}
-          PAT: ${{ secrets.PAT }}
         run: |
           prs='${{ needs.discover.outputs.prs }}'
           owner="${GITHUB_REPOSITORY%%/*}"
@@ -262,7 +279,7 @@ jobs:
                   else
                     work_dir="/tmp/pr-$pr"
                     rm -rf "$work_dir"
-                    git clone --branch "$headref" "https://x-access-token:${PAT}@github.com/${GITHUB_REPOSITORY}.git" "$work_dir"
+                    git clone --branch "$headref" "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "$work_dir"
                     echo "$patch" > "$work_dir.patch"
 
                     if (cd "$work_dir" && git apply "../pr-$pr.patch" \
