@@ -20,8 +20,8 @@
 - [x] **IndexNow Integration:** Trigger IndexNow for all new Tier 1 and Tier 2 URLs.
 
 ### 3. Content Authority Signals
-- [x] **Internal Linking:** Linked from high-authority Tier 1 articles (e.g., `/blog/quick-unit-conversion-guide`) to programmatic categories.
-- [x] **Retroactive Linking:** Added links from existing guides (e.g., `/guides/cm-to-inches`) to new authority content.
+- [x] **Internal Linking:** Linked from high-authority Tier 1 articles (e.g., `/blog/quick-unit-conversion-guide`) to programmatic categories and home.
+- [x] **Retroactive Linking:** Added links from existing guides (e.g., `/guides/cm-to-inches`) and Popular Conversions to new authority content.
 
 ### 4. Ongoing Monitoring
 - Monitor GSC "Pages" report weekly for "Indexed" count increases.

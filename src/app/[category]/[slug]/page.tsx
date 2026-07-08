@@ -87,6 +87,10 @@ export default async function CategoryConversionPairPage(
     {
       question: `What is the symbol for ${fromUnit.name}?`,
       answer: `The symbol for ${fromUnit.name} is "${fromUnit.symbol}".`
+    },
+    {
+      question: `What is the symbol for ${toUnit.name}?`,
+      answer: `The symbol for ${toUnit.name} is "${toUnit.symbol}".`
     }
   ];
 
