@@ -68,11 +68,19 @@ export default function Home() {
 
       {/* Popular Conversions */}
       <section>
-        <h2 className="text-2xl font-bold text-slate-900 mb-6">Popular Conversions</h2>
+        <div className="flex flex-col md:flex-row md:items-center justify-between mb-6 gap-4">
+          <h2 className="text-2xl font-bold text-slate-900">Popular Conversions</h2>
+          <Link
+            href="/blog/quick-unit-conversion-guide"
+            className="text-sm font-semibold text-primary hover:text-primary/80 flex items-center gap-1 transition-colors"
+          >
+            Guide: How to Convert Quickly & Accurately →
+          </Link>
+        </div>
         <RelatedLinks links={popularLinks} />
         <div className="mt-6 p-4 bg-primary/5 rounded-xl border border-primary/10">
           <p className="text-sm text-slate-600">
-            Want to learn how to convert faster? Check our guide on <Link href="/blog/quick-unit-conversion-guide" className="text-primary font-bold hover:underline">How to Convert Units Quickly and Accurately</Link>.
+            Want to learn how to convert faster? Master mental math and avoid common mistakes with our comprehensive guide on <Link href="/blog/quick-unit-conversion-guide" className="text-primary font-bold hover:underline">How to Convert Units Quickly and Accurately</Link>.
           </p>
         </div>
       </section>

@@ -17,19 +17,37 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const title = slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-  const path = `/blog/${slug}`;
+  const contentDir = path.join(process.cwd(), "content/blog");
+  const filePath = path.join(contentDir, `${slug}.mdx`);
+
+  let frontmatter: any = {};
+  if (fs.existsSync(filePath)) {
+    const source = fs.readFileSync(filePath, "utf8");
+    const match = source.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+    if (match) {
+      const yaml = match[1];
+      frontmatter = yaml.split('\n').reduce((acc: any, line) => {
+        const [key, ...value] = line.split(':');
+        if (key && value) acc[key.trim()] = value.join(':').trim().replace(/^["']|["']$/g, '');
+        return acc;
+      }, {});
+    }
+  }
+
+  const title = frontmatter.title || slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  const description = frontmatter.description || `Read our comprehensive guide on ${title.toLowerCase()} to learn the best tips and tricks for quick and accurate unit conversions.`;
+  const canonicalPath = `/blog/${slug}`;
 
   return {
     title: `${title} | UnitConverter Blog`,
-    description: `Read our comprehensive guide on ${title.toLowerCase()} to learn the best tips and tricks for quick and accurate unit conversions.`,
+    description,
     alternates: {
-      canonical: path,
+      canonical: canonicalPath,
     },
     openGraph: {
-      url: path,
+      url: canonicalPath,
       title: `${title} | UnitConverter Blog`,
-      description: `Read our comprehensive guide on ${title.toLowerCase()} to learn the best tips and tricks for quick and accurate unit conversions.`,
+      description,
     }
   };
 }
@@ -46,7 +64,7 @@ export default async function BlogPostPage(
   }
 
   const source = fs.readFileSync(filePath, "utf8");
-  const { content, frontmatter } = await compileMDX<{ title?: string }>({
+  const { content, frontmatter } = await compileMDX<{ title?: string; description?: string; datePublished?: string }>({
     source,
     options: { parseFrontmatter: true },
     components: {
@@ -56,11 +74,13 @@ export default async function BlogPostPage(
 
   const pageTitle = frontmatter?.title || params.slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 
-  // Basic article schema
+  // Enhanced article schema
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": pageTitle,
+    "description": frontmatter?.description,
+    "datePublished": frontmatter?.datePublished,
     "author": {
       "@type": "Organization",
       "name": "alfo.online editorial"
