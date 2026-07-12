@@ -43,12 +43,13 @@ export async function generateMetadata(
   const toName = units[pair.to]?.name || pair.to.toUpperCase();
 
   const path = `/convert/${params.slug}`;
+  const canonicalUrl = `${SITE_URL}${path}`;
 
   return {
     title: `${fromName} to ${toName} Converter`,
     description: `Convert ${fromName.toLowerCase()} to ${toName.toLowerCase()} instantly. Includes formula, examples, and a quick reference conversion table.`,
     alternates: {
-      canonical: path,
+      canonical: canonicalUrl,
     },
     openGraph: {
       url: path,

@@ -36,16 +36,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const title = frontmatter.title || slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
   const description = frontmatter.description || `Read our comprehensive guide on ${title.toLowerCase()} to learn the best tips and tricks for quick and accurate unit conversions.`;
-  const canonicalPath = `/blog/${slug}`;
+  const relativePath = `/blog/${slug}`;
+  const canonicalUrl = `${process.env.NEXT_PUBLIC_SITE_URL || 'https://unitflow.alfo.online'}${relativePath}`;
 
   return {
     title: `${title} | UnitConverter Blog`,
     description,
     alternates: {
-      canonical: canonicalPath,
+      canonical: canonicalUrl,
     },
     openGraph: {
-      url: canonicalPath,
+      url: relativePath,
       title: `${title} | UnitConverter Blog`,
       description,
     }
