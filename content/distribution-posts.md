@@ -1,6 +1,6 @@
 # Social Media Distribution Posts for "Quick Unit Conversion Guide"
 
-## Twitter/X Posts
+## Twitter/X Posts (4 Posts)
 
 ### Post 1: The NASA Lesson
 Ever wonder how a $125M satellite just... disappears? 🛰️ NASA's Mars Climate Orbiter was lost due to a simple unit conversion error (Metric vs Imperial). Don't let your projects meet the same fate!
@@ -36,7 +36,7 @@ Accuracy is a habit. Follow this 4-step checklist for every conversion:
 
 Full details: https://unitflow.alfo.online/blog/quick-unit-conversion-guide
 
-## LinkedIn Posts
+## LinkedIn Posts (3 Posts)
 
 ### Post 1: Professional Accuracy
 In professions like engineering, healthcare, and construction, a misplaced decimal point isn't just a typo—it's a critical failure. 🏗️💊
@@ -61,7 +61,7 @@ The Gimli Glider (1983) ran out of fuel mid-flight due to a pounds-to-kilograms 
 
 Learn how to avoid these mistakes: https://unitflow.alfo.online/blog/quick-unit-conversion-guide
 
-## Pinterest Pin Ideas
+## Pinterest Pin Ideas (3 Pins)
 
 ### Pin 1: The Fibonacci Hack
 - **Title:** The Secret Fibonacci Way to Convert Miles to KM
