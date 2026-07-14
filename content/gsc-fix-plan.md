@@ -27,8 +27,8 @@
 - Monitor GSC "Pages" report weekly for "Indexed" count increases.
 - Use "URL Inspection Tool" for critical Tier 1 pages to request manual indexing if they remain unindexed for > 48 hours.
 
-## July 2026 Update (July 13, 2026)
-- **Tier 1 Published:** `/blog/quick-unit-conversion-guide` has been refreshed and optimized for AEO.
-- **Tier 2 Verified:** 10 core programmatic pairs (ft-to-m, kg-to-lb, etc.) verified for 200 OK and schema correctness.
-- **Internal Linking:** Established reciprocal links between `/blog/quick-unit-conversion-guide` and `/guides/cm-to-inches`.
-- **Discovery:** Triggered IndexNow and sitemap pings for all updated URLs.
+## July 2026 Update (July 14, 2026)
+- **Tier 1 Published:** `/blog/quick-unit-conversion-guide` has been refreshed and optimized for AEO with today's date.
+- **Tier 2 Verified:** 10 core programmatic pairs (ft-to-m, kg-to-lb, etc.) verified for 200 OK and schema correctness across both `/convert/` and `/[category]/` routes.
+- **Internal Linking:** Established reciprocal links between `/blog/quick-unit-conversion-guide` and `/guides/cm-to-inches`. Updated "last modified" on old content.
+- **Discovery:** Triggered IndexNow and sitemap pings for all updated URLs. Verified technical integrity with Playwright.
