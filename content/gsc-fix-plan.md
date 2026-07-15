@@ -32,3 +32,9 @@
 - **Tier 2 Verified:** 10 core programmatic pairs (ft-to-m, kg-to-lb, etc.) verified for 200 OK and schema correctness across both `/convert/` and `/[category]/` routes.
 - **Internal Linking:** Established reciprocal links between `/blog/quick-unit-conversion-guide` and `/guides/cm-to-inches`. Updated "last modified" on old content.
 - **Discovery:** Triggered IndexNow and sitemap pings for all updated URLs. Verified technical integrity with Playwright.
+
+## July 2026 Update (July 15, 2026)
+- **Tier 1 Published:** `/blog/quick-unit-conversion-guide` date updated and content refreshed.
+- **Tier 2 Verified:** 10 core programmatic pairs (ft-to-m, kg-to-lb, c-to-f, l-to-gal, sqft-to-sqm, kmh-to-mph, mb-to-gb, usd-to-eur, cups-to-ml, us-to-eu) verified.
+- **Internal Linking:** Verified reciprocal links between Tier 1 article and pillar pages. Updated "last modified" on existing guide.
+- **Discovery:** Triggered IndexNow and sitemap pings for today's updates.
