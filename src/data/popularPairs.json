@@ -17,5 +17,7 @@
   { "categoryId": "data", "from": "mb", "to": "gb" },
   { "categoryId": "currency", "from": "usd", "to": "eur" },
   { "categoryId": "cooking", "from": "cups", "to": "ml" },
-  { "categoryId": "clothing", "from": "us", "to": "eu" }
+  { "categoryId": "clothing", "from": "us", "to": "eu" },
+  { "categoryId": "length", "from": "yd", "to": "m" },
+  { "categoryId": "weight", "from": "oz", "to": "lb" }
 ]

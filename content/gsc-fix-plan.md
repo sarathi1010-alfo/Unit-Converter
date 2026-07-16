@@ -38,3 +38,9 @@
 - **Tier 2 Verified:** 10 core programmatic pairs (ft-to-m, kg-to-lb, c-to-f, l-to-gal, sqft-to-sqm, kmh-to-mph, mb-to-gb, usd-to-eur, cups-to-ml, us-to-eu) verified.
 - **Internal Linking:** Verified reciprocal links between Tier 1 article and pillar pages. Updated "last modified" on existing guide.
 - **Discovery:** Triggered IndexNow and sitemap pings for today's updates.
+
+## July 2026 Update (July 16, 2026)
+- **Tier 1 Published:** `/blog/quick-unit-conversion-guide` refreshed for July 16. Verified 1,200+ word count and AEO compliance.
+- **Tier 2 Verified:** 10 core programmatic pairs verified for 200 OK and FAQ schema (ft-to-m, kg-to-lb, c-to-f, l-to-gal, sqft-to-sqm, kmh-to-mph, mb-to-gb, usd-to-eur, cups-to-ml, us-to-eu).
+- **Internal Linking:** Updated internal links from `/guides/cm-to-inches` to the Tier 1 article. Refreshed "last modified" date.
+- **Discovery:** Scheduled sitemap pings and IndexNow triggers for all new and updated URLs.
