@@ -3,17 +3,17 @@ import { test, expect } from '@playwright/test';
 const SITE_URL = 'http://localhost:3000';
 
 const newUrls = [
-  '/blog/quick-unit-conversion-guide',
-  '/length/ft-to-m',
-  '/weight/kg-to-lb',
-  '/temperature/c-to-f',
-  '/volume/l-to-gal',
-  '/area/sqft-to-sqm',
-  '/speed/kmh-to-mph',
-  '/data/mb-to-gb',
-  '/currency/usd-to-eur',
-  '/cooking/cups-to-ml',
-  '/clothing/us-to-eu'
+  '/blog/conversion-hacks-for-engineers',
+  '/length/cm-to-in',
+  '/length/in-to-cm',
+  '/length/km-to-mi',
+  '/length/mi-to-km',
+  '/length/m-to-ft',
+  '/weight/g-to-oz',
+  '/weight/oz-to-g',
+  '/length/yd-to-m',
+  '/weight/oz-to-lb',
+  '/weight/lb-to-kg'
 ];
 
 test.describe('Daily Publishing Verification', () => {

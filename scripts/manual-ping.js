@@ -8,17 +8,17 @@ const SITEMAP_URL = `${SITE_URL}/sitemap-index.xml`;
 const INDEXNOW_KEY = process.env.INDEXNOW_KEY || 'manual_trigger_key';
 
 const NEW_URLS = [
-  `${SITE_URL}/blog/quick-unit-conversion-guide`,
-  `${SITE_URL}/convert/ft-to-m`,
-  `${SITE_URL}/convert/kg-to-lb`,
-  `${SITE_URL}/convert/c-to-f`,
-  `${SITE_URL}/convert/l-to-gal`,
-  `${SITE_URL}/convert/sqft-to-sqm`,
-  `${SITE_URL}/convert/kmh-to-mph`,
-  `${SITE_URL}/convert/mb-to-gb`,
-  `${SITE_URL}/convert/usd-to-eur`,
-  `${SITE_URL}/convert/cups-to-ml`,
-  `${SITE_URL}/convert/us-to-eu`
+  `${SITE_URL}/blog/conversion-hacks-for-engineers`,
+  `${SITE_URL}/convert/cm-to-in`,
+  `${SITE_URL}/convert/in-to-cm`,
+  `${SITE_URL}/convert/km-to-mi`,
+  `${SITE_URL}/convert/mi-to-km`,
+  `${SITE_URL}/convert/m-to-ft`,
+  `${SITE_URL}/convert/g-to-oz`,
+  `${SITE_URL}/convert/oz-to-g`,
+  `${SITE_URL}/convert/yd-to-m`,
+  `${SITE_URL}/convert/oz-to-lb`,
+  `${SITE_URL}/convert/lb-to-kg`
 ];
 
 async function pingGoogle() {
