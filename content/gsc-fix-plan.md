@@ -44,3 +44,9 @@
 - **Tier 2 Verified:** 10 core programmatic pairs verified for 200 OK and FAQ schema (ft-to-m, kg-to-lb, c-to-f, l-to-gal, sqft-to-sqm, kmh-to-mph, mb-to-gb, usd-to-eur, cups-to-ml, us-to-eu).
 - **Internal Linking:** Updated internal links from `/guides/cm-to-inches` to the Tier 1 article. Refreshed "last modified" date.
 - **Discovery:** Scheduled sitemap pings and IndexNow triggers for all new and updated URLs.
+
+## July 2026 Update (July 17, 2026)
+- **Tier 1 Published:** `/blog/conversion-hacks-for-engineers` published targeting engineering conversion hacks.
+- **Tier 2 Verified:** 10 programmatic pairs verified (cm-to-in, in-to-cm, km-to-mi, mi-to-km, m-to-ft, g-to-oz, oz-to-g, yd-to-m, oz-to-lb, lb-to-kg).
+- **Internal Linking:** Added internal link from `/blog/quick-unit-conversion-guide` to `/blog/conversion-hacks-for-engineers` and updated "Last updated" date to today.
+- **Discovery:** Scheduled sitemap pings and IndexNow triggers for all new and updated URLs.
