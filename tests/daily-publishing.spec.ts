@@ -19,7 +19,18 @@ const newUrls = [
   '/weight/oz-to-g',
   '/length/yd-to-m',
   '/weight/oz-to-lb',
-  '/weight/lb-to-kg'
+  '/weight/lb-to-kg',
+  '/blog/everyday-unit-conversions-for-travelers',
+  '/temperature/c-to-f',
+  '/temperature/f-to-c',
+  '/speed/kmh-to-mph',
+  '/speed/mph-to-kmh',
+  '/currency/usd-to-eur',
+  '/currency/eur-to-usd',
+  '/clothing/us-to-eu',
+  '/clothing/eu-to-us',
+  '/volume/l-to-gal',
+  '/volume/gal-to-l'
 ];
 
 test.describe('Daily Publishing Verification', () => {

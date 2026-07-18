@@ -173,3 +173,87 @@ Learn how to integrate reliable tools into your workflow: https://unitflow.alfo.
 - **Title:** Celsius to Fahrenheit in Your Head
 - **Description:** Double it and add 30! Learn the easiest way to perform a 'sanity check' on temperature conversions for HVAC and thermal design.
 - **Link:** https://unitflow.alfo.online/blog/conversion-hacks-for-engineers
+
+# Social Media Distribution Posts (July 18, 2026)
+
+Targeting: "Everyday Unit Conversions for Travelers"
+
+## Twitter/X (4 Posts)
+
+### Post 1: The Fibonacci Travel Hack 🌍
+Driving in Europe and confused by km/h? Use the Fibonacci sequence!
+5 mi ≈ 8 km
+8 mi ≈ 13 km
+13 mi ≈ 21 km
+It's the ultimate mental math trick for road trips.
+
+Learn more hacks for travelers: https://unitflow.alfo.online/blog/everyday-unit-conversions-for-travelers
+
+#TravelHacks #RoadTrip #MathTricks #UnitFlow
+
+### Post 2: The "Double and Add 30" Trick 🌡️
+Not sure if 25°C means t-shirt or sweater weather?
+Mental hack for Celsius to Fahrenheit:
+1️⃣ Double it (50)
+2️⃣ Add 30 (80°F)
+(Actual is 77°F, but it's close enough for packing!)
+
+Master more travel conversions: https://unitflow.alfo.online/blog/everyday-unit-conversions-for-travelers
+
+#TravelTips #PackingHacks #Weather
+
+### Post 3: Stop Guessing Exchange Rates 💸
+Mental math is great for distance, but guessing the USD to EUR exchange rate is a recipe for overspending. Always use a precision tool for currency.
+
+UnitFlow offers real-time conversion with zero latency. Try it before your next trip: https://unitflow.alfo.online/
+
+#TravelOnABudget #DigitalNomad #FinTech
+
+### Post 4: The Clothing Size Trap 👞
+Did you know US to EU shoe sizing isn't a simple math equation? EU sizes use the "Paris point", while US sizes use barleycorns.
+
+Don't buy the wrong size abroad. Bookmark our visual converter: https://unitflow.alfo.online/category/clothing-converter
+
+#TravelStyle #ShoppingAbroad #LifeHacks
+
+## LinkedIn (3 Posts)
+
+### Post 1: Digital Literacy for the Modern Traveler ✈️
+In an interconnected world, the ability to rapidly parse and convert units across systems is a fundamental digital literacy skill. Whether you're a digital nomad managing cross-border projects or just trying to rent a car abroad, relying solely on mental math can lead to costly errors.
+
+Our latest guide explores the balance between mental estimation and digital precision for global travelers.
+
+Read more: https://unitflow.alfo.online/blog/everyday-unit-conversions-for-travelers
+
+#DigitalNomad #GlobalBusiness #TravelTech #Productivity
+
+### Post 2: The Cost of "Close Enough" in Currency 💶
+When traveling, using outdated mental conversion rates for currency exchange is a quick way to lose money at tourist kiosks. While estimation is fine for temperature, currency requires real-time precision.
+
+Learn how to build a fail-safe travel workflow using tools like UnitFlow: https://unitflow.alfo.online/blog/everyday-unit-conversions-for-travelers
+
+#FinanceTips #TravelHacks #BusinessTravel
+
+### Post 3: Designing Frictionless Utility Tools 🛠️
+At UnitFlow, we know that when you're navigating a busy foreign market, you don't have time for slow, ad-filled websites. That's why we built a keyboard-first, zero-latency converter that gives you the exact answer instantly.
+
+Experience the fastest way to convert: https://unitflow.alfo.online/
+
+#UXDesign #WebPerf #SaaS #TravelApp
+
+## Pinterest (3 Posts)
+
+### Post 1: The Traveler's Cheat Sheet (Fibonacci Hack)
+- **Title:** The Secret to Miles vs KM on Road Trips
+- **Description:** Driving abroad? Use the Fibonacci sequence to quickly estimate distances in your head. Perfect for your next European road trip!
+- **Link:** https://unitflow.alfo.online/blog/everyday-unit-conversions-for-travelers
+
+### Post 2: Temperature Conversion Hack
+- **Title:** Pack Like a Pro: Celsius to Fahrenheit in Seconds
+- **Description:** Double it and add 30! Learn the easiest way to perform a 'sanity check' on the weather forecast before you pack your bags.
+- **Link:** https://unitflow.alfo.online/blog/everyday-unit-conversions-for-travelers
+
+### Post 3: International Shoe Size Guide
+- **Title:** US to EU Shoe Size Converter
+- **Description:** Don't ruin your vacation with the wrong size shoes! Learn why clothing conversions are tricky and how to get it right every time.
+- **Link:** https://unitflow.alfo.online/category/clothing-converter
