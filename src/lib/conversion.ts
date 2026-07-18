@@ -1,6 +1,6 @@
 import unitsData from '@/data/units.json';
 
-export type CategoryId = 'length' | 'weight' | 'temperature' | 'volume' | 'area' | 'speed' | 'data' | 'currency' | 'cooking' | 'clothing';
+export type CategoryId = 'length' | 'weight' | 'temperature' | 'volume' | 'area' | 'speed' | 'data' | 'currency' | 'cooking' | 'clothing' | 'pressure' | 'energy' | 'power';
 
 export interface Unit {
   id: string;

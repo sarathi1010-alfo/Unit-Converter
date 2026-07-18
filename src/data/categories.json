@@ -58,5 +58,23 @@
     "name": "Clothing & Shoes",
     "description": "Convert international clothing and shoe sizes.",
     "lastModified": "2024-05-20"
+  },
+  {
+    "id": "pressure",
+    "name": "Pressure",
+    "description": "Convert pressure units including pascals, bars, and atmospheres.",
+    "lastModified": "2026-07-16"
+  },
+  {
+    "id": "energy",
+    "name": "Energy",
+    "description": "Convert energy and work units such as joules, calories, and BTUs.",
+    "lastModified": "2026-07-16"
+  },
+  {
+    "id": "power",
+    "name": "Power",
+    "description": "Convert power units like watts, kilowatts, and horsepower.",
+    "lastModified": "2026-07-16"
   }
 ]

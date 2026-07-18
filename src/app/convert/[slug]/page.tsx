@@ -106,6 +106,12 @@ export default async function ConversionPairPage(
 
   const faqs = [
     {
+      question: `How many ${toUnit.name} are in a ${fromUnit.name}?`,
+      answer: categoryId === 'temperature' || categoryId === 'clothing'
+        ? `Conversion between ${fromUnit.name} and ${toUnit.name} follows a non-linear formula. Use our calculator for an accurate result.`
+        : `There are ${fromUnit.baseFactor / toUnit.baseFactor} ${toUnit.name} in 1 ${fromUnit.name}.`
+    },
+    {
       question: `How do I convert ${fromUnit.name} to ${toUnit.name}?`,
       answer: `Enter your value in ${fromUnit.name} into the converter above. It will instantly calculate and display the equivalent value in ${toUnit.name}.`
     },
@@ -118,6 +124,23 @@ export default async function ConversionPairPage(
       answer: `The symbol for ${toUnit.name} is "${toUnit.symbol}".`
     }
   ];
+
+
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": `${fromUnit.name} to ${toUnit.name} Converter`,
+    "description": `Convert ${fromUnit.name.toLowerCase()} to ${toUnit.name.toLowerCase()} instantly. Includes formula, examples, and a quick reference conversion table.`,
+    "datePublished": "2026-07-16",
+    "author": {
+      "@type": "Organization",
+      "name": "alfo.online editorial"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "UnitConverter"
+    }
+  };
 
   const faqJsonLd = {
     "@context": "https://schema.org",
@@ -140,11 +163,15 @@ export default async function ConversionPairPage(
       />
       <script
         type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
       <Breadcrumbs items={[
-        { label: `${categoryId.charAt(0).toUpperCase() + categoryId.slice(1)} Converter`, href: `/category/${categoryId}` },
+        { label: `${categoryId.charAt(0).toUpperCase() + categoryId.slice(1)} Converter`, href: `/category/${categoryId}-converter` },
         { label: `${fromUnit.symbol} to ${toUnit.symbol}` }
       ]} />
 

@@ -1,55 +1,318 @@
 {
   "length": {
-    "m": { "name": "Meter", "symbol": "m", "baseFactor": 1 },
-    "cm": { "name": "Centimeter", "symbol": "cm", "baseFactor": 0.01 },
-    "mm": { "name": "Millimeter", "symbol": "mm", "baseFactor": 0.001 },
-    "km": { "name": "Kilometer", "symbol": "km", "baseFactor": 1000 },
-    "in": { "name": "Inch", "symbol": "in", "baseFactor": 0.0254 },
-    "ft": { "name": "Foot", "symbol": "ft", "baseFactor": 0.3048 },
-    "yd": { "name": "Yard", "symbol": "yd", "baseFactor": 0.9144 },
-    "mi": { "name": "Mile", "symbol": "mi", "baseFactor": 1609.344 }
+    "m": {
+      "name": "Meter",
+      "symbol": "m",
+      "baseFactor": 1
+    },
+    "cm": {
+      "name": "Centimeter",
+      "symbol": "cm",
+      "baseFactor": 0.01
+    },
+    "mm": {
+      "name": "Millimeter",
+      "symbol": "mm",
+      "baseFactor": 0.001
+    },
+    "km": {
+      "name": "Kilometer",
+      "symbol": "km",
+      "baseFactor": 1000
+    },
+    "in": {
+      "name": "Inch",
+      "symbol": "in",
+      "baseFactor": 0.0254
+    },
+    "ft": {
+      "name": "Foot",
+      "symbol": "ft",
+      "baseFactor": 0.3048
+    },
+    "yd": {
+      "name": "Yard",
+      "symbol": "yd",
+      "baseFactor": 0.9144
+    },
+    "mi": {
+      "name": "Mile",
+      "symbol": "mi",
+      "baseFactor": 1609.344
+    },
+    "nm": {
+      "name": "Nanometer",
+      "symbol": "nm",
+      "baseFactor": 1e-9
+    }
   },
   "weight": {
-    "kg": { "name": "Kilogram", "symbol": "kg", "baseFactor": 1 },
-    "g": { "name": "Gram", "symbol": "g", "baseFactor": 0.001 },
-    "mg": { "name": "Milligram", "symbol": "mg", "baseFactor": 0.000001 },
-    "mt": { "name": "Metric Ton", "symbol": "t", "baseFactor": 1000 },
-    "lb": { "name": "Pound", "symbol": "lb", "baseFactor": 0.45359237 },
-    "oz": { "name": "Ounce", "symbol": "oz", "baseFactor": 0.028349523125 }
+    "kg": {
+      "name": "Kilogram",
+      "symbol": "kg",
+      "baseFactor": 1
+    },
+    "g": {
+      "name": "Gram",
+      "symbol": "g",
+      "baseFactor": 0.001
+    },
+    "mg": {
+      "name": "Milligram",
+      "symbol": "mg",
+      "baseFactor": 0.000001
+    },
+    "mt": {
+      "name": "Metric Ton",
+      "symbol": "t",
+      "baseFactor": 1000
+    },
+    "lb": {
+      "name": "Pound",
+      "symbol": "lb",
+      "baseFactor": 0.45359237
+    },
+    "oz": {
+      "name": "Ounce",
+      "symbol": "oz",
+      "baseFactor": 0.028349523125
+    },
+    "ton": {
+      "name": "Ton (US)",
+      "symbol": "ton",
+      "baseFactor": 907.18474
+    },
+    "stone": {
+      "name": "Stone",
+      "symbol": "st",
+      "baseFactor": 6.35029318
+    }
   },
   "temperature": {
-    "c": { "name": "Celsius", "symbol": "°C", "baseFactor": 1 },
-    "f": { "name": "Fahrenheit", "symbol": "°F", "baseFactor": 1 },
-    "k": { "name": "Kelvin", "symbol": "K", "baseFactor": 1 }
+    "c": {
+      "name": "Celsius",
+      "symbol": "°C",
+      "baseFactor": 1
+    },
+    "f": {
+      "name": "Fahrenheit",
+      "symbol": "°F",
+      "baseFactor": 1
+    },
+    "k": {
+      "name": "Kelvin",
+      "symbol": "K",
+      "baseFactor": 1
+    }
   },
   "volume": {
-    "l": { "name": "Liter", "symbol": "L", "baseFactor": 1 },
-    "ml": { "name": "Milliliter", "symbol": "mL", "baseFactor": 0.001 },
-    "gal": { "name": "Gallon (US)", "symbol": "gal", "baseFactor": 3.78541 }
+    "l": {
+      "name": "Liter",
+      "symbol": "L",
+      "baseFactor": 1
+    },
+    "ml": {
+      "name": "Milliliter",
+      "symbol": "mL",
+      "baseFactor": 0.001
+    },
+    "gal": {
+      "name": "Gallon (US)",
+      "symbol": "gal",
+      "baseFactor": 3.78541
+    },
+    "m3": {
+      "name": "Cubic Meter",
+      "symbol": "m³",
+      "baseFactor": 1000
+    },
+    "cup": {
+      "name": "Cup (US)",
+      "symbol": "cup",
+      "baseFactor": 0.236588
+    },
+    "floz": {
+      "name": "Fluid Ounce (US)",
+      "symbol": "fl oz",
+      "baseFactor": 0.0295735
+    }
   },
   "area": {
-    "sqm": { "name": "Square Meter", "symbol": "m²", "baseFactor": 1 },
-    "sqft": { "name": "Square Foot", "symbol": "ft²", "baseFactor": 0.092903 }
+    "sqm": {
+      "name": "Square Meter",
+      "symbol": "m²",
+      "baseFactor": 1
+    },
+    "sqft": {
+      "name": "Square Foot",
+      "symbol": "ft²",
+      "baseFactor": 0.092903
+    },
+    "acre": {
+      "name": "Acre",
+      "symbol": "ac",
+      "baseFactor": 4046.85642
+    },
+    "hectare": {
+      "name": "Hectare",
+      "symbol": "ha",
+      "baseFactor": 10000
+    },
+    "sqkm": {
+      "name": "Square Kilometer",
+      "symbol": "km²",
+      "baseFactor": 1000000
+    },
+    "sqmi": {
+      "name": "Square Mile",
+      "symbol": "mi²",
+      "baseFactor": 2589988.11
+    }
   },
   "speed": {
-    "kmh": { "name": "Kilometer per Hour", "symbol": "km/h", "baseFactor": 1 },
-    "mph": { "name": "Mile per Hour", "symbol": "mph", "baseFactor": 1.60934 }
+    "kmh": {
+      "name": "Kilometer per Hour",
+      "symbol": "km/h",
+      "baseFactor": 1
+    },
+    "mph": {
+      "name": "Mile per Hour",
+      "symbol": "mph",
+      "baseFactor": 1.60934
+    },
+    "ms": {
+      "name": "Meter per Second",
+      "symbol": "m/s",
+      "baseFactor": 3.6
+    },
+    "knot": {
+      "name": "Knot",
+      "symbol": "kn",
+      "baseFactor": 1.852
+    }
   },
   "data": {
-    "b": { "name": "Byte", "symbol": "B", "baseFactor": 1 },
-    "mb": { "name": "Megabyte", "symbol": "MB", "baseFactor": 1000000 },
-    "gb": { "name": "Gigabyte", "symbol": "GB", "baseFactor": 1000000000 }
+    "b": {
+      "name": "Byte",
+      "symbol": "B",
+      "baseFactor": 1
+    },
+    "mb": {
+      "name": "Megabyte",
+      "symbol": "MB",
+      "baseFactor": 1000000
+    },
+    "gb": {
+      "name": "Gigabyte",
+      "symbol": "GB",
+      "baseFactor": 1000000000
+    },
+    "kb": {
+      "name": "Kilobyte",
+      "symbol": "KB",
+      "baseFactor": 1000
+    },
+    "tb": {
+      "name": "Terabyte",
+      "symbol": "TB",
+      "baseFactor": 1000000000000
+    }
   },
   "currency": {
-    "usd": { "name": "US Dollar", "symbol": "$", "baseFactor": 1 },
-    "eur": { "name": "Euro", "symbol": "€", "baseFactor": 0.92 }
+    "usd": {
+      "name": "US Dollar",
+      "symbol": "$",
+      "baseFactor": 1
+    },
+    "eur": {
+      "name": "Euro",
+      "symbol": "€",
+      "baseFactor": 0.92
+    }
   },
   "cooking": {
-    "ml": { "name": "Milliliter", "symbol": "mL", "baseFactor": 1 },
-    "cups": { "name": "Cups (US)", "symbol": "cups", "baseFactor": 236.588 }
+    "ml": {
+      "name": "Milliliter",
+      "symbol": "mL",
+      "baseFactor": 1
+    },
+    "cups": {
+      "name": "Cups (US)",
+      "symbol": "cups",
+      "baseFactor": 236.588
+    }
   },
   "clothing": {
-    "us": { "name": "US Size", "symbol": "US", "baseFactor": 1 },
-    "eu": { "name": "EU Size", "symbol": "EU", "baseFactor": 1 }
+    "us": {
+      "name": "US Size",
+      "symbol": "US",
+      "baseFactor": 1
+    },
+    "eu": {
+      "name": "EU Size",
+      "symbol": "EU",
+      "baseFactor": 1
+    }
+  },
+  "pressure": {
+    "psi": {
+      "name": "Pound per Square Inch",
+      "symbol": "psi",
+      "baseFactor": 6894.76
+    },
+    "kpa": {
+      "name": "Kilopascal",
+      "symbol": "kPa",
+      "baseFactor": 1000
+    },
+    "bar": {
+      "name": "Bar",
+      "symbol": "bar",
+      "baseFactor": 100000
+    },
+    "atm": {
+      "name": "Standard Atmosphere",
+      "symbol": "atm",
+      "baseFactor": 101325
+    }
+  },
+  "energy": {
+    "j": {
+      "name": "Joule",
+      "symbol": "J",
+      "baseFactor": 1
+    },
+    "cal": {
+      "name": "Calorie",
+      "symbol": "cal",
+      "baseFactor": 4.184
+    },
+    "kwh": {
+      "name": "Kilowatt-Hour",
+      "symbol": "kWh",
+      "baseFactor": 3600000
+    },
+    "btu": {
+      "name": "British Thermal Unit",
+      "symbol": "BTU",
+      "baseFactor": 1055.05585
+    }
+  },
+  "power": {
+    "w": {
+      "name": "Watt",
+      "symbol": "W",
+      "baseFactor": 1
+    },
+    "kw": {
+      "name": "Kilowatt",
+      "symbol": "kW",
+      "baseFactor": 1000
+    },
+    "hp": {
+      "name": "Horsepower",
+      "symbol": "hp",
+      "baseFactor": 745.699872
+    }
   }
 }
