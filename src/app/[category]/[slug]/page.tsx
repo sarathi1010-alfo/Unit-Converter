@@ -95,6 +95,23 @@ export default async function CategoryConversionPairPage(
     }
   ];
 
+
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": `${fromUnit.name} to ${toUnit.name} Converter`,
+    "description": `Convert ${fromUnit.name.toLowerCase()} to ${toUnit.name.toLowerCase()} instantly. Includes formula, examples, and a quick reference conversion table.`,
+    "datePublished": "2026-07-16",
+    "author": {
+      "@type": "Organization",
+      "name": "alfo.online editorial"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "UnitConverter"
+    }
+  };
+
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -113,6 +130,10 @@ export default async function CategoryConversionPairPage(
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(appJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
       />
       <script
         type="application/ld+json"

@@ -5,10 +5,16 @@
 
 const SITE_URL = 'https://unitflow.alfo.online';
 const SITEMAP_URL = `${SITE_URL}/sitemap-index.xml`;
-const INDEXNOW_KEY = process.env.INDEXNOW_KEY || 'manual_trigger_key';
+const INDEXNOW_KEY = process.env.INDEXNOW_KEY || '2026_indexnow_key_alfo';
 
 const NEW_URLS = [
   `${SITE_URL}/blog/conversion-hacks-for-engineers`,
+  `${SITE_URL}/blog/ultimate-guide-to-unit-conversion`,
+  `${SITE_URL}/blog/what-is-a-conversion-factor`,
+  `${SITE_URL}/blog/what-is-the-metric-system`,
+  `${SITE_URL}/blog/what-is-the-imperial-system`,
+  `${SITE_URL}/blog/what-is-an-si-unit`,
+  `${SITE_URL}/blog/what-is-significant-figures`,
   `${SITE_URL}/convert/cm-to-in`,
   `${SITE_URL}/convert/in-to-cm`,
   `${SITE_URL}/convert/km-to-mi`,

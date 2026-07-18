@@ -4,6 +4,12 @@ const SITE_URL = 'http://localhost:3000';
 
 const newUrls = [
   '/blog/conversion-hacks-for-engineers',
+  '/blog/ultimate-guide-to-unit-conversion',
+  '/blog/what-is-a-conversion-factor',
+  '/blog/what-is-the-metric-system',
+  '/blog/what-is-the-imperial-system',
+  '/blog/what-is-an-si-unit',
+  '/blog/what-is-significant-figures',
   '/length/cm-to-in',
   '/length/in-to-cm',
   '/length/km-to-mi',
