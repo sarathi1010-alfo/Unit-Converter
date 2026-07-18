@@ -24,7 +24,18 @@ const NEW_URLS = [
   `${SITE_URL}/convert/oz-to-g`,
   `${SITE_URL}/convert/yd-to-m`,
   `${SITE_URL}/convert/oz-to-lb`,
-  `${SITE_URL}/convert/lb-to-kg`
+  `${SITE_URL}/convert/lb-to-kg`,
+  `${SITE_URL}/blog/everyday-unit-conversions-for-travelers`,
+  `${SITE_URL}/temperature/c-to-f`,
+  `${SITE_URL}/temperature/f-to-c`,
+  `${SITE_URL}/speed/kmh-to-mph`,
+  `${SITE_URL}/speed/mph-to-kmh`,
+  `${SITE_URL}/currency/usd-to-eur`,
+  `${SITE_URL}/currency/eur-to-usd`,
+  `${SITE_URL}/clothing/us-to-eu`,
+  `${SITE_URL}/clothing/eu-to-us`,
+  `${SITE_URL}/volume/l-to-gal`,
+  `${SITE_URL}/volume/gal-to-l`
 ];
 
 async function pingGoogle() {
