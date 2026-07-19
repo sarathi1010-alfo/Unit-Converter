@@ -35,7 +35,18 @@ const NEW_URLS = [
   `${SITE_URL}/clothing/us-to-eu`,
   `${SITE_URL}/clothing/eu-to-us`,
   `${SITE_URL}/volume/l-to-gal`,
-  `${SITE_URL}/volume/gal-to-l`
+  `${SITE_URL}/volume/gal-to-l`,
+  `${SITE_URL}/blog/essential-unit-conversions-for-diy`,
+  `${SITE_URL}/length/mm-to-in`,
+  `${SITE_URL}/length/in-to-mm`,
+  `${SITE_URL}/length/cm-to-ft`,
+  `${SITE_URL}/length/ft-to-cm`,
+  `${SITE_URL}/weight/kg-to-g`,
+  `${SITE_URL}/weight/g-to-kg`,
+  `${SITE_URL}/weight/lb-to-oz`,
+  `${SITE_URL}/area/sqm-to-sqft`,
+  `${SITE_URL}/volume/ml-to-floz`,
+  `${SITE_URL}/volume/floz-to-ml`
 ];
 
 async function pingGoogle() {

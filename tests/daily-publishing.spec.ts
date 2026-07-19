@@ -30,7 +30,18 @@ const newUrls = [
   '/clothing/us-to-eu',
   '/clothing/eu-to-us',
   '/volume/l-to-gal',
-  '/volume/gal-to-l'
+  '/volume/gal-to-l',
+  '/blog/essential-unit-conversions-for-diy',
+  '/length/mm-to-in',
+  '/length/in-to-mm',
+  '/length/cm-to-ft',
+  '/length/ft-to-cm',
+  '/weight/kg-to-g',
+  '/weight/g-to-kg',
+  '/weight/lb-to-oz',
+  '/area/sqm-to-sqft',
+  '/volume/ml-to-floz',
+  '/volume/floz-to-ml'
 ];
 
 test.describe('Daily Publishing Verification', () => {
