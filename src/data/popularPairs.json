@@ -19,5 +19,15 @@
   { "categoryId": "cooking", "from": "cups", "to": "ml" },
   { "categoryId": "clothing", "from": "us", "to": "eu" },
   { "categoryId": "length", "from": "yd", "to": "m" },
-  { "categoryId": "weight", "from": "oz", "to": "lb" }
+  { "categoryId": "weight", "from": "oz", "to": "lb" },
+  { "categoryId": "length", "from": "mm", "to": "in" },
+  { "categoryId": "length", "from": "in", "to": "mm" },
+  { "categoryId": "length", "from": "cm", "to": "ft" },
+  { "categoryId": "length", "from": "ft", "to": "cm" },
+  { "categoryId": "weight", "from": "kg", "to": "g" },
+  { "categoryId": "weight", "from": "g", "to": "kg" },
+  { "categoryId": "weight", "from": "lb", "to": "oz" },
+  { "categoryId": "area", "from": "sqm", "to": "sqft" },
+  { "categoryId": "volume", "from": "ml", "to": "floz" },
+  { "categoryId": "volume", "from": "floz", "to": "ml" }
 ]

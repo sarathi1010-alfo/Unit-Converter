@@ -64,13 +64,14 @@ test.describe('Unit Converter Frontend Verification', () => {
 
     // Verify script tags exist
     const scripts = await page.locator('script[type="application/ld+json"]').all();
-    expect(scripts.length).toBeGreaterThanOrEqual(2); // One for App, One for FAQ
+    expect(scripts.length).toBeGreaterThanOrEqual(3); // App, Article, FAQ
 
     // Check FAQ contents roughly
-    const firstScript = await scripts[0].textContent();
-    const secondScript = await scripts[1].textContent();
+    let fullContent = '';
+    for (const script of scripts) {
+      fullContent += await script.textContent() || '';
+    }
 
-    const fullContent = (firstScript || '') + (secondScript || '');
     expect(fullContent).toContain('FAQPage');
     expect(fullContent).toContain('WebApplication');
     expect(fullContent).toContain('Centimeter to Inch');
