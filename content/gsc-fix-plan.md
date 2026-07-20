@@ -66,3 +66,10 @@
 - **Execution:** Added 10 new social media distribution posts.
 - **Execution:** Retro-linked existing guides to the new DIY guide and updated `lastModified` tags.
 - **Status:** Complete. Proceeding with headless test validation and manual indexing API signals.
+
+### Action Log - July 20, 2026
+- **Execution:** Created Tier 1 Authority Article: "The Ultimate Guide to Cooking and Baking Conversions".
+- **Execution:** Added 10 new programmatic pairs focusing on cooking, volume, data, speed, pressure, and area workflows.
+- **Execution:** Added 10 new social media distribution posts.
+- **Execution:** Retro-linked existing guides to the new cooking guide and updated `lastModified` tags.
+- **Status:** Complete. Proceeding with headless test validation and manual indexing API signals.
