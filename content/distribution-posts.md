@@ -346,3 +346,87 @@ Learn how to integrate mental math with digital precision in your next project: 
 - **Title:** Fl Oz to mL: The 30mL Rule
 - **Description:** A must-have guide for resin art, painting, and DIY finishes. Learn how to convert fluid ounces to milliliters quickly in the workshop.
 - **Link:** https://unitflow.alfo.online/blog/essential-unit-conversions-for-diy
+
+# Social Media Distribution Posts (July 20, 2026)
+
+Targeting: "How to convert cooking units accurately"
+
+## Twitter/X (4 Posts)
+
+### Post 1: Volume vs Weight ⚖️
+Baking a cake? Never measure flour by volume. A cup of flour can vary by 30 grams depending on how it's scooped!
+Always use a digital scale and convert to grams for precision baking.
+
+Learn the golden rules of kitchen conversions: https://unitflow.alfo.online/blog/cooking-and-baking-conversions
+
+#BakingTips #HomeCooking #KitchenHacks #UnitFlow
+
+### Post 2: The "Divide by 4" Rule 🥄
+Scaling down a recipe and only need a quarter cup?
+1 Cup = 16 Tablespoons
+1/2 Cup = 8 Tablespoons
+1/4 Cup = 4 Tablespoons
+Master mental math for cooking: https://unitflow.alfo.online/blog/cooking-and-baking-conversions
+
+#CookingHacks #RecipeScaling #BakingMath
+
+### Post 3: Celsius to Fahrenheit Baking 🌡️
+Trying an international recipe?
+150°C = 300°F (Slow bake)
+175°C = 350°F (Standard)
+200°C = 400°F (Hot bake)
+Don't guess with your oven temperature. Use a deterministic tool.
+
+Check our full temperature guide: https://unitflow.alfo.online/blog/cooking-and-baking-conversions
+
+#Baking #InternationalRecipes #UnitFlow
+
+### Post 4: Digital Tools for the Kitchen 📱
+Scaling a recipe from 4 servings to 11? Don't do the math in your head.
+UnitFlow gives you zero-latency conversions for volume, weight, and temperature—no AI hallucinations, just pure math.
+
+Try it before your next dinner party: https://unitflow.alfo.online/
+
+#CookingApp #KitchenTech #Productivity
+
+## LinkedIn (3 Posts)
+
+### Post 1: Precision in the Culinary Arts 🍰
+Cooking is an art, but baking is a science. In professional kitchens, standardizing measurements from volume to weight is step one for consistency. A 20g difference in flour hydration can ruin a pastry.
+
+Our latest guide explores the essential conversions every chef—from home cook to professional—needs to master.
+
+Read more: https://unitflow.alfo.online/blog/cooking-and-baking-conversions
+
+#CulinaryArts #Baking #ProfessionalKitchen #Standardization
+
+### Post 2: Why We Built a Tool for Bakers 🧑‍🍳
+When you have flour on your hands, you don't have time to wait for a slow website to load or a chatbot to generate a response. You need instant, reliable math. That's why UnitFlow is built as a zero-latency, deterministic utility.
+
+Experience the fastest way to convert kitchen units: https://unitflow.alfo.online/
+
+#SaaS #ProductDesign #WebPerf #FoodTech
+
+### Post 3: Bridging the Imperial/Metric Divide 🌍
+With the rise of global food content, recipes cross borders faster than ever. But translating a French pastry recipe (metric/Celsius) to an American kitchen (imperial/Fahrenheit) is a recipe for disaster without the right tools.
+
+Learn how to bridge the measurement gap: https://unitflow.alfo.online/blog/cooking-and-baking-conversions
+
+#GlobalFood #Cooking #RecipeDevelopment #UnitFlow
+
+## Pinterest (3 Posts)
+
+### Post 1: The Ultimate Kitchen Conversion Chart
+- **Title:** Cups to Tablespoons: The Divide by 4 Rule
+- **Description:** Scaling down a recipe? Save this handy cheat sheet for converting cups to tablespoons instantly! Perfect for baking and cooking.
+- **Link:** https://unitflow.alfo.online/blog/cooking-and-baking-conversions
+
+### Post 2: Baking Temperature Guide
+- **Title:** Celsius to Fahrenheit Oven Temperatures
+- **Description:** Standard, slow, or hot bake? Never guess your oven temperature again. A quick visual guide to converting international recipes.
+- **Link:** https://unitflow.alfo.online/blog/cooking-and-baking-conversions
+
+### Post 3: Volume vs Weight in Baking
+- **Title:** Why You Should Weigh Your Flour
+- **Description:** A cup of flour isn't always a cup of flour. Learn why professional bakers use scales and grams instead of cups for perfect results every time.
+- **Link:** https://unitflow.alfo.online/blog/cooking-and-baking-conversions

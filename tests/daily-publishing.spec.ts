@@ -42,6 +42,18 @@ const newUrls = [
   '/area/sqm-to-sqft',
   '/volume/ml-to-floz',
   '/volume/floz-to-ml'
+,
+  '/blog/cooking-and-baking-conversions',
+  '/data/gb-to-mb',
+  '/data/tb-to-gb',
+  '/data/kb-to-mb',
+  '/volume/m3-to-l',
+  '/volume/l-to-m3',
+  '/cooking/ml-to-cups',
+  '/speed/ms-to-kmh',
+  '/area/sqft-to-acre',
+  '/area/acre-to-sqft',
+  '/pressure/psi-to-kpa'
 ];
 
 test.describe('Daily Publishing Verification', () => {

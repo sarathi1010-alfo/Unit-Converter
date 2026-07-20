@@ -47,6 +47,18 @@ const NEW_URLS = [
   `${SITE_URL}/area/sqm-to-sqft`,
   `${SITE_URL}/volume/ml-to-floz`,
   `${SITE_URL}/volume/floz-to-ml`
+,
+  `${SITE_URL}/blog/cooking-and-baking-conversions`,
+  `${SITE_URL}/data/gb-to-mb`,
+  `${SITE_URL}/data/tb-to-gb`,
+  `${SITE_URL}/data/kb-to-mb`,
+  `${SITE_URL}/volume/m3-to-l`,
+  `${SITE_URL}/volume/l-to-m3`,
+  `${SITE_URL}/cooking/ml-to-cups`,
+  `${SITE_URL}/speed/ms-to-kmh`,
+  `${SITE_URL}/area/sqft-to-acre`,
+  `${SITE_URL}/area/acre-to-sqft`,
+  `${SITE_URL}/pressure/psi-to-kpa`
 ];
 
 async function pingGoogle() {
