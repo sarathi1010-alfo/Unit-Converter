@@ -203,5 +203,55 @@
     "categoryId": "pressure",
     "from": "psi",
     "to": "kpa"
+  },
+  {
+    "categoryId": "data",
+    "from": "b",
+    "to": "kb"
+  },
+  {
+    "categoryId": "data",
+    "from": "kb",
+    "to": "b"
+  },
+  {
+    "categoryId": "speed",
+    "from": "mph",
+    "to": "ms"
+  },
+  {
+    "categoryId": "speed",
+    "from": "mph",
+    "to": "kmh"
+  },
+  {
+    "categoryId": "power",
+    "from": "w",
+    "to": "kw"
+  },
+  {
+    "categoryId": "power",
+    "from": "kw",
+    "to": "w"
+  },
+  {
+    "categoryId": "power",
+    "from": "hp",
+    "to": "kw"
+  },
+  {
+    "categoryId": "power",
+    "from": "kw",
+    "to": "hp"
+  },
+  {
+    "categoryId": "energy",
+    "from": "j",
+    "to": "cal"
+  },
+  {
+    "categoryId": "energy",
+    "from": "cal",
+    "to": "j"
   }
 ]

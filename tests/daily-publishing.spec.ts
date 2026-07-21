@@ -41,8 +41,7 @@ const newUrls = [
   '/weight/lb-to-oz',
   '/area/sqm-to-sqft',
   '/volume/ml-to-floz',
-  '/volume/floz-to-ml'
-,
+  '/volume/floz-to-ml',
   '/blog/cooking-and-baking-conversions',
   '/data/gb-to-mb',
   '/data/tb-to-gb',
@@ -53,7 +52,17 @@ const newUrls = [
   '/speed/ms-to-kmh',
   '/area/sqft-to-acre',
   '/area/acre-to-sqft',
-  '/pressure/psi-to-kpa'
+  '/pressure/psi-to-kpa',
+  '/blog/digital-data-storage-unit-conversion-guide',
+  '/data/b-to-kb',
+  '/data/kb-to-b',
+  '/speed/mph-to-ms',
+  '/power/w-to-kw',
+  '/power/kw-to-w',
+  '/power/hp-to-kw',
+  '/power/kw-to-hp',
+  '/energy/j-to-cal',
+  '/energy/cal-to-j'
 ];
 
 test.describe('Daily Publishing Verification', () => {

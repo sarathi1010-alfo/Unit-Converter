@@ -4,6 +4,7 @@ import { compileMDX } from "next-mdx-remote/rsc";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { AICitationBlock } from "@/components/seo/AICitationBlock";
+import { TrustReinforcement } from "@/components/seo/TrustReinforcement";
 
 export async function generateStaticParams() {
   const contentDir = path.join(process.cwd(), "content/blog");
@@ -69,7 +70,8 @@ export default async function BlogPostPage(
     source,
     options: { parseFrontmatter: true },
     components: {
-      AICitationBlock: (props) => <AICitationBlock {...props} />
+      AICitationBlock: (props) => <AICitationBlock {...props} />,
+      TrustReinforcement: (props) => <TrustReinforcement {...props} />
     }
   });
 
