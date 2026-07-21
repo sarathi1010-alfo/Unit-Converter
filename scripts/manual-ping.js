@@ -58,8 +58,18 @@ const NEW_URLS = [
   `${SITE_URL}/speed/ms-to-kmh`,
   `${SITE_URL}/area/sqft-to-acre`,
   `${SITE_URL}/area/acre-to-sqft`,
-  `${SITE_URL}/pressure/psi-to-kpa`
-];
+  `${SITE_URL}/pressure/psi-to-kpa`,
+  `${SITE_URL}/blog/digital-data-storage-unit-conversion-guide`,
+  `${SITE_URL}/data/b-to-kb`,
+  `${SITE_URL}/data/kb-to-b`,
+  `${SITE_URL}/speed/mph-to-ms`,
+  `${SITE_URL}/speed/mph-to-kmh`,
+  `${SITE_URL}/power/w-to-kw`,
+  `${SITE_URL}/power/kw-to-w`,
+  `${SITE_URL}/power/hp-to-kw`,
+  `${SITE_URL}/power/kw-to-hp`,
+  `${SITE_URL}/energy/j-to-cal`,
+  `${SITE_URL}/energy/cal-to-j`];
 
 async function pingGoogle() {
   console.log(`[Google] Pinging sitemap: ${SITEMAP_URL}`);
