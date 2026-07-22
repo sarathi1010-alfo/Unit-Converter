@@ -253,5 +253,55 @@
     "categoryId": "energy",
     "from": "cal",
     "to": "j"
+  },
+  {
+    "categoryId": "pressure",
+    "from": "psi",
+    "to": "bar"
+  },
+  {
+    "categoryId": "pressure",
+    "from": "bar",
+    "to": "psi"
+  },
+  {
+    "categoryId": "pressure",
+    "from": "kpa",
+    "to": "bar"
+  },
+  {
+    "categoryId": "pressure",
+    "from": "bar",
+    "to": "kpa"
+  },
+  {
+    "categoryId": "pressure",
+    "from": "kpa",
+    "to": "atm"
+  },
+  {
+    "categoryId": "pressure",
+    "from": "atm",
+    "to": "kpa"
+  },
+  {
+    "categoryId": "energy",
+    "from": "j",
+    "to": "kwh"
+  },
+  {
+    "categoryId": "energy",
+    "from": "kwh",
+    "to": "j"
+  },
+  {
+    "categoryId": "energy",
+    "from": "btu",
+    "to": "cal"
+  },
+  {
+    "categoryId": "energy",
+    "from": "cal",
+    "to": "btu"
   }
 ]

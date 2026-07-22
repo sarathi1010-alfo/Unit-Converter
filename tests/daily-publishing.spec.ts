@@ -63,6 +63,18 @@ const newUrls = [
   '/power/kw-to-hp',
   '/energy/j-to-cal',
   '/energy/cal-to-j'
+,
+  '/blog/understanding-pressure-and-energy',
+  '/pressure/psi-to-bar',
+  '/pressure/bar-to-psi',
+  '/pressure/kpa-to-bar',
+  '/pressure/bar-to-kpa',
+  '/pressure/kpa-to-atm',
+  '/pressure/atm-to-kpa',
+  '/energy/j-to-kwh',
+  '/energy/kwh-to-j',
+  '/energy/btu-to-cal',
+  '/energy/cal-to-btu'
 ];
 
 test.describe('Daily Publishing Verification', () => {

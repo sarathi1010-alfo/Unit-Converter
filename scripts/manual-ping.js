@@ -69,7 +69,19 @@ const NEW_URLS = [
   `${SITE_URL}/power/hp-to-kw`,
   `${SITE_URL}/power/kw-to-hp`,
   `${SITE_URL}/energy/j-to-cal`,
-  `${SITE_URL}/energy/cal-to-j`];
+  `${SITE_URL}/energy/cal-to-j`,
+  `${SITE_URL}/blog/understanding-pressure-and-energy`,
+  `${SITE_URL}/pressure/psi-to-bar`,
+  `${SITE_URL}/pressure/bar-to-psi`,
+  `${SITE_URL}/pressure/kpa-to-bar`,
+  `${SITE_URL}/pressure/bar-to-kpa`,
+  `${SITE_URL}/pressure/kpa-to-atm`,
+  `${SITE_URL}/pressure/atm-to-kpa`,
+  `${SITE_URL}/energy/j-to-kwh`,
+  `${SITE_URL}/energy/kwh-to-j`,
+  `${SITE_URL}/energy/btu-to-cal`,
+  `${SITE_URL}/energy/cal-to-btu`
+];
 
 async function pingGoogle() {
   console.log(`[Google] Pinging sitemap: ${SITEMAP_URL}`);
