@@ -303,5 +303,55 @@
     "categoryId": "energy",
     "from": "cal",
     "to": "btu"
+  },
+  {
+    "categoryId": "temperature",
+    "from": "c",
+    "to": "k"
+  },
+  {
+    "categoryId": "temperature",
+    "from": "k",
+    "to": "c"
+  },
+  {
+    "categoryId": "temperature",
+    "from": "f",
+    "to": "k"
+  },
+  {
+    "categoryId": "temperature",
+    "from": "k",
+    "to": "f"
+  },
+  {
+    "categoryId": "weight",
+    "from": "kg",
+    "to": "oz"
+  },
+  {
+    "categoryId": "weight",
+    "from": "oz",
+    "to": "kg"
+  },
+  {
+    "categoryId": "weight",
+    "from": "g",
+    "to": "lb"
+  },
+  {
+    "categoryId": "weight",
+    "from": "lb",
+    "to": "g"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mt",
+    "to": "kg"
+  },
+  {
+    "categoryId": "weight",
+    "from": "kg",
+    "to": "mt"
   }
 ]

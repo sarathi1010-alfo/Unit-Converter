@@ -81,7 +81,18 @@ const NEW_URLS = [
   `${SITE_URL}/energy/kwh-to-j`,
   `${SITE_URL}/energy/btu-to-cal`,
   `${SITE_URL}/energy/cal-to-btu`
-];
+,
+  `${SITE_URL}/blog/scientific-and-precision-measurement-conversions`,
+  `${SITE_URL}/temperature/c-to-k`,
+  `${SITE_URL}/temperature/k-to-c`,
+  `${SITE_URL}/temperature/f-to-k`,
+  `${SITE_URL}/temperature/k-to-f`,
+  `${SITE_URL}/weight/kg-to-oz`,
+  `${SITE_URL}/weight/oz-to-kg`,
+  `${SITE_URL}/weight/g-to-lb`,
+  `${SITE_URL}/weight/lb-to-g`,
+  `${SITE_URL}/weight/mt-to-kg`,
+  `${SITE_URL}/weight/kg-to-mt`];
 
 async function pingGoogle() {
   console.log(`[Google] Pinging sitemap: ${SITEMAP_URL}`);
