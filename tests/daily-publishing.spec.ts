@@ -75,6 +75,18 @@ const newUrls = [
   '/energy/kwh-to-j',
   '/energy/btu-to-cal',
   '/energy/cal-to-btu'
+,
+  '/blog/the-complete-guide-to-temperature-conversion',
+  '/temperature/c-to-k',
+  '/temperature/k-to-c',
+  '/temperature/f-to-k',
+  '/temperature/k-to-f',
+  '/area/acre-to-sqm',
+  '/area/sqm-to-acre',
+  '/area/hectare-to-acre',
+  '/area/sqkm-to-sqmi',
+  '/length/m-to-yd',
+  '/length/km-to-ft'
 ];
 
 test.describe('Daily Publishing Verification', () => {

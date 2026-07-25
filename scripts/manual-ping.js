@@ -81,6 +81,18 @@ const NEW_URLS = [
   `${SITE_URL}/energy/kwh-to-j`,
   `${SITE_URL}/energy/btu-to-cal`,
   `${SITE_URL}/energy/cal-to-btu`
+,
+  `${SITE_URL}/blog/the-complete-guide-to-temperature-conversion`,
+  `${SITE_URL}/temperature/c-to-k`,
+  `${SITE_URL}/temperature/k-to-c`,
+  `${SITE_URL}/temperature/f-to-k`,
+  `${SITE_URL}/temperature/k-to-f`,
+  `${SITE_URL}/area/acre-to-sqm`,
+  `${SITE_URL}/area/sqm-to-acre`,
+  `${SITE_URL}/area/hectare-to-acre`,
+  `${SITE_URL}/area/sqkm-to-sqmi`,
+  `${SITE_URL}/length/m-to-yd`,
+  `${SITE_URL}/length/km-to-ft`
 ];
 
 async function pingGoogle() {
