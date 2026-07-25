@@ -303,5 +303,55 @@
     "categoryId": "energy",
     "from": "cal",
     "to": "btu"
+  },
+  {
+    "categoryId": "temperature",
+    "from": "c",
+    "to": "k"
+  },
+  {
+    "categoryId": "temperature",
+    "from": "k",
+    "to": "c"
+  },
+  {
+    "categoryId": "temperature",
+    "from": "f",
+    "to": "k"
+  },
+  {
+    "categoryId": "temperature",
+    "from": "k",
+    "to": "f"
+  },
+  {
+    "categoryId": "area",
+    "from": "acre",
+    "to": "sqm"
+  },
+  {
+    "categoryId": "area",
+    "from": "sqm",
+    "to": "acre"
+  },
+  {
+    "categoryId": "area",
+    "from": "hectare",
+    "to": "acre"
+  },
+  {
+    "categoryId": "area",
+    "from": "sqkm",
+    "to": "sqmi"
+  },
+  {
+    "categoryId": "length",
+    "from": "m",
+    "to": "yd"
+  },
+  {
+    "categoryId": "length",
+    "from": "km",
+    "to": "ft"
   }
 ]
