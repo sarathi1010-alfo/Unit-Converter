@@ -93,6 +93,19 @@ const NEW_URLS = [
   `${SITE_URL}/area/sqkm-to-sqmi`,
   `${SITE_URL}/length/m-to-yd`,
   `${SITE_URL}/length/km-to-ft`
+,
+  `${SITE_URL}/blog/unit-conversions-for-fitness-and-health`,
+  `${SITE_URL}/weight/kg-to-oz`,
+  `${SITE_URL}/weight/oz-to-kg`,
+  `${SITE_URL}/weight/g-to-lb`,
+  `${SITE_URL}/weight/lb-to-g`,
+  `${SITE_URL}/weight/stone-to-kg`,
+  `${SITE_URL}/weight/kg-to-stone`,
+  `${SITE_URL}/weight/stone-to-lb`,
+  `${SITE_URL}/weight/lb-to-stone`,
+  `${SITE_URL}/length/mi-to-ft`,
+  `${SITE_URL}/length/ft-to-mi`
+
 ];
 
 async function pingGoogle() {

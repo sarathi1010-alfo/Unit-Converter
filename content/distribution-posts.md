@@ -582,3 +582,53 @@ Link: https://unitflow.alfo.online/blog/the-complete-guide-to-temperature-conver
 **Pin 10: "Why Science Uses Kelvin"**
 (Educational graphic comparing Kelvin to Celsius and explaining Absolute Zero)
 Link: https://unitflow.alfo.online/blog/the-complete-guide-to-temperature-conversion
+
+# Social Media Distribution Posts (July 26, 2026)
+
+Targeting: "The Ultimate Guide to Unit Conversions for Fitness and Health"
+
+## Twitter/X (4 Posts)
+
+### Post 1: Barbell Math 🏋️‍♂️
+Did you load 225 lbs or 100 kg? In the weight room, precision matters. Blue plates (20kg) are not the same as standard 45lb plates! Learn how to navigate the international barbell weight differences: https://unitflow.alfo.online/blog/unit-conversions-for-fitness-and-health
+#Fitness #Weightlifting #GymTips #UnitConversion
+
+### Post 2: Mental Math for Runners 🏃‍♀️
+Quick hack for runners: Use the Fibonacci sequence to estimate miles to kilometers! 5 miles is approx 8 km, and 8 miles is approx 13 km. Read our complete guide to fitness conversions: https://unitflow.alfo.online/blog/unit-conversions-for-fitness-and-health
+#Running #MarathonTraining #MathHacks
+
+### Post 3: Macro Precision 🍗
+Trying to hit your protein targets? If your tracking app uses grams but you bought a 12 oz chicken breast, you need exact conversions. Don't leave your macros to guesswork. https://unitflow.alfo.online/blog/unit-conversions-for-fitness-and-health
+#Nutrition #Macros #FitnessJourney
+
+### Post 4: Body Weight Basics ⚖️
+Quick conversion tip: To go from pounds to kilograms mentally, divide by 2 and subtract 10%! (e.g., 200 lbs / 2 = 100. 100 - 10 = 90kg). Discover more fitness math hacks: https://unitflow.alfo.online/blog/unit-conversions-for-fitness-and-health
+#Health #WeightLoss #FitnessHacks
+
+## LinkedIn (3 Posts)
+
+**Post 5: Global Fitness Data 🌍**
+For fitness coaches and personal trainers working with international clients, standardized unit conversions are a necessity. If your app tracks in pounds but your client uses kilograms or stones, you risk under-prescribing training loads. We put together a guide to solving this exactly. Read it here: https://unitflow.alfo.online/blog/unit-conversions-for-fitness-and-health
+#PersonalTraining #FitnessIndustry #Coaching #DataAccuracy
+
+**Post 6: The Importance of Precision in Nutrition 🥗**
+Whether you're formulating a diet plan or developing a new health app, unit consistency is critical. Converting fluid ounces to milliliters or ounces to grams accurately ensures nutritional targets are met. Check out our latest guide on fitness conversions: https://unitflow.alfo.online/blog/unit-conversions-for-fitness-and-health
+#HealthTech #Nutrition #Dietetics
+
+**Post 7: Our Newest Integrations 🚀**
+We just added 10 new programmatic conversion pairs specifically focused on fitness and body weight metrics, including conversions for stones (st) and precise lb-to-g calculations. Ensure your tracking is flawless with UnitFlow. Read more: https://unitflow.alfo.online/blog/unit-conversions-for-fitness-and-health
+#SaaS #UnitFlow #HealthAndWellness
+
+## Pinterest (3 Posts)
+
+**Pin 8: "The Runner's Cheat Sheet: Miles to Kilometers"**
+(Visual infographic showing common running distances: 5K, 10K, Half Marathon, Marathon with their exact mile equivalents)
+Link: https://unitflow.alfo.online/blog/unit-conversions-for-fitness-and-health
+
+**Pin 9: "Kitchen Scale Conversions for Perfect Macros"**
+(Graphic highlighting common protein weights, converting ounces to grams for precise nutrition tracking)
+Link: https://unitflow.alfo.online/blog/unit-conversions-for-fitness-and-health
+
+**Pin 10: "Mental Math: Pounds to Kilograms"**
+(Educational graphic showing the 'divide by 2, subtract 10%' rule for quick body weight conversions)
+Link: https://unitflow.alfo.online/blog/unit-conversions-for-fitness-and-health
