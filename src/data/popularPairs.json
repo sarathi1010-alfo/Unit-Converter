@@ -353,5 +353,55 @@
     "categoryId": "length",
     "from": "km",
     "to": "ft"
+  },
+  {
+    "categoryId": "weight",
+    "from": "kg",
+    "to": "oz"
+  },
+  {
+    "categoryId": "weight",
+    "from": "oz",
+    "to": "kg"
+  },
+  {
+    "categoryId": "weight",
+    "from": "g",
+    "to": "lb"
+  },
+  {
+    "categoryId": "weight",
+    "from": "lb",
+    "to": "g"
+  },
+  {
+    "categoryId": "weight",
+    "from": "stone",
+    "to": "kg"
+  },
+  {
+    "categoryId": "weight",
+    "from": "kg",
+    "to": "stone"
+  },
+  {
+    "categoryId": "weight",
+    "from": "stone",
+    "to": "lb"
+  },
+  {
+    "categoryId": "weight",
+    "from": "lb",
+    "to": "stone"
+  },
+  {
+    "categoryId": "length",
+    "from": "mi",
+    "to": "ft"
+  },
+  {
+    "categoryId": "length",
+    "from": "ft",
+    "to": "mi"
   }
 ]

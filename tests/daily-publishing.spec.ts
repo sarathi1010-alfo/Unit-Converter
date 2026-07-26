@@ -87,6 +87,19 @@ const newUrls = [
   '/area/sqkm-to-sqmi',
   '/length/m-to-yd',
   '/length/km-to-ft'
+,
+  '/blog/unit-conversions-for-fitness-and-health',
+  '/weight/kg-to-oz',
+  '/weight/oz-to-kg',
+  '/weight/g-to-lb',
+  '/weight/lb-to-g',
+  '/weight/stone-to-kg',
+  '/weight/kg-to-stone',
+  '/weight/stone-to-lb',
+  '/weight/lb-to-stone',
+  '/length/mi-to-ft',
+  '/length/ft-to-mi'
+
 ];
 
 test.describe('Daily Publishing Verification', () => {

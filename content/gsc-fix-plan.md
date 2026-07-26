@@ -94,3 +94,10 @@
 - **Execution:** Added 10 new social media distribution posts.
 - **Execution:** Retro-linked existing guides to the new temperature guide and updated `lastModified` tags.
 - **Status:** Complete. Proceeding with headless test validation and manual indexing API signals.
+
+### Action Log - July 26, 2026
+- **Execution:** Created Tier 1 Authority Article: "The Ultimate Guide to Unit Conversions for Fitness and Health".
+- **Execution:** Added 10 new programmatic pairs focusing on fitness and weight (e.g., kg-to-oz, stone-to-kg, mi-to-ft).
+- **Execution:** Added 10 new social media distribution posts.
+- **Execution:** Retro-linked existing guides to the new fitness guide and updated `lastModified` tags.
+- **Status:** Complete. Proceeding with headless test validation and manual indexing API signals.
