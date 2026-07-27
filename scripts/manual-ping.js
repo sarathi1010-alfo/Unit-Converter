@@ -104,8 +104,19 @@ const NEW_URLS = [
   `${SITE_URL}/weight/stone-to-lb`,
   `${SITE_URL}/weight/lb-to-stone`,
   `${SITE_URL}/length/mi-to-ft`,
-  `${SITE_URL}/length/ft-to-mi`
+  `${SITE_URL}/length/ft-to-mi`,
 
+  `${SITE_URL}/blog/the-complete-guide-to-area-conversions-for-real-estate`,
+  `${SITE_URL}/area/sqm-to-hectare`,
+  `${SITE_URL}/area/hectare-to-sqm`,
+  `${SITE_URL}/area/sqmi-to-sqkm`,
+  `${SITE_URL}/area/sqmi-to-acre`,
+  `${SITE_URL}/area/acre-to-sqmi`,
+  `${SITE_URL}/area/sqkm-to-hectare`,
+  `${SITE_URL}/area/hectare-to-sqkm`,
+  `${SITE_URL}/area/sqft-to-hectare`,
+  `${SITE_URL}/area/hectare-to-sqft`,
+  `${SITE_URL}/area/acre-to-hectare`,
 ];
 
 async function pingGoogle() {

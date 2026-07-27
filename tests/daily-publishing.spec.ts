@@ -98,8 +98,19 @@ const newUrls = [
   '/weight/stone-to-lb',
   '/weight/lb-to-stone',
   '/length/mi-to-ft',
-  '/length/ft-to-mi'
+  '/length/ft-to-mi',
 
+  '/blog/the-complete-guide-to-area-conversions-for-real-estate',
+  '/area/sqm-to-hectare',
+  '/area/hectare-to-sqm',
+  '/area/sqmi-to-sqkm',
+  '/area/sqmi-to-acre',
+  '/area/acre-to-sqmi',
+  '/area/sqkm-to-hectare',
+  '/area/hectare-to-sqkm',
+  '/area/sqft-to-hectare',
+  '/area/hectare-to-sqft',
+  '/area/acre-to-hectare',
 ];
 
 test.describe('Daily Publishing Verification', () => {

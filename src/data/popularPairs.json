@@ -403,5 +403,55 @@
     "categoryId": "length",
     "from": "ft",
     "to": "mi"
+  },
+  {
+    "categoryId": "area",
+    "from": "sqm",
+    "to": "hectare"
+  },
+  {
+    "categoryId": "area",
+    "from": "hectare",
+    "to": "sqm"
+  },
+  {
+    "categoryId": "area",
+    "from": "sqmi",
+    "to": "sqkm"
+  },
+  {
+    "categoryId": "area",
+    "from": "sqmi",
+    "to": "acre"
+  },
+  {
+    "categoryId": "area",
+    "from": "acre",
+    "to": "sqmi"
+  },
+  {
+    "categoryId": "area",
+    "from": "sqkm",
+    "to": "hectare"
+  },
+  {
+    "categoryId": "area",
+    "from": "hectare",
+    "to": "sqkm"
+  },
+  {
+    "categoryId": "area",
+    "from": "sqft",
+    "to": "hectare"
+  },
+  {
+    "categoryId": "area",
+    "from": "hectare",
+    "to": "sqft"
+  },
+  {
+    "categoryId": "area",
+    "from": "acre",
+    "to": "hectare"
   }
 ]
