@@ -111,6 +111,17 @@ const newUrls = [
   '/area/sqft-to-hectare',
   '/area/hectare-to-sqft',
   '/area/acre-to-hectare',
+  '/blog/the-complete-guide-to-speed-conversions',
+  '/speed/kmh-to-ms',
+  '/speed/kmh-to-knot',
+  '/speed/mph-to-knot',
+  '/speed/ms-to-mph',
+  '/speed/ms-to-knot',
+  '/speed/knot-to-kmh',
+  '/speed/knot-to-mph',
+  '/speed/knot-to-ms',
+  '/volume/l-to-ml',
+  '/volume/l-to-cup',
 ];
 
 test.describe('Daily Publishing Verification', () => {

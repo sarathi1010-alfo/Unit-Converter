@@ -1,3 +1,68 @@
+# Social Media Distribution Posts (July 28, 2026)
+
+Targeting: "The Complete Guide to Speed Conversions for Travel and Physics"
+
+## Twitter/X (4 Posts)
+
+### Post 1: The Fibonacci Hack 🔢
+Did you know the Fibonacci sequence is the ultimate mental math trick for travelers? 5 mi ≈ 8 km, 8 mi ≈ 13 km, 13 mi ≈ 21 km. Next time you rent a car abroad, you'll be ready! 🏎️
+
+Learn more hacks: https://unitflow.alfo.online/blog/the-complete-guide-to-speed-conversions
+
+#TravelHacks #MathTricks #UnitConversion
+
+### Post 2: Speed Conversion Secrets ⚡
+1 m/s = 3.6 km/h. Whether you're studying physics or just curious, getting speed conversions right is crucial.
+
+Check out our complete guide: https://unitflow.alfo.online/blog/the-complete-guide-to-speed-conversions
+
+#Physics #STEM #Engineering
+
+### Post 3: Knots vs km/h ⛵
+A knot is exactly 1.852 km/h. Why does this matter? Aviation and maritime navigation rely on it for safety and efficiency.
+
+Learn more about the units of speed: https://unitflow.alfo.online/blog/the-complete-guide-to-speed-conversions
+
+#Aviation #Sailing #Navigation
+
+### Post 4: UnitFlow Speed Converter 🚀
+Converting mph to km/h shouldn't slow you down. Try the fastest, keyboard-first converter on the web.
+
+Try UnitFlow today: https://unitflow.alfo.online/
+
+#UIUX #Productivity #SaaS
+
+## LinkedIn (3 Posts)
+
+### Post 1: Precision in Logistics
+Logistics and transportation professionals: how often do you have to convert between km/h and mph? Our new guide breaks down the importance of accuracy in speed conversions and provides practical mental math hacks.
+
+Read the guide here: https://unitflow.alfo.online/blog/the-complete-guide-to-speed-conversions
+
+### Post 2: The Engineer's Toolkit
+From automotive engineering to aerospace, converting meters per second to knots or km/h is a daily necessity. We built UnitFlow to make these conversions frictionless.
+
+Check out our new deep dive into speed conversions: https://unitflow.alfo.online/blog/the-complete-guide-to-speed-conversions
+
+### Post 3: Avoid Costly Errors
+In professional settings, a calculation error can be costly. We explore the consequences of speed conversion errors in our latest post, highlighting why digital tools are essential for deterministic accuracy.
+
+https://unitflow.alfo.online/blog/the-complete-guide-to-speed-conversions
+
+## Pinterest (3 Posts)
+
+### Pin 1: Speed Conversion Cheat Sheet
+(Visual of a speed limit sign showing both km/h and mph equivalents).
+"The ultimate speed conversion cheat sheet for your next road trip!"
+
+### Pin 2: The Fibonacci Travel Hack
+(Infographic showing the Fibonacci sequence matching miles to kilometers).
+"Use the Fibonacci sequence to convert miles to kilometers on the fly!"
+
+### Pin 3: Knots to km/h Guide
+(Image of a sailboat with a conversion table for knots to km/h and mph).
+"Understanding speed on the water: The complete guide to knots."
+
 # Social Media Distribution Posts (July 16, 2026)
 
 Targeting: "Quick Unit Conversion Guide" (Updated for July 16, 2026)
