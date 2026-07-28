@@ -117,6 +117,17 @@ const NEW_URLS = [
   `${SITE_URL}/area/sqft-to-hectare`,
   `${SITE_URL}/area/hectare-to-sqft`,
   `${SITE_URL}/area/acre-to-hectare`,
+  `${SITE_URL}/blog/the-complete-guide-to-speed-conversions`,
+  `${SITE_URL}/speed/kmh-to-ms`,
+  `${SITE_URL}/speed/kmh-to-knot`,
+  `${SITE_URL}/speed/mph-to-knot`,
+  `${SITE_URL}/speed/ms-to-mph`,
+  `${SITE_URL}/speed/ms-to-knot`,
+  `${SITE_URL}/speed/knot-to-kmh`,
+  `${SITE_URL}/speed/knot-to-mph`,
+  `${SITE_URL}/speed/knot-to-ms`,
+  `${SITE_URL}/volume/l-to-ml`,
+  `${SITE_URL}/volume/l-to-cup`,
 ];
 
 async function pingGoogle() {

@@ -453,5 +453,55 @@
     "categoryId": "area",
     "from": "acre",
     "to": "hectare"
+  },
+  {
+    "categoryId": "speed",
+    "from": "kmh",
+    "to": "ms"
+  },
+  {
+    "categoryId": "speed",
+    "from": "kmh",
+    "to": "knot"
+  },
+  {
+    "categoryId": "speed",
+    "from": "mph",
+    "to": "knot"
+  },
+  {
+    "categoryId": "speed",
+    "from": "ms",
+    "to": "mph"
+  },
+  {
+    "categoryId": "speed",
+    "from": "ms",
+    "to": "knot"
+  },
+  {
+    "categoryId": "speed",
+    "from": "knot",
+    "to": "kmh"
+  },
+  {
+    "categoryId": "speed",
+    "from": "knot",
+    "to": "mph"
+  },
+  {
+    "categoryId": "speed",
+    "from": "knot",
+    "to": "ms"
+  },
+  {
+    "categoryId": "volume",
+    "from": "l",
+    "to": "ml"
+  },
+  {
+    "categoryId": "volume",
+    "from": "l",
+    "to": "cup"
   }
 ]
