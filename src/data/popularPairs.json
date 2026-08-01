@@ -503,5 +503,55 @@
     "categoryId": "volume",
     "from": "l",
     "to": "cup"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mg",
+    "to": "g"
+  },
+  {
+    "categoryId": "weight",
+    "from": "g",
+    "to": "mg"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mt",
+    "to": "kg"
+  },
+  {
+    "categoryId": "weight",
+    "from": "kg",
+    "to": "mt"
+  },
+  {
+    "categoryId": "weight",
+    "from": "ton",
+    "to": "kg"
+  },
+  {
+    "categoryId": "weight",
+    "from": "kg",
+    "to": "ton"
+  },
+  {
+    "categoryId": "weight",
+    "from": "ton",
+    "to": "lb"
+  },
+  {
+    "categoryId": "weight",
+    "from": "lb",
+    "to": "ton"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mt",
+    "to": "ton"
+  },
+  {
+    "categoryId": "weight",
+    "from": "ton",
+    "to": "mt"
   }
 ]

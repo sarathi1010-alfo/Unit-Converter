@@ -128,6 +128,18 @@ const NEW_URLS = [
   `${SITE_URL}/speed/knot-to-ms`,
   `${SITE_URL}/volume/l-to-ml`,
   `${SITE_URL}/volume/l-to-cup`,
+
+  `${SITE_URL}/blog/the-complete-guide-to-weight-and-mass-conversions`,
+  `${SITE_URL}/weight/mg-to-g`,
+  `${SITE_URL}/weight/g-to-mg`,
+  `${SITE_URL}/weight/mt-to-kg`,
+  `${SITE_URL}/weight/kg-to-mt`,
+  `${SITE_URL}/weight/ton-to-kg`,
+  `${SITE_URL}/weight/kg-to-ton`,
+  `${SITE_URL}/weight/ton-to-lb`,
+  `${SITE_URL}/weight/lb-to-ton`,
+  `${SITE_URL}/weight/mt-to-ton`,
+  `${SITE_URL}/weight/ton-to-mt`,
 ];
 
 async function pingGoogle() {
