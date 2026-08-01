@@ -122,6 +122,18 @@ const newUrls = [
   '/speed/knot-to-ms',
   '/volume/l-to-ml',
   '/volume/l-to-cup',
+
+  '/blog/the-complete-guide-to-weight-and-mass-conversions',
+  '/weight/mg-to-g',
+  '/weight/g-to-mg',
+  '/weight/mt-to-kg',
+  '/weight/kg-to-mt',
+  '/weight/ton-to-kg',
+  '/weight/kg-to-ton',
+  '/weight/ton-to-lb',
+  '/weight/lb-to-ton',
+  '/weight/mt-to-ton',
+  '/weight/ton-to-mt',
 ];
 
 test.describe('Daily Publishing Verification', () => {
