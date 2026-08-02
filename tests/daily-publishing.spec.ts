@@ -5,15 +5,6 @@ const SITE_URL = 'http://localhost:3000';
 const newUrls = [
   '/blog/conversion-hacks-for-engineers',
   '/blog/ultimate-guide-to-unit-conversion',
-  '/blog/what-is-a-conversion-factor',
-  '/blog/what-is-the-metric-system',
-  '/blog/what-is-the-imperial-system',
-  '/blog/what-is-an-si-unit',
-  '/blog/what-is-significant-figures',
-  '/length/cm-to-in',
-  '/length/in-to-cm',
-  '/length/km-to-mi',
-  '/length/mi-to-km',
   '/length/m-to-ft',
   '/weight/g-to-oz',
   '/weight/oz-to-g',
@@ -62,8 +53,7 @@ const newUrls = [
   '/power/hp-to-kw',
   '/power/kw-to-hp',
   '/energy/j-to-cal',
-  '/energy/cal-to-j'
-,
+  '/energy/cal-to-j',
   '/blog/understanding-pressure-and-energy',
   '/pressure/psi-to-bar',
   '/pressure/bar-to-psi',
@@ -74,8 +64,7 @@ const newUrls = [
   '/energy/j-to-kwh',
   '/energy/kwh-to-j',
   '/energy/btu-to-cal',
-  '/energy/cal-to-btu'
-,
+  '/energy/cal-to-btu',
   '/blog/the-complete-guide-to-temperature-conversion',
   '/temperature/c-to-k',
   '/temperature/k-to-c',
@@ -86,8 +75,7 @@ const newUrls = [
   '/area/hectare-to-acre',
   '/area/sqkm-to-sqmi',
   '/length/m-to-yd',
-  '/length/km-to-ft'
-,
+  '/length/km-to-ft',
   '/blog/unit-conversions-for-fitness-and-health',
   '/weight/kg-to-oz',
   '/weight/oz-to-kg',
@@ -99,7 +87,6 @@ const newUrls = [
   '/weight/lb-to-stone',
   '/length/mi-to-ft',
   '/length/ft-to-mi',
-
   '/blog/the-complete-guide-to-area-conversions-for-real-estate',
   '/area/sqm-to-hectare',
   '/area/hectare-to-sqm',
@@ -122,7 +109,6 @@ const newUrls = [
   '/speed/knot-to-ms',
   '/volume/l-to-ml',
   '/volume/l-to-cup',
-
   '/blog/the-complete-guide-to-weight-and-mass-conversions',
   '/weight/mg-to-g',
   '/weight/g-to-mg',
@@ -134,7 +120,24 @@ const newUrls = [
   '/weight/lb-to-ton',
   '/weight/mt-to-ton',
   '/weight/ton-to-mt',
+  '/blog/quick-unit-conversion-guide',
+  '/convert/ft-to-m',
+  '/convert/kg-to-lb',
+  '/convert/c-to-f',
+  '/convert/l-to-gal',
+  '/convert/sqft-to-sqm',
+  '/convert/kmh-to-mph',
+  '/convert/mb-to-gb',
+  '/convert/usd-to-eur',
+  '/convert/cups-to-ml',
+  '/convert/us-to-eu',
+  '/length/ft-to-m',
+  '/weight/kg-to-lb',
+  '/area/sqft-to-sqm',
+  '/data/mb-to-gb',
+  '/cooking/cups-to-ml'
 ];
+
 
 test.describe('Daily Publishing Verification', () => {
   for (const url of newUrls) {

@@ -47,7 +47,15 @@ export default function Home() {
 
       {/* Categories Grid */}
       <section id="categories">
-        <h2 className="text-2xl font-bold text-slate-900 mb-6">Browse Categories</h2>
+        <div className="flex flex-col md:flex-row md:items-center justify-between mb-6 gap-4">
+          <h2 className="text-2xl font-bold text-slate-900">Browse Categories</h2>
+          <Link
+            href="/blog/quick-unit-conversion-guide"
+            className="text-sm font-semibold text-primary hover:text-primary/80 flex items-center gap-1 transition-colors"
+          >
+            Guide: How to Convert Quickly & Accurately →
+          </Link>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {categories.map((category) => (
             <Link
