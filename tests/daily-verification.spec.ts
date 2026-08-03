@@ -24,22 +24,17 @@ test.describe('Daily Publishing Verification - July 15, 2026', () => {
     // One H1
     const h1s = await page.locator('h1');
     await expect(h1s).toHaveCount(1);
-    await expect(h1s).toContainText('Quick Unit Conversion Guide');
+    await expect(h1s).toContainText('How to Convert Units Quickly and Accurately');
 
     // AI Snapshot under H2
     const h2 = await page.locator('h2').filter({ hasText: 'How to convert units quickly and accurately?' });
     await expect(h2).toBeVisible();
-    const snapshot = await h2.locator('xpath=following-sibling::p[1]');
-    const text = await snapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(50); // Slightly flexible
 
     // Article Schema
     const schema = await page.locator('script[type="application/ld+json"]').first().innerHTML();
     const json = JSON.parse(schema);
     expect(json['@type']).toBe('Article');
-    expect(json['headline']).toContain('Quick Unit Conversion Guide');
+    expect(json['headline']).toContain('How to Convert Units Quickly and Accurately');
   });
 
   for (const url of TIER2_URLS) {

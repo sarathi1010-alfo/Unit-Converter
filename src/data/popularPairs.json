@@ -553,5 +553,55 @@
     "categoryId": "weight",
     "from": "ton",
     "to": "mt"
+  },
+  {
+    "categoryId": "length",
+    "from": "nm",
+    "to": "m"
+  },
+  {
+    "categoryId": "length",
+    "from": "m",
+    "to": "nm"
+  },
+  {
+    "categoryId": "length",
+    "from": "mm",
+    "to": "cm"
+  },
+  {
+    "categoryId": "length",
+    "from": "cm",
+    "to": "mm"
+  },
+  {
+    "categoryId": "length",
+    "from": "m",
+    "to": "cm"
+  },
+  {
+    "categoryId": "length",
+    "from": "cm",
+    "to": "m"
+  },
+  {
+    "categoryId": "length",
+    "from": "km",
+    "to": "m"
+  },
+  {
+    "categoryId": "length",
+    "from": "m",
+    "to": "km"
+  },
+  {
+    "categoryId": "length",
+    "from": "yd",
+    "to": "ft"
+  },
+  {
+    "categoryId": "length",
+    "from": "ft",
+    "to": "yd"
   }
 ]
