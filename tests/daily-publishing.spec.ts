@@ -135,7 +135,18 @@ const newUrls = [
   '/weight/kg-to-lb',
   '/area/sqft-to-sqm',
   '/data/mb-to-gb',
-  '/cooking/cups-to-ml'
+  '/cooking/cups-to-ml',
+  '/blog/the-complete-guide-to-length-conversion',
+  '/length/nm-to-m',
+  '/length/m-to-nm',
+  '/length/mm-to-cm',
+  '/length/cm-to-mm',
+  '/length/m-to-cm',
+  '/length/cm-to-m',
+  '/length/km-to-m',
+  '/length/m-to-km',
+  '/length/yd-to-ft',
+  '/length/ft-to-yd'
 ];
 
 

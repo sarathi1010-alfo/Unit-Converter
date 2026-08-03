@@ -162,6 +162,17 @@ const NEW_URLS = [
   `${SITE_URL}/currency/usd-to-eur`,
   `${SITE_URL}/cooking/cups-to-ml`,
   `${SITE_URL}/clothing/us-to-eu`,
+  `${SITE_URL}/blog/the-complete-guide-to-length-conversion`,
+  `${SITE_URL}/length/nm-to-m`,
+  `${SITE_URL}/length/m-to-nm`,
+  `${SITE_URL}/length/mm-to-cm`,
+  `${SITE_URL}/length/cm-to-mm`,
+  `${SITE_URL}/length/m-to-cm`,
+  `${SITE_URL}/length/cm-to-m`,
+  `${SITE_URL}/length/km-to-m`,
+  `${SITE_URL}/length/m-to-km`,
+  `${SITE_URL}/length/yd-to-ft`,
+  `${SITE_URL}/length/ft-to-yd`
 ];
 
 
