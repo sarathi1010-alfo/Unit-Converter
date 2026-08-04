@@ -172,7 +172,17 @@ const NEW_URLS = [
   `${SITE_URL}/length/km-to-m`,
   `${SITE_URL}/length/m-to-km`,
   `${SITE_URL}/length/yd-to-ft`,
-  `${SITE_URL}/length/ft-to-yd`
+  `${SITE_URL}/length/ft-to-yd`,
+  `${SITE_URL}/length/ft-to-km`,
+  `${SITE_URL}/volume/gal-to-l`,
+  `${SITE_URL}/volume/cup-to-ml`,
+  `${SITE_URL}/pressure/kpa-to-psi`,
+  `${SITE_URL}/length/m-to-mm`,
+  `${SITE_URL}/length/m-to-in`,
+  `${SITE_URL}/length/m-to-mi`,
+  `${SITE_URL}/length/cm-to-km`,
+  `${SITE_URL}/length/cm-to-yd`,
+  `${SITE_URL}/length/cm-to-mi`,
 ];
 
 

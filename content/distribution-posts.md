@@ -867,3 +867,53 @@ Link: https://unitflow.alfo.online/blog/the-complete-guide-to-length-conversion
 **Pin 10: "Mental Math: Estimate Meters to Yards Instantly"**
 (Educational graphic showing the 'add 10%' rule for quick area conversions)
 Link: https://unitflow.alfo.online/blog/the-complete-guide-to-length-conversion
+
+# Social Media Distribution Posts (August 04, 2026)
+
+Targeting: "Conversion Hacks for Engineers"
+
+## Twitter/X (4 Posts)
+
+### Post 1: Mental Math Hacks 🧠
+Need to quickly check if your miles to km conversion is right? The Fibonacci trick works wonders. 5 miles ≈ 8 km. 8 miles ≈ 13 km. It gets you very close without a calculator. But for your final design, use our tool: https://unitflow.alfo.online/blog/conversion-hacks-for-engineers
+#Engineering #MathHacks
+
+### Post 2: Sanity Checks on Site 🏗️
+Pounds to kg? Divide by 2, subtract 10%. 200 lbs -> 100 -> 90 kg. Getting the order of magnitude right is critical for engineering sanity checks. For precise measurements, see our comprehensive guide for engineers: https://unitflow.alfo.online/blog/conversion-hacks-for-engineers
+#CivilEngineering #QuickMath
+
+### Post 3: Don't Guess Torque ⚠️
+A common engineering mistake is mixing up lb-ft and N-m. 1 lb-ft is roughly 4/3 N-m. But when tightening a bolt, 'roughly' doesn't cut it. Learn why deterministic calculators beat mental math and AI: https://unitflow.alfo.online/blog/conversion-hacks-for-engineers
+#MechanicalEngineering #UnitFlow
+
+### Post 4: Fast & Accurate Conversions 📏
+UnitFlow is built for engineers. Press Cmd+K and type your conversion without breaking your flow state. Try it out and read our best practices: https://unitflow.alfo.online/blog/conversion-hacks-for-engineers
+#DevTools #EngineeringDesign
+
+## LinkedIn (3 Posts)
+
+**Post 5: Minimizing Risk Through Reliable Conversion 🌍**
+In large-scale engineering projects, a simple unit conversion mistake can result in catastrophic failure. Have you trained your team to do quick sanity checks using mental math? We cover the best hacks to avoid major oversights, and when to rely on a precise digital tool. Read more: https://unitflow.alfo.online/blog/conversion-hacks-for-engineers
+#EngineeringManagement #RiskMitigation #DesignEngineering
+
+**Post 6: Why the "Read-Aloud" Method Works 🗣️**
+When translating specs between metric and imperial systems, one of the easiest ways to catch a unit mix-up is simply to say the measurement aloud. Combining human protocols with precision tools is the ultimate defense. Dive into our latest guide for engineers: https://unitflow.alfo.online/blog/conversion-hacks-for-engineers
+#QualityAssurance #IndustrialEngineering #Productivity
+
+**Post 7: New Engineering Conversion Tools ⚙️**
+We've added 10 new programmatic pairs for mechanical and civil engineers, including mm to meters and kPa to psi. Stop searching and start converting right from your keyboard. Read our full guide on engineering conversion workflows: https://unitflow.alfo.online/blog/conversion-hacks-for-engineers
+#UnitFlow #EngineeringLife #TechUpdates
+
+## Pinterest (3 Posts)
+
+**Pin 8: "The Fibonacci Engineering Cheat Sheet"**
+(Visual infographic showing the Fibonacci sequence matching miles to kilometers, tailored for transportation engineers)
+Link: https://unitflow.alfo.online/blog/conversion-hacks-for-engineers
+
+**Pin 9: "Mental Math for Engineers: Lbs to Kg"**
+(Educational graphic showing the 'divide by 2, subtract 10%' rule for quick structural load estimates)
+Link: https://unitflow.alfo.online/blog/conversion-hacks-for-engineers
+
+**Pin 10: "Keyboard Shortcuts for Unit Conversion"**
+(Visual graphic illustrating the Cmd+K command palette functionality on UnitFlow)
+Link: https://unitflow.alfo.online/blog/conversion-hacks-for-engineers
