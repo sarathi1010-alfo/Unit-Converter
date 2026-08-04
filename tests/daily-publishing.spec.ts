@@ -146,7 +146,16 @@ const newUrls = [
   '/length/km-to-m',
   '/length/m-to-km',
   '/length/yd-to-ft',
-  '/length/ft-to-yd'
+  '/length/ft-to-yd',
+  '/length/ft-to-km',
+  '/volume/cup-to-ml',
+  '/pressure/kpa-to-psi',
+  '/length/m-to-mm',
+  '/length/m-to-in',
+  '/length/m-to-mi',
+  '/length/cm-to-km',
+  '/length/cm-to-yd',
+  '/length/cm-to-mi'
 ];
 
 

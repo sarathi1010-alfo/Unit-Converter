@@ -603,5 +603,55 @@
     "categoryId": "length",
     "from": "ft",
     "to": "yd"
+  },
+  {
+    "categoryId": "length",
+    "from": "ft",
+    "to": "km"
+  },
+  {
+    "categoryId": "volume",
+    "from": "gal",
+    "to": "l"
+  },
+  {
+    "categoryId": "volume",
+    "from": "cup",
+    "to": "ml"
+  },
+  {
+    "categoryId": "pressure",
+    "from": "kpa",
+    "to": "psi"
+  },
+  {
+    "categoryId": "length",
+    "from": "m",
+    "to": "mm"
+  },
+  {
+    "categoryId": "length",
+    "from": "m",
+    "to": "in"
+  },
+  {
+    "categoryId": "length",
+    "from": "m",
+    "to": "mi"
+  },
+  {
+    "categoryId": "length",
+    "from": "cm",
+    "to": "km"
+  },
+  {
+    "categoryId": "length",
+    "from": "cm",
+    "to": "yd"
+  },
+  {
+    "categoryId": "length",
+    "from": "cm",
+    "to": "mi"
   }
 ]
