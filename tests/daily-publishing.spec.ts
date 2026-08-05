@@ -3,6 +3,17 @@ import { test, expect } from '@playwright/test';
 const SITE_URL = 'http://localhost:3000';
 
 const newUrls = [
+  '/blog/e-commerce-and-shipping-unit-conversions',
+  '/weight/g-to-stone',
+  '/weight/mg-to-lb',
+  '/weight/mg-to-oz',
+  '/length/mm-to-m',
+  '/length/mm-to-km',
+  '/length/km-to-cm',
+  '/length/km-to-mm',
+  '/length/km-to-in',
+  '/volume/l-to-floz',
+  '/volume/ml-to-l',
   '/blog/conversion-hacks-for-engineers',
   '/blog/ultimate-guide-to-unit-conversion',
   '/length/m-to-ft',
