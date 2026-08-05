@@ -8,6 +8,17 @@ const SITEMAP_URL = `${SITE_URL}/sitemap-index.xml`;
 const INDEXNOW_KEY = process.env.INDEXNOW_KEY || '2026_indexnow_key_alfo';
 
 const NEW_URLS = [
+  `${SITE_URL}/blog/e-commerce-and-shipping-unit-conversions`,
+  `${SITE_URL}/convert/g-to-stone`,
+  `${SITE_URL}/convert/mg-to-lb`,
+  `${SITE_URL}/convert/mg-to-oz`,
+  `${SITE_URL}/convert/mm-to-m`,
+  `${SITE_URL}/convert/mm-to-km`,
+  `${SITE_URL}/convert/km-to-cm`,
+  `${SITE_URL}/convert/km-to-mm`,
+  `${SITE_URL}/convert/km-to-in`,
+  `${SITE_URL}/convert/l-to-floz`,
+  `${SITE_URL}/convert/ml-to-l`,
   `${SITE_URL}/blog/conversion-hacks-for-engineers`,
   `${SITE_URL}/blog/ultimate-guide-to-unit-conversion`,
   `${SITE_URL}/blog/what-is-a-conversion-factor`,

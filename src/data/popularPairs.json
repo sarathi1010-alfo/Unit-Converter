@@ -653,5 +653,55 @@
     "categoryId": "length",
     "from": "cm",
     "to": "mi"
+  },
+  {
+    "categoryId": "weight",
+    "from": "g",
+    "to": "stone"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mg",
+    "to": "lb"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mg",
+    "to": "oz"
+  },
+  {
+    "categoryId": "length",
+    "from": "mm",
+    "to": "m"
+  },
+  {
+    "categoryId": "length",
+    "from": "mm",
+    "to": "km"
+  },
+  {
+    "categoryId": "length",
+    "from": "km",
+    "to": "cm"
+  },
+  {
+    "categoryId": "length",
+    "from": "km",
+    "to": "mm"
+  },
+  {
+    "categoryId": "length",
+    "from": "km",
+    "to": "in"
+  },
+  {
+    "categoryId": "volume",
+    "from": "l",
+    "to": "floz"
+  },
+  {
+    "categoryId": "volume",
+    "from": "ml",
+    "to": "l"
   }
 ]
