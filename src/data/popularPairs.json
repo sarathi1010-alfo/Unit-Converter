@@ -703,5 +703,55 @@
     "categoryId": "volume",
     "from": "ml",
     "to": "l"
+  },
+  {
+    "categoryId": "volume",
+    "from": "gal",
+    "to": "m3"
+  },
+  {
+    "categoryId": "volume",
+    "from": "m3",
+    "to": "gal"
+  },
+  {
+    "categoryId": "volume",
+    "from": "cup",
+    "to": "floz"
+  },
+  {
+    "categoryId": "volume",
+    "from": "floz",
+    "to": "cup"
+  },
+  {
+    "categoryId": "volume",
+    "from": "cup",
+    "to": "l"
+  },
+  {
+    "categoryId": "volume",
+    "from": "gal",
+    "to": "floz"
+  },
+  {
+    "categoryId": "volume",
+    "from": "floz",
+    "to": "gal"
+  },
+  {
+    "categoryId": "volume",
+    "from": "m3",
+    "to": "ml"
+  },
+  {
+    "categoryId": "volume",
+    "from": "ml",
+    "to": "m3"
+  },
+  {
+    "categoryId": "volume",
+    "from": "floz",
+    "to": "l"
   }
 ]

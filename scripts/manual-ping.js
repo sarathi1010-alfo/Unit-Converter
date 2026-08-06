@@ -57,8 +57,7 @@ const NEW_URLS = [
   `${SITE_URL}/weight/lb-to-oz`,
   `${SITE_URL}/area/sqm-to-sqft`,
   `${SITE_URL}/volume/ml-to-floz`,
-  `${SITE_URL}/volume/floz-to-ml`
-,
+  `${SITE_URL}/volume/floz-to-ml`,
   `${SITE_URL}/blog/cooking-and-baking-conversions`,
   `${SITE_URL}/data/gb-to-mb`,
   `${SITE_URL}/data/tb-to-gb`,
@@ -91,8 +90,7 @@ const NEW_URLS = [
   `${SITE_URL}/energy/j-to-kwh`,
   `${SITE_URL}/energy/kwh-to-j`,
   `${SITE_URL}/energy/btu-to-cal`,
-  `${SITE_URL}/energy/cal-to-btu`
-,
+  `${SITE_URL}/energy/cal-to-btu`,
   `${SITE_URL}/blog/the-complete-guide-to-temperature-conversion`,
   `${SITE_URL}/temperature/c-to-k`,
   `${SITE_URL}/temperature/k-to-c`,
@@ -103,8 +101,7 @@ const NEW_URLS = [
   `${SITE_URL}/area/hectare-to-acre`,
   `${SITE_URL}/area/sqkm-to-sqmi`,
   `${SITE_URL}/length/m-to-yd`,
-  `${SITE_URL}/length/km-to-ft`
-,
+  `${SITE_URL}/length/km-to-ft`,
   `${SITE_URL}/blog/unit-conversions-for-fitness-and-health`,
   `${SITE_URL}/weight/kg-to-oz`,
   `${SITE_URL}/weight/oz-to-kg`,
@@ -116,7 +113,6 @@ const NEW_URLS = [
   `${SITE_URL}/weight/lb-to-stone`,
   `${SITE_URL}/length/mi-to-ft`,
   `${SITE_URL}/length/ft-to-mi`,
-
   `${SITE_URL}/blog/the-complete-guide-to-area-conversions-for-real-estate`,
   `${SITE_URL}/area/sqm-to-hectare`,
   `${SITE_URL}/area/hectare-to-sqm`,
@@ -139,7 +135,6 @@ const NEW_URLS = [
   `${SITE_URL}/speed/knot-to-ms`,
   `${SITE_URL}/volume/l-to-ml`,
   `${SITE_URL}/volume/l-to-cup`,
-
   `${SITE_URL}/blog/the-complete-guide-to-weight-and-mass-conversions`,
   `${SITE_URL}/weight/mg-to-g`,
   `${SITE_URL}/weight/g-to-mg`,
@@ -151,7 +146,6 @@ const NEW_URLS = [
   `${SITE_URL}/weight/lb-to-ton`,
   `${SITE_URL}/weight/mt-to-ton`,
   `${SITE_URL}/weight/ton-to-mt`,
-
   `${SITE_URL}/blog/quick-unit-conversion-guide`,
   `${SITE_URL}/convert/ft-to-m`,
   `${SITE_URL}/convert/kg-to-lb`,
@@ -194,6 +188,17 @@ const NEW_URLS = [
   `${SITE_URL}/length/cm-to-km`,
   `${SITE_URL}/length/cm-to-yd`,
   `${SITE_URL}/length/cm-to-mi`,
+  `${SITE_URL}/blog/everyday-volume-conversions`,
+  `${SITE_URL}/volume/gal-to-m3`,
+  `${SITE_URL}/volume/m3-to-gal`,
+  `${SITE_URL}/volume/cup-to-floz`,
+  `${SITE_URL}/volume/floz-to-cup`,
+  `${SITE_URL}/volume/cup-to-l`,
+  `${SITE_URL}/volume/gal-to-floz`,
+  `${SITE_URL}/volume/floz-to-gal`,
+  `${SITE_URL}/volume/m3-to-ml`,
+  `${SITE_URL}/volume/ml-to-m3`,
+  `${SITE_URL}/volume/floz-to-l`
 ];
 
 
