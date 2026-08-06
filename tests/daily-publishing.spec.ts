@@ -166,7 +166,18 @@ const newUrls = [
   '/length/m-to-mi',
   '/length/cm-to-km',
   '/length/cm-to-yd',
-  '/length/cm-to-mi'
+  '/length/cm-to-mi',
+  '/blog/everyday-volume-conversions',
+  '/volume/gal-to-m3',
+  '/volume/m3-to-gal',
+  '/volume/cup-to-floz',
+  '/volume/floz-to-cup',
+  '/volume/cup-to-l',
+  '/volume/gal-to-floz',
+  '/volume/floz-to-gal',
+  '/volume/m3-to-ml',
+  '/volume/ml-to-m3',
+  '/volume/floz-to-l'
 ];
 
 
