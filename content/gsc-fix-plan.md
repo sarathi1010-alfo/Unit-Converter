@@ -166,3 +166,12 @@
 - **Execution:** Completed retro-linking from existing high-value guides (`ultimate-guide-to-unit-conversion` and `quick-unit-conversion-guide`) and updated `lastModified` tags to refresh indexing. Added links in `page.tsx` indirectly via the navigation links in the new article.
 - **Execution:** Verified static export builds and headless tests pass via `npx playwright test`.
 - **Status:** GREEN. Zero console errors. Indexing API signals manually requested.
+
+### Action Log - August 07, 2026
+- **Execution:** Created Tier 1 Authority Article: "The Complete Guide to Pressure Conversions for Mechanics".
+- **Execution:** Added 10 new programmatic pairs focusing on pressure, energy, and power conversions (e.g., atm-to-psi, cal-to-kwh, hp-to-w).
+- **Execution:** Added 10 new social media distribution posts.
+- **Execution:** Injected `AICitationBlock` and `TrustReinforcement` for AI Answer Engine Optimization.
+- **Execution:** Completed retro-linking from existing high-value guides and updated `lastModified` tags to refresh indexing. Added links in `page.tsx` and `categories/[categoryId]/page.tsx`.
+- **Execution:** Verified static export builds and headless tests pass via `npx playwright test`.
+- **Status:** GREEN. Zero console errors. Indexing API signals manually requested.
