@@ -178,6 +178,18 @@ const newUrls = [
   '/volume/m3-to-ml',
   '/volume/ml-to-m3',
   '/volume/floz-to-l'
+,
+  '/blog/the-complete-guide-to-pressure-conversions-for-mechanics',
+  '/pressure/atm-to-psi',
+  '/pressure/psi-to-atm',
+  '/pressure/bar-to-atm',
+  '/pressure/atm-to-bar',
+  '/energy/cal-to-kwh',
+  '/energy/kwh-to-cal',
+  '/energy/btu-to-j',
+  '/energy/j-to-btu',
+  '/power/hp-to-w',
+  '/power/w-to-hp'
 ];
 
 

@@ -89,7 +89,7 @@ export default function Home() {
         <div className="mt-6 p-4 bg-primary/5 rounded-xl border border-primary/10">
           <p className="text-sm text-slate-600">
             Want to learn how to convert faster? Master mental math and avoid common mistakes with our comprehensive guide on <Link href="/blog/quick-unit-conversion-guide" className="text-primary font-bold hover:underline">How to Convert Units Quickly and Accurately</Link>.
-            Also, be sure to read <Link href="/blog/the-complete-guide-to-length-conversion" className="text-primary font-bold hover:underline">The Complete Guide to Length Conversion</Link> to master metric and imperial distance measurements.
+            Also, be sure to read <Link href="/blog/the-complete-guide-to-length-conversion" className="text-primary font-bold hover:underline">The Complete Guide to Length Conversion</Link> to master metric and imperial distance measurements, and <Link href="/blog/the-complete-guide-to-pressure-conversions-for-mechanics" className="text-primary font-bold hover:underline">The Complete Guide to Pressure Conversions for Mechanics</Link> for mechanical conversions.
           </p>
         </div>
       </section>

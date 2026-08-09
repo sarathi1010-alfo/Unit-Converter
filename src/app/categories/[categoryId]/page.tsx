@@ -96,7 +96,7 @@ export default async function CategoryHubPage(
         <div className="p-6 bg-slate-50 rounded-2xl border border-slate-200">
           <h3 className="text-lg font-bold text-slate-900 mb-2">Learn More on the Blog</h3>
           <p className="text-slate-600 text-sm mb-4">
-            Want to understand the math behind these conversions? Check out our <Link href="/blog/quick-unit-conversion-guide" className="text-primary hover:underline font-medium">Quick Unit Conversion Guide</Link> or visit the <Link href="/blog" className="text-primary hover:underline font-medium">UnitFlow Blog</Link> for more tips.
+            Want to understand the math behind these conversions? Check out our <Link href="/blog/quick-unit-conversion-guide" className="text-primary hover:underline font-medium">Quick Unit Conversion Guide</Link>, our guide to <Link href="/blog/the-complete-guide-to-pressure-conversions-for-mechanics" className="text-primary hover:underline font-medium">Pressure Conversions for Mechanics</Link>, or visit the <Link href="/blog" className="text-primary hover:underline font-medium">UnitFlow Blog</Link> for more tips.
           </p>
         </div>
       </section>

@@ -753,5 +753,55 @@
     "categoryId": "volume",
     "from": "floz",
     "to": "l"
+  },
+  {
+    "categoryId": "pressure",
+    "from": "atm",
+    "to": "psi"
+  },
+  {
+    "categoryId": "pressure",
+    "from": "psi",
+    "to": "atm"
+  },
+  {
+    "categoryId": "pressure",
+    "from": "bar",
+    "to": "atm"
+  },
+  {
+    "categoryId": "pressure",
+    "from": "atm",
+    "to": "bar"
+  },
+  {
+    "categoryId": "energy",
+    "from": "cal",
+    "to": "kwh"
+  },
+  {
+    "categoryId": "energy",
+    "from": "kwh",
+    "to": "cal"
+  },
+  {
+    "categoryId": "energy",
+    "from": "btu",
+    "to": "j"
+  },
+  {
+    "categoryId": "energy",
+    "from": "j",
+    "to": "btu"
+  },
+  {
+    "categoryId": "power",
+    "from": "hp",
+    "to": "w"
+  },
+  {
+    "categoryId": "power",
+    "from": "w",
+    "to": "hp"
   }
 ]
