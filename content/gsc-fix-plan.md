@@ -175,3 +175,10 @@
 - **Execution:** Completed retro-linking from existing high-value guides and updated `lastModified` tags to refresh indexing. Added links in `page.tsx` and `categories/[categoryId]/page.tsx`.
 - **Execution:** Verified static export builds and headless tests pass via `npx playwright test`.
 - **Status:** GREEN. Zero console errors. Indexing API signals manually requested.
+
+### Action Log - August 11, 2026
+- **Execution:** Created Tier 1 Authority Article: "Mastering Unit Conversions for Science and Laboratory Work".
+- **Execution:** Added 10 new programmatic pairs focusing on length conversions to expand the category footprint.
+- **Execution:** Added 10 new social media distribution posts.
+- **Execution:** Retro-linked existing guides (`ultimate-guide-to-unit-conversion.mdx` and `quick-unit-conversion-guide.mdx`) to the new science and laboratory guide and updated `lastModified` tags.
+- **Status:** Complete. Proceeding with headless test validation and manual indexing API signals.

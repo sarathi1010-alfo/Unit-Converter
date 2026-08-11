@@ -803,5 +803,55 @@
     "categoryId": "power",
     "from": "w",
     "to": "hp"
+  },
+  {
+    "categoryId": "length",
+    "from": "cm",
+    "to": "nm"
+  },
+  {
+    "categoryId": "length",
+    "from": "mm",
+    "to": "ft"
+  },
+  {
+    "categoryId": "length",
+    "from": "mm",
+    "to": "yd"
+  },
+  {
+    "categoryId": "length",
+    "from": "mm",
+    "to": "mi"
+  },
+  {
+    "categoryId": "length",
+    "from": "mm",
+    "to": "nm"
+  },
+  {
+    "categoryId": "length",
+    "from": "km",
+    "to": "yd"
+  },
+  {
+    "categoryId": "length",
+    "from": "km",
+    "to": "nm"
+  },
+  {
+    "categoryId": "length",
+    "from": "in",
+    "to": "m"
+  },
+  {
+    "categoryId": "length",
+    "from": "in",
+    "to": "km"
+  },
+  {
+    "categoryId": "length",
+    "from": "in",
+    "to": "ft"
   }
 ]
