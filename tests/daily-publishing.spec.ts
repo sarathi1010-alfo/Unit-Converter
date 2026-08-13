@@ -200,7 +200,18 @@ const newUrls = [
   '/energy/btu-to-j',
   '/energy/j-to-btu',
   '/power/hp-to-w',
-  '/power/w-to-hp'
+  '/power/w-to-hp',
+  '/blog/precision-length-conversions-for-manufacturing',
+  '/length/in-to-yd',
+  '/length/in-to-mi',
+  '/length/in-to-nm',
+  '/length/ft-to-mm',
+  '/length/ft-to-in',
+  '/length/ft-to-nm',
+  '/length/yd-to-cm',
+  '/length/yd-to-mm',
+  '/length/yd-to-km',
+  '/length/yd-to-in'
 ];
 
 

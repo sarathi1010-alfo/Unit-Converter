@@ -221,7 +221,18 @@ const NEW_URLS = [
   `${SITE_URL}/energy/btu-to-j`,
   `${SITE_URL}/energy/j-to-btu`,
   `${SITE_URL}/power/hp-to-w`,
-  `${SITE_URL}/power/w-to-hp`
+  `${SITE_URL}/power/w-to-hp`,
+  `${SITE_URL}/blog/precision-length-conversions-for-manufacturing`,
+  `${SITE_URL}/length/in-to-yd`,
+  `${SITE_URL}/length/in-to-mi`,
+  `${SITE_URL}/length/in-to-nm`,
+  `${SITE_URL}/length/ft-to-mm`,
+  `${SITE_URL}/length/ft-to-in`,
+  `${SITE_URL}/length/ft-to-nm`,
+  `${SITE_URL}/length/yd-to-cm`,
+  `${SITE_URL}/length/yd-to-mm`,
+  `${SITE_URL}/length/yd-to-km`,
+  `${SITE_URL}/length/yd-to-in`
 ];
 
 
