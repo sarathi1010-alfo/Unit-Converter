@@ -853,5 +853,55 @@
     "categoryId": "length",
     "from": "in",
     "to": "ft"
+  },
+  {
+    "categoryId": "length",
+    "from": "in",
+    "to": "yd"
+  },
+  {
+    "categoryId": "length",
+    "from": "in",
+    "to": "mi"
+  },
+  {
+    "categoryId": "length",
+    "from": "in",
+    "to": "nm"
+  },
+  {
+    "categoryId": "length",
+    "from": "ft",
+    "to": "mm"
+  },
+  {
+    "categoryId": "length",
+    "from": "ft",
+    "to": "in"
+  },
+  {
+    "categoryId": "length",
+    "from": "ft",
+    "to": "nm"
+  },
+  {
+    "categoryId": "length",
+    "from": "yd",
+    "to": "cm"
+  },
+  {
+    "categoryId": "length",
+    "from": "yd",
+    "to": "mm"
+  },
+  {
+    "categoryId": "length",
+    "from": "yd",
+    "to": "km"
+  },
+  {
+    "categoryId": "length",
+    "from": "yd",
+    "to": "in"
   }
 ]
