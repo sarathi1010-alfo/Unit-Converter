@@ -233,6 +233,18 @@ const NEW_URLS = [
   `${SITE_URL}/length/yd-to-mm`,
   `${SITE_URL}/length/yd-to-km`,
   `${SITE_URL}/length/yd-to-in`
+,
+  `${SITE_URL}/blog/essential-unit-conversions-for-construction`,
+  `${SITE_URL}/length/yd-to-mi`,
+  `${SITE_URL}/length/yd-to-nm`,
+  `${SITE_URL}/length/mi-to-m`,
+  `${SITE_URL}/length/mi-to-cm`,
+  `${SITE_URL}/length/mi-to-mm`,
+  `${SITE_URL}/length/mi-to-in`,
+  `${SITE_URL}/length/mi-to-yd`,
+  `${SITE_URL}/length/mi-to-nm`,
+  `${SITE_URL}/length/nm-to-cm`,
+  `${SITE_URL}/length/nm-to-mm`
 ];
 
 

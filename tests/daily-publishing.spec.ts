@@ -212,6 +212,18 @@ const newUrls = [
   '/length/yd-to-mm',
   '/length/yd-to-km',
   '/length/yd-to-in'
+,
+  '/blog/essential-unit-conversions-for-construction',
+  '/length/yd-to-mi',
+  '/length/yd-to-nm',
+  '/length/mi-to-m',
+  '/length/mi-to-cm',
+  '/length/mi-to-mm',
+  '/length/mi-to-in',
+  '/length/mi-to-yd',
+  '/length/mi-to-nm',
+  '/length/nm-to-cm',
+  '/length/nm-to-mm'
 ];
 
 
