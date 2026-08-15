@@ -903,5 +903,55 @@
     "categoryId": "length",
     "from": "yd",
     "to": "in"
+  },
+  {
+    "categoryId": "length",
+    "from": "yd",
+    "to": "mi"
+  },
+  {
+    "categoryId": "length",
+    "from": "yd",
+    "to": "nm"
+  },
+  {
+    "categoryId": "length",
+    "from": "mi",
+    "to": "m"
+  },
+  {
+    "categoryId": "length",
+    "from": "mi",
+    "to": "cm"
+  },
+  {
+    "categoryId": "length",
+    "from": "mi",
+    "to": "mm"
+  },
+  {
+    "categoryId": "length",
+    "from": "mi",
+    "to": "in"
+  },
+  {
+    "categoryId": "length",
+    "from": "mi",
+    "to": "yd"
+  },
+  {
+    "categoryId": "length",
+    "from": "mi",
+    "to": "nm"
+  },
+  {
+    "categoryId": "length",
+    "from": "nm",
+    "to": "cm"
+  },
+  {
+    "categoryId": "length",
+    "from": "nm",
+    "to": "mm"
   }
 ]
