@@ -3,6 +3,16 @@ import { test, expect } from '@playwright/test';
 const SITE_URL = 'http://localhost:3000';
 
 const newUrls = [
+  '/weight/mg-to-mt',
+  '/weight/mg-to-kg',
+  '/weight/g-to-ton',
+  '/weight/g-to-mt',
+  '/weight/kg-to-mg',
+  '/length/nm-to-mi',
+  '/length/nm-to-yd',
+  '/length/nm-to-ft',
+  '/length/nm-to-in',
+  '/length/nm-to-km',
   '/blog/unit-conversions-for-science-and-laboratory',
   '/length/cm-to-nm',
   '/length/mm-to-ft',

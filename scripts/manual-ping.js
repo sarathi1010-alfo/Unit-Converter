@@ -8,6 +8,16 @@ const SITEMAP_URL = `${SITE_URL}/sitemap-index.xml`;
 const INDEXNOW_KEY = process.env.INDEXNOW_KEY || '2026_indexnow_key_alfo';
 
 const NEW_URLS = [
+  `${SITE_URL}/weight/mg-to-mt`,
+  `${SITE_URL}/weight/mg-to-kg`,
+  `${SITE_URL}/weight/g-to-ton`,
+  `${SITE_URL}/weight/g-to-mt`,
+  `${SITE_URL}/weight/kg-to-mg`,
+  `${SITE_URL}/length/nm-to-mi`,
+  `${SITE_URL}/length/nm-to-yd`,
+  `${SITE_URL}/length/nm-to-ft`,
+  `${SITE_URL}/length/nm-to-in`,
+  `${SITE_URL}/length/nm-to-km`,
   `${SITE_URL}/blog/unit-conversions-for-science-and-laboratory`,
   `${SITE_URL}/length/cm-to-nm`,
   `${SITE_URL}/length/mm-to-ft`,
