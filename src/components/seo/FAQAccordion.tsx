@@ -14,7 +14,7 @@ export function FAQAccordion({ items }: { items: FAQItem[] }) {
 
   return (
     <div className="space-y-4">
-      {items.map((item, index) => {
+      {(items || []).map((item, index) => {
         const isOpen = openIndex === index;
         return (
           <div key={index} className="border border-slate-200 rounded-xl bg-white overflow-hidden">

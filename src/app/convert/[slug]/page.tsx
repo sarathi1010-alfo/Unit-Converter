@@ -226,6 +226,14 @@ export default async function ConversionPairPage(
             <h2 className="text-2xl font-bold text-slate-900 mb-6">Frequently Asked Questions</h2>
             <FAQAccordion items={faqs} />
           </section>
+
+          <div className="mt-8 p-6 bg-slate-50 rounded-2xl border border-slate-200">
+            <h3 className="text-lg font-bold text-slate-900 mb-2">Explore More</h3>
+            <p className="text-slate-600 text-sm mb-4">
+              Return to the <a href="/" className="text-primary hover:underline font-medium">homepage</a> or explore more conversions in the <a href={`/categories/${categoryId}`} className="text-primary hover:underline font-medium">{categoryId} category hub</a>.
+            </p>
+          </div>
+
         </div>
 
         <div className="space-y-8">
