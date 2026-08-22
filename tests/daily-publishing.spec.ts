@@ -3,6 +3,17 @@ import { test, expect } from '@playwright/test';
 const SITE_URL = 'http://localhost:3000';
 
 const newUrls = [
+  '/blog/everyday-unit-conversions-for-travelers',
+  '/weight/mg-to-ton',
+  '/weight/mg-to-stone',
+  '/weight/mt-to-g',
+  '/weight/mt-to-mg',
+  '/weight/mt-to-lb',
+  '/weight/mt-to-oz',
+  '/weight/mt-to-stone',
+  '/weight/lb-to-mg',
+  '/weight/lb-to-mt',
+  '/weight/oz-to-mg',
   '/weight/mg-to-mt',
   '/weight/mg-to-kg',
   '/weight/g-to-ton',
@@ -43,7 +54,6 @@ const newUrls = [
   '/length/yd-to-m',
   '/weight/oz-to-lb',
   '/weight/lb-to-kg',
-  '/blog/everyday-unit-conversions-for-travelers',
   '/temperature/c-to-f',
   '/temperature/f-to-c',
   '/speed/kmh-to-mph',
@@ -198,8 +208,7 @@ const newUrls = [
   '/volume/floz-to-gal',
   '/volume/m3-to-ml',
   '/volume/ml-to-m3',
-  '/volume/floz-to-l'
-,
+  '/volume/floz-to-l',
   '/blog/the-complete-guide-to-pressure-conversions-for-mechanics',
   '/pressure/atm-to-psi',
   '/pressure/psi-to-atm',
@@ -221,8 +230,7 @@ const newUrls = [
   '/length/yd-to-cm',
   '/length/yd-to-mm',
   '/length/yd-to-km',
-  '/length/yd-to-in'
-,
+  '/length/yd-to-in',
   '/blog/essential-unit-conversions-for-construction',
   '/length/yd-to-mi',
   '/length/yd-to-nm',

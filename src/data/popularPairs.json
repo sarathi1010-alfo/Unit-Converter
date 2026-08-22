@@ -1018,5 +1018,55 @@
     "categoryId": "data",
     "from": "gb",
     "to": "tb"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mg",
+    "to": "ton"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mg",
+    "to": "stone"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mt",
+    "to": "g"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mt",
+    "to": "mg"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mt",
+    "to": "lb"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mt",
+    "to": "oz"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mt",
+    "to": "stone"
+  },
+  {
+    "categoryId": "weight",
+    "from": "lb",
+    "to": "mg"
+  },
+  {
+    "categoryId": "weight",
+    "from": "lb",
+    "to": "mt"
+  },
+  {
+    "categoryId": "weight",
+    "from": "oz",
+    "to": "mg"
   }
 ]

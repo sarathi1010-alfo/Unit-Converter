@@ -196,3 +196,10 @@
 - **Execution:** Added 10 new social media distribution posts.
 - **Execution:** Retro-linked existing guides (`precision-length-conversions-for-manufacturing.mdx` and `unit-conversions-for-science-and-laboratory.mdx`) to the new construction guide and updated `lastModified` tags.
 - **Status:** Complete. Proceeding with headless test validation and manual indexing API signals.
+
+### Action Log - August 14, 2026
+- **Execution:** Updated Tier 1 Authority Article: "Everyday Unit Conversions for Travelers - The 2026 Guide".
+- **Execution:** Added 10 new programmatic pairs focusing on weight and mass (e.g., mg-to-ton, mt-to-g).
+- **Execution:** Added 10 new social media distribution posts.
+- **Execution:** Retro-linked existing guides (`ultimate-guide-to-unit-conversion.mdx` and `quick-unit-conversion-guide.mdx`) to the new traveler guide and updated `lastModified` tags.
+- **Status:** Complete. Proceeding with headless test validation and manual indexing API signals.
