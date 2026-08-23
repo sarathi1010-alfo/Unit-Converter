@@ -241,7 +241,18 @@ const newUrls = [
   '/length/mi-to-yd',
   '/length/mi-to-nm',
   '/length/nm-to-cm',
-  '/length/nm-to-mm'
+  '/length/nm-to-mm',
+  '/blog/medical-and-pharmacy-unit-conversions',
+  '/weight/mcg-to-mg',
+  '/weight/mg-to-mcg',
+  '/weight/mcg-to-g',
+  '/weight/g-to-mcg',
+  '/weight/mcg-to-kg',
+  '/weight/kg-to-mcg',
+  '/weight/mcg-to-oz',
+  '/weight/oz-to-mcg',
+  '/weight/mcg-to-lb',
+  '/weight/lb-to-mcg'
 ];
 
 

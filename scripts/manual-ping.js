@@ -255,7 +255,18 @@ const NEW_URLS = [
   `${SITE_URL}/length/mi-to-yd`,
   `${SITE_URL}/length/mi-to-nm`,
   `${SITE_URL}/length/nm-to-cm`,
-  `${SITE_URL}/length/nm-to-mm`
+  `${SITE_URL}/length/nm-to-mm`,
+  `${SITE_URL}/blog/medical-and-pharmacy-unit-conversions`,
+  `${SITE_URL}/weight/mcg-to-mg`,
+  `${SITE_URL}/weight/mg-to-mcg`,
+  `${SITE_URL}/weight/mcg-to-g`,
+  `${SITE_URL}/weight/g-to-mcg`,
+  `${SITE_URL}/weight/mcg-to-kg`,
+  `${SITE_URL}/weight/kg-to-mcg`,
+  `${SITE_URL}/weight/mcg-to-oz`,
+  `${SITE_URL}/weight/oz-to-mcg`,
+  `${SITE_URL}/weight/mcg-to-lb`,
+  `${SITE_URL}/weight/lb-to-mcg`
 ];
 
 

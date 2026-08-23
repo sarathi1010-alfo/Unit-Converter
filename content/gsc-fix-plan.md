@@ -203,3 +203,12 @@
 - **Execution:** Added 10 new social media distribution posts.
 - **Execution:** Retro-linked existing guides (`ultimate-guide-to-unit-conversion.mdx` and `quick-unit-conversion-guide.mdx`) to the new traveler guide and updated `lastModified` tags.
 - **Status:** Complete. Proceeding with headless test validation and manual indexing API signals.
+
+### Action Log - August 15, 2026
+- **Execution:** Created Tier 1 Authority Article: "The Complete Guide to Medical and Pharmacy Unit Conversions".
+- **Execution:** Added `mcg` (Microgram) to the core weight units.
+- **Execution:** Added 10 new programmatic pairs focusing on medical conversions (e.g., mcg-to-mg, mg-to-mcg).
+- **Execution:** Added 10 new social media distribution posts.
+- **Execution:** Retro-linked existing guides (`unit-conversions-for-fitness-and-health.mdx` and `everyday-unit-conversions-for-travelers.mdx`) to the new medical conversions guide and updated `lastModified` and `datePublished` tags.
+- **Execution:** Appended all 11 new URLs to the headless browser test suite and IndexNow ping script.
+- **Status:** Complete. Proceeding with headless test validation and manual indexing API signals.
