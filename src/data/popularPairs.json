@@ -1068,5 +1068,55 @@
     "categoryId": "weight",
     "from": "oz",
     "to": "mg"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mcg",
+    "to": "mg"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mg",
+    "to": "mcg"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mcg",
+    "to": "g"
+  },
+  {
+    "categoryId": "weight",
+    "from": "g",
+    "to": "mcg"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mcg",
+    "to": "kg"
+  },
+  {
+    "categoryId": "weight",
+    "from": "kg",
+    "to": "mcg"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mcg",
+    "to": "oz"
+  },
+  {
+    "categoryId": "weight",
+    "from": "oz",
+    "to": "mcg"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mcg",
+    "to": "lb"
+  },
+  {
+    "categoryId": "weight",
+    "from": "lb",
+    "to": "mcg"
   }
 ]

@@ -1287,3 +1287,48 @@ Link: https://unitflow.alfo.online/blog/everyday-unit-conversions-for-travelers
 **Title:** Luggage Weight Limits: Kg to Lbs Explained
 **Description:** Avoid expensive overweight baggage fees at the airport. Learn how to accurately convert kilograms to pounds before you check in.
 **Link:** https://unitflow.alfo.online/blog/everyday-unit-conversions-for-travelers
+
+### August 15, 2026 - Medical and Pharmacy Unit Conversions
+Targeting: "how to convert medical units quickly and accurately"
+
+#### X/Twitter
+**Post 1 (Educational/Quick Tip):**
+In healthcare, a decimal point mistake isn't just an error—it's a patient safety risk. 1 mg = 1,000 mcg. Always double-check your conversions. Learn more: https://unitflow.alfo.online/blog/medical-and-pharmacy-unit-conversions ⚕️🩺
+
+**Post 2 (Mental Math Hack):**
+Need to convert pounds to kg quickly for a patient dose? Divide by 2, then subtract 10%! (e.g., 200 lbs / 2 = 100; 100 - 10 = 90 kg). Quick and accurate. #NursingHacks #MedStudent
+
+**Post 3 (Tool Feature/Utility):**
+Tired of generic calculators when calculating IV drip rates? UnitFlow offers deterministic precision and smart input detection. Perfect for the fast-paced hospital environment. 🏥 Try it now: https://unitflow.alfo.online
+
+**Post 4 (Relatable/Warning):**
+The Leading Zero Rule: Always write 0.5 mg, NEVER .5 mg. The Trailing Zero Rule: Always write 5 mg, NEVER 5.0 mg. Protect your patients. #PharmacyTips
+
+#### LinkedIn
+**Post 5 (Professional Insight/Leadership):**
+For Pharmacists and Nursing Directors: Are your staff still relying on scrap paper and mental math for high-alert medication conversions? We just published a comprehensive guide on mastering medical unit conversions to reduce dosing errors.
+Link: https://unitflow.alfo.online/blog/medical-and-pharmacy-unit-conversions
+
+**Post 6 (Process/SOP Focus):**
+A 1,000-fold dosing error between milligrams and micrograms is one of the most common mistakes in healthcare. Standardize your clinical workflow by providing your team with deterministic, offline-capable conversion tools.
+Link: https://unitflow.alfo.online/blog/medical-and-pharmacy-unit-conversions
+
+**Post 7 (Efficiency/Productivity):**
+Healthcare professionals shouldn’t be wasting time second-guessing their math. UnitFlow provides instant, zero-click conversions so you can focus on patient care. Read our latest guide on medical conversions.
+Link: https://unitflow.alfo.online/blog/medical-and-pharmacy-unit-conversions
+
+#### Pinterest
+**Post 8 (Visual/Infographic):**
+**Title:** The Ultimate Medical Conversion Cheat Sheet
+**Description:** Essential reference for nurses and pharmacists. Pin this infographic for quick mcg to mg and lbs to kg conversions.
+**Link:** https://unitflow.alfo.online/blog/medical-and-pharmacy-unit-conversions
+
+**Post 9 (Visual/Chart):**
+**Title:** Safe Dosing: The Leading and Trailing Zero Rules
+**Description:** Prevent medical errors with these simple documentation rules. A must-read visual guide for all healthcare students.
+**Link:** https://unitflow.alfo.online/blog/medical-and-pharmacy-unit-conversions
+
+**Post 10 (Visual/Tip):**
+**Title:** How to Convert Pounds to Kilograms Instantly
+**Description:** The mental math trick every nurse needs to know. Learn how to convert patient weight quickly and accurately.
+**Link:** https://unitflow.alfo.online/blog/medical-and-pharmacy-unit-conversions

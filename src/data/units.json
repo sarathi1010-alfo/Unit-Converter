@@ -52,6 +52,11 @@
       "symbol": "kg",
       "baseFactor": 1
     },
+    "mcg": {
+      "name": "Microgram",
+      "symbol": "mcg",
+      "baseFactor": 1e-9
+    },
     "g": {
       "name": "Gram",
       "symbol": "g",
