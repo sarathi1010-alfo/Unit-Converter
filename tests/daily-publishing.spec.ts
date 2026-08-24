@@ -252,7 +252,17 @@ const newUrls = [
   '/weight/mcg-to-oz',
   '/weight/oz-to-mcg',
   '/weight/mcg-to-lb',
-  '/weight/lb-to-mcg'
+  '/weight/lb-to-mcg',
+  '/blog/essential-aviation-conversions',
+  '/volume/ml-to-gal',
+  '/volume/gal-to-ml',
+  '/volume/gal-to-cup',
+  '/volume/cup-to-gal',
+  '/weight/mcg-to-ton',
+  '/weight/ton-to-mcg',
+  '/weight/oz-to-mt',
+  '/weight/oz-to-ton',
+  '/weight/ton-to-oz'
 ];
 
 

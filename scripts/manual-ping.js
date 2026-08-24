@@ -266,7 +266,17 @@ const NEW_URLS = [
   `${SITE_URL}/weight/mcg-to-oz`,
   `${SITE_URL}/weight/oz-to-mcg`,
   `${SITE_URL}/weight/mcg-to-lb`,
-  `${SITE_URL}/weight/lb-to-mcg`
+  `${SITE_URL}/weight/lb-to-mcg`,
+  `${SITE_URL}/blog/essential-aviation-conversions`,
+  `${SITE_URL}/volume/ml-to-gal`,
+  `${SITE_URL}/volume/gal-to-ml`,
+  `${SITE_URL}/volume/gal-to-cup`,
+  `${SITE_URL}/volume/cup-to-gal`,
+  `${SITE_URL}/weight/mcg-to-ton`,
+  `${SITE_URL}/weight/ton-to-mcg`,
+  `${SITE_URL}/weight/oz-to-mt`,
+  `${SITE_URL}/weight/oz-to-ton`,
+  `${SITE_URL}/weight/ton-to-oz`
 ];
 
 

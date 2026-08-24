@@ -1118,5 +1118,55 @@
     "categoryId": "weight",
     "from": "lb",
     "to": "mcg"
+  },
+  {
+    "categoryId": "volume",
+    "from": "ml",
+    "to": "gal"
+  },
+  {
+    "categoryId": "volume",
+    "from": "gal",
+    "to": "ml"
+  },
+  {
+    "categoryId": "volume",
+    "from": "gal",
+    "to": "cup"
+  },
+  {
+    "categoryId": "volume",
+    "from": "cup",
+    "to": "gal"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mcg",
+    "to": "ton"
+  },
+  {
+    "categoryId": "weight",
+    "from": "ton",
+    "to": "mcg"
+  },
+  {
+    "categoryId": "weight",
+    "from": "oz",
+    "to": "mt"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mt",
+    "to": "oz"
+  },
+  {
+    "categoryId": "weight",
+    "from": "oz",
+    "to": "ton"
+  },
+  {
+    "categoryId": "weight",
+    "from": "ton",
+    "to": "oz"
   }
 ]

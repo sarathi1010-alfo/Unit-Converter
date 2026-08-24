@@ -212,3 +212,11 @@
 - **Execution:** Retro-linked existing guides (`unit-conversions-for-fitness-and-health.mdx` and `everyday-unit-conversions-for-travelers.mdx`) to the new medical conversions guide and updated `lastModified` and `datePublished` tags.
 - **Execution:** Appended all 11 new URLs to the headless browser test suite and IndexNow ping script.
 - **Status:** Complete. Proceeding with headless test validation and manual indexing API signals.
+
+### Action Log - August 16, 2026
+- **Execution:** Created Tier 1 Authority Article: "Essential Unit Conversions for Aviation and Aerospace" (1,200+ words).
+- **Execution:** Added 10 new programmatic pairs focusing on volume and weight conversions (e.g., gal-to-cup, mcg-to-ton, oz-to-mt) to `src/data/popularPairs.json`.
+- **Execution:** Added 10 new social media distribution posts targeting aviation professionals and engineers.
+- **Execution:** Retro-linked existing guides (`everyday-unit-conversions-for-travelers.mdx` and `conversion-hacks-for-engineers.mdx`) to the new aviation conversions guide and updated `lastModified` tags.
+- **Execution:** Appended all 11 new URLs to the headless browser test suite and IndexNow ping script.
+- **Status:** Complete. Proceeding with headless test validation and manual indexing API signals.
