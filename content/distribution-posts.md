@@ -1332,3 +1332,48 @@ Link: https://unitflow.alfo.online/blog/medical-and-pharmacy-unit-conversions
 **Title:** How to Convert Pounds to Kilograms Instantly
 **Description:** The mental math trick every nurse needs to know. Learn how to convert patient weight quickly and accurately.
 **Link:** https://unitflow.alfo.online/blog/medical-and-pharmacy-unit-conversions
+
+### August 16, 2026 - Essential Unit Conversions for Aviation and Aerospace
+Targeting: "how to convert aviation units quickly and accurately"
+
+#### X/Twitter
+**Post 1 (Educational/Quick Tip):**
+Flying internationally? Always double check your units! Relying on mental math for fuel calculations can lead to disaster. 1 US Gal of Jet A fuel is approx 6.7 lbs. ✈️ #AviationSafety #PilotLife https://unitflow.alfo.online/blog/essential-aviation-conversions
+
+**Post 2 (Mental Math Hack):**
+Airspeed quick reference: 10 knots is roughly 11.5 mph. Perfect for a quick sanity check in the cockpit! But for exact navigation, rely on a deterministic converter like UnitFlow. 🛫 #AviationTips https://unitflow.alfo.online/blog/essential-aviation-conversions
+
+**Post 3 (Tool Feature/Utility):**
+Are you converting pounds to kilograms for a cargo manifest? A simple decimal error affects aircraft weight and balance. Use our deterministic offline converter built for absolute accuracy. ⚖️ https://unitflow.alfo.online/blog/essential-aviation-conversions
+
+**Post 4 (Relatable/Warning):**
+Remember the "Gimli Glider"? A mix-up between pounds and kilograms caused an airliner to run out of fuel mid-flight. Unit confusion in aviation is no joke. Check out our latest guide to standard aviation conversions. 🚨 https://unitflow.alfo.online/blog/essential-aviation-conversions
+
+#### LinkedIn
+**Post 5 (Professional Insight/Leadership):**
+For Aviation Professionals and Aerospace Engineers: Mixing metric and imperial units is an everyday reality in global aviation. From altimeter settings (inHg vs hPa) to engine thrust (lbf vs kN), absolute precision is required. Read our comprehensive 2026 guide on essential aviation conversions.
+Link: https://unitflow.alfo.online/blog/essential-aviation-conversions
+
+**Post 6 (Process/SOP Focus):**
+Standard Operating Procedures (SOPs) are the backbone of flight safety. Are your pre-flight preparation workflows using verified, deterministic tools for unit conversion? Learn how to standardize your conversion process to prevent costly and dangerous calculation errors.
+Link: https://unitflow.alfo.online/blog/essential-aviation-conversions
+
+**Post 7 (Efficiency/Productivity):**
+Whether you're calculating fuel burn rates or managing international cargo manifests, your unit conversions must be flawless. We built UnitFlow to be the reliable, offline-ready companion for aviation professionals who need accuracy on the go.
+Link: https://unitflow.alfo.online/blog/essential-aviation-conversions
+
+#### Pinterest
+**Post 8 (Visual/Infographic):**
+**Title:** The Ultimate Aviation Conversion Cheat Sheet
+**Description:** Essential reference for pilots and aerospace engineers. Pin this quick-reference infographic covering altitude, speed, and fuel conversions for your flight bag!
+**Link:** https://unitflow.alfo.online/blog/essential-aviation-conversions
+
+**Post 9 (Visual/Chart):**
+**Title:** Aircraft Fuel Weight Conversions: Gallons to Pounds
+**Description:** Prevent weight and balance errors. Learn how to accurately convert aviation fuel volume to weight with our standard reference guide.
+**Link:** https://unitflow.alfo.online/blog/essential-aviation-conversions
+
+**Post 10 (Visual/Tip):**
+**Title:** Knots vs. MPH: Aviation Speed Explained
+**Description:** Confused about knots? Learn the difference between nautical miles and statute miles, and how to convert them instantly.
+**Link:** https://unitflow.alfo.online/blog/essential-aviation-conversions
