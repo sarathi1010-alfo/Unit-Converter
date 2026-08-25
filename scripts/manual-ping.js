@@ -276,7 +276,18 @@ const NEW_URLS = [
   `${SITE_URL}/weight/ton-to-mcg`,
   `${SITE_URL}/weight/oz-to-mt`,
   `${SITE_URL}/weight/oz-to-ton`,
-  `${SITE_URL}/weight/ton-to-oz`
+  `${SITE_URL}/weight/ton-to-oz`,
+  `${SITE_URL}/blog/conversion-hacks-for-everyday-life`,
+  `${SITE_URL}/volume/cup-to-m3`,
+  `${SITE_URL}/volume/m3-to-cup`,
+  `${SITE_URL}/area/acre-to-sqkm`,
+  `${SITE_URL}/area/sqkm-to-acre`,
+  `${SITE_URL}/pressure/bar-to-kpa`,
+  `${SITE_URL}/pressure/kpa-to-bar`,
+  `${SITE_URL}/energy/kwh-to-btu`,
+  `${SITE_URL}/energy/btu-to-kwh`,
+  `${SITE_URL}/power/w-to-kw`,
+  `${SITE_URL}/power/kw-to-w`
 ];
 
 

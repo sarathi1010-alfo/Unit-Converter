@@ -262,7 +262,14 @@ const newUrls = [
   '/weight/ton-to-mcg',
   '/weight/oz-to-mt',
   '/weight/oz-to-ton',
-  '/weight/ton-to-oz'
+  '/weight/ton-to-oz',
+  '/blog/conversion-hacks-for-everyday-life',
+  '/volume/cup-to-m3',
+  '/volume/m3-to-cup',
+  '/area/acre-to-sqkm',
+  '/area/sqkm-to-acre',
+  '/energy/kwh-to-btu',
+  '/energy/btu-to-kwh'
 ];
 
 

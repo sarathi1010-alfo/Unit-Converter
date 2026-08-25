@@ -1168,5 +1168,55 @@
     "categoryId": "weight",
     "from": "ton",
     "to": "oz"
+  },
+  {
+    "categoryId": "volume",
+    "from": "cup",
+    "to": "m3"
+  },
+  {
+    "categoryId": "volume",
+    "from": "m3",
+    "to": "cup"
+  },
+  {
+    "categoryId": "area",
+    "from": "acre",
+    "to": "sqkm"
+  },
+  {
+    "categoryId": "area",
+    "from": "sqkm",
+    "to": "acre"
+  },
+  {
+    "categoryId": "pressure",
+    "from": "bar",
+    "to": "kpa"
+  },
+  {
+    "categoryId": "pressure",
+    "from": "kpa",
+    "to": "bar"
+  },
+  {
+    "categoryId": "energy",
+    "from": "kwh",
+    "to": "btu"
+  },
+  {
+    "categoryId": "energy",
+    "from": "btu",
+    "to": "kwh"
+  },
+  {
+    "categoryId": "power",
+    "from": "w",
+    "to": "kw"
+  },
+  {
+    "categoryId": "power",
+    "from": "kw",
+    "to": "w"
   }
 ]
