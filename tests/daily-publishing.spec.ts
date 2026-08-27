@@ -3,6 +3,18 @@ import { test, expect } from '@playwright/test';
 const SITE_URL = 'http://localhost:3000';
 
 const newUrls = [
+  '/blog/unit-conversions-for-3d-printing',
+  '/data/gb-to-kb',
+  '/data/kb-to-gb',
+  '/data/tb-to-kb',
+  '/data/kb-to-tb',
+  '/data/tb-to-mb',
+  '/data/mb-to-tb',
+  '/data/b-to-mb',
+  '/data/mb-to-b',
+  '/data/b-to-gb',
+  '/data/gb-to-b'
+,
   '/blog/everyday-unit-conversions-for-travelers',
   '/weight/mg-to-ton',
   '/weight/mg-to-stone',
