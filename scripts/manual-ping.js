@@ -8,6 +8,18 @@ const SITEMAP_URL = `${SITE_URL}/sitemap-index.xml`;
 const INDEXNOW_KEY = process.env.INDEXNOW_KEY || '2026_indexnow_key_alfo';
 
 const NEW_URLS = [
+  `${SITE_URL}/blog/unit-conversions-for-3d-printing`,
+  `${SITE_URL}/data/gb-to-kb`,
+  `${SITE_URL}/data/kb-to-gb`,
+  `${SITE_URL}/data/tb-to-kb`,
+  `${SITE_URL}/data/kb-to-tb`,
+  `${SITE_URL}/data/tb-to-mb`,
+  `${SITE_URL}/data/mb-to-tb`,
+  `${SITE_URL}/data/b-to-mb`,
+  `${SITE_URL}/data/mb-to-b`,
+  `${SITE_URL}/data/b-to-gb`,
+  `${SITE_URL}/data/gb-to-b`
+,
   `${SITE_URL}/blog/everyday-unit-conversions-for-travelers`,
   `${SITE_URL}/weight/mg-to-ton`,
   `${SITE_URL}/weight/mg-to-stone`,

@@ -1218,5 +1218,55 @@
     "categoryId": "power",
     "from": "kw",
     "to": "w"
+  },
+  {
+    "categoryId": "data",
+    "from": "gb",
+    "to": "kb"
+  },
+  {
+    "categoryId": "data",
+    "from": "kb",
+    "to": "gb"
+  },
+  {
+    "categoryId": "data",
+    "from": "tb",
+    "to": "kb"
+  },
+  {
+    "categoryId": "data",
+    "from": "kb",
+    "to": "tb"
+  },
+  {
+    "categoryId": "data",
+    "from": "tb",
+    "to": "mb"
+  },
+  {
+    "categoryId": "data",
+    "from": "mb",
+    "to": "tb"
+  },
+  {
+    "categoryId": "data",
+    "from": "b",
+    "to": "mb"
+  },
+  {
+    "categoryId": "data",
+    "from": "mb",
+    "to": "b"
+  },
+  {
+    "categoryId": "data",
+    "from": "b",
+    "to": "gb"
+  },
+  {
+    "categoryId": "data",
+    "from": "gb",
+    "to": "b"
   }
 ]
