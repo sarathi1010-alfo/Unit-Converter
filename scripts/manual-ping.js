@@ -299,7 +299,20 @@ const NEW_URLS = [
   `${SITE_URL}/energy/kwh-to-btu`,
   `${SITE_URL}/energy/btu-to-kwh`,
   `${SITE_URL}/power/w-to-kw`,
-  `${SITE_URL}/power/kw-to-w`
+  `${SITE_URL}/power/kw-to-w`,
+
+  `${SITE_URL}/blog/unit-conversions-for-agriculture-and-farming`,
+  `${SITE_URL}/weight/mcg-to-mt`,
+  `${SITE_URL}/weight/mcg-to-stone`,
+  `${SITE_URL}/weight/mt-to-mcg`,
+  `${SITE_URL}/weight/oz-to-stone`,
+  `${SITE_URL}/weight/ton-to-g`,
+  `${SITE_URL}/weight/ton-to-mg`,
+  `${SITE_URL}/weight/ton-to-stone`,
+  `${SITE_URL}/weight/stone-to-mcg`,
+  `${SITE_URL}/weight/stone-to-g`,
+  `${SITE_URL}/weight/stone-to-mg`
+
 ];
 
 
