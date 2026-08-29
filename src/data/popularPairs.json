@@ -1269,4 +1269,55 @@
     "from": "gb",
     "to": "b"
   }
+,
+  {
+    "categoryId": "weight",
+    "from": "mcg",
+    "to": "mt"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mcg",
+    "to": "stone"
+  },
+  {
+    "categoryId": "weight",
+    "from": "mt",
+    "to": "mcg"
+  },
+  {
+    "categoryId": "weight",
+    "from": "oz",
+    "to": "stone"
+  },
+  {
+    "categoryId": "weight",
+    "from": "ton",
+    "to": "g"
+  },
+  {
+    "categoryId": "weight",
+    "from": "ton",
+    "to": "mg"
+  },
+  {
+    "categoryId": "weight",
+    "from": "ton",
+    "to": "stone"
+  },
+  {
+    "categoryId": "weight",
+    "from": "stone",
+    "to": "mcg"
+  },
+  {
+    "categoryId": "weight",
+    "from": "stone",
+    "to": "g"
+  },
+  {
+    "categoryId": "weight",
+    "from": "stone",
+    "to": "mg"
+  }
 ]

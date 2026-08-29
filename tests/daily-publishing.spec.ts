@@ -281,7 +281,20 @@ const newUrls = [
   '/area/acre-to-sqkm',
   '/area/sqkm-to-acre',
   '/energy/kwh-to-btu',
-  '/energy/btu-to-kwh'
+  '/energy/btu-to-kwh',
+
+  '/blog/unit-conversions-for-agriculture-and-farming',
+  '/weight/mcg-to-mt',
+  '/weight/mcg-to-stone',
+  '/weight/mt-to-mcg',
+  '/weight/oz-to-stone',
+  '/weight/ton-to-g',
+  '/weight/ton-to-mg',
+  '/weight/ton-to-stone',
+  '/weight/stone-to-mcg',
+  '/weight/stone-to-g',
+  '/weight/stone-to-mg'
+
 ];
 
 
