@@ -51,7 +51,7 @@ export default function Home() {
           <h2 className="text-2xl font-bold text-slate-900">Browse Categories</h2>
           <div className="flex flex-col items-end gap-1">
             <Link
-              href="/blog/quick-unit-conversion-guide"
+              href="/blog/quick-unit-conversion-guide-2026"
               className="text-sm font-semibold text-primary hover:text-primary/80 flex items-center gap-1 transition-colors"
             >
               Guide: How to Convert Quickly & Accurately →
@@ -87,7 +87,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row md:items-center justify-between mb-6 gap-4">
           <h2 className="text-2xl font-bold text-slate-900">Popular Conversions</h2>
           <Link
-            href="/blog/quick-unit-conversion-guide"
+            href="/blog/quick-unit-conversion-guide-2026"
             className="text-sm font-semibold text-primary hover:text-primary/80 flex items-center gap-1 transition-colors"
           >
             Guide: How to Convert Quickly & Accurately →
@@ -96,9 +96,9 @@ export default function Home() {
         <RelatedLinks links={popularLinks} />
         <div className="mt-6 p-4 bg-primary/5 rounded-xl border border-primary/10">
           <p className="text-sm text-slate-600">
-            Want to learn how to convert faster? Master mental math and avoid common mistakes with our comprehensive guide on <Link href="/blog/quick-unit-conversion-guide" className="text-primary font-bold hover:underline">How to Convert Units Quickly and Accurately</Link>.
+            Want to learn how to convert faster? Master mental math and avoid common mistakes with our comprehensive guide on <Link href="/blog/quick-unit-conversion-guide-2026" className="text-primary font-bold hover:underline">How to Convert Units Quickly and Accurately</Link>.
             Also, be sure to read <Link href="/blog/the-complete-guide-to-length-conversion" className="text-primary font-bold hover:underline">The Complete Guide to Length Conversion</Link> to master metric and imperial distance measurements, and <Link href="/blog/the-complete-guide-to-pressure-conversions-for-mechanics" className="text-primary font-bold hover:underline">The Complete Guide to Pressure Conversions for Mechanics</Link> for mechanical conversions.
-            Engineers looking for advanced tips should check out our <Link href="/blog/conversion-hacks-for-engineers" className="text-primary font-bold hover:underline">Conversion Hacks for Engineers</Link>. (Last modified: August 4, 2026)
+            Engineers looking for advanced tips should check out our <Link href="/blog/conversion-hacks-for-engineers" className="text-primary font-bold hover:underline">Conversion Hacks for Engineers</Link>. (Last modified: August 30, 2026)
           </p>
         </div>
       </section>
