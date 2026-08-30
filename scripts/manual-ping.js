@@ -313,6 +313,18 @@ const NEW_URLS = [
   `${SITE_URL}/weight/stone-to-g`,
   `${SITE_URL}/weight/stone-to-mg`
 
+,
+  `${SITE_URL}/blog/quick-unit-conversion-guide-2026`,
+  `${SITE_URL}/weight/stone-to-mt`,
+  `${SITE_URL}/weight/stone-to-oz`,
+  `${SITE_URL}/weight/stone-to-ton`,
+  `${SITE_URL}/volume/m3-to-floz`,
+  `${SITE_URL}/volume/floz-to-m3`,
+  `${SITE_URL}/area/sqm-to-sqkm`,
+  `${SITE_URL}/area/sqm-to-sqmi`,
+  `${SITE_URL}/area/sqft-to-sqkm`,
+  `${SITE_URL}/area/sqft-to-sqmi`,
+  `${SITE_URL}/area/hectare-to-sqmi`
 ];
 
 

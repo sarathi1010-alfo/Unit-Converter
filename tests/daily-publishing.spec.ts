@@ -295,6 +295,18 @@ const newUrls = [
   '/weight/stone-to-g',
   '/weight/stone-to-mg'
 
+,
+  '/blog/quick-unit-conversion-guide-2026',
+  '/weight/stone-to-mt',
+  '/weight/stone-to-oz',
+  '/weight/stone-to-ton',
+  '/volume/m3-to-floz',
+  '/volume/floz-to-m3',
+  '/area/sqm-to-sqkm',
+  '/area/sqm-to-sqmi',
+  '/area/sqft-to-sqkm',
+  '/area/sqft-to-sqmi',
+  '/area/hectare-to-sqmi'
 ];
 
 

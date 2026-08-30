@@ -1268,8 +1268,7 @@
     "categoryId": "data",
     "from": "gb",
     "to": "b"
-  }
-,
+  },
   {
     "categoryId": "weight",
     "from": "mcg",
@@ -1319,5 +1318,55 @@
     "categoryId": "weight",
     "from": "stone",
     "to": "mg"
+  },
+  {
+    "categoryId": "weight",
+    "from": "stone",
+    "to": "mt"
+  },
+  {
+    "categoryId": "weight",
+    "from": "stone",
+    "to": "oz"
+  },
+  {
+    "categoryId": "weight",
+    "from": "stone",
+    "to": "ton"
+  },
+  {
+    "categoryId": "volume",
+    "from": "m3",
+    "to": "floz"
+  },
+  {
+    "categoryId": "volume",
+    "from": "floz",
+    "to": "m3"
+  },
+  {
+    "categoryId": "area",
+    "from": "sqm",
+    "to": "sqkm"
+  },
+  {
+    "categoryId": "area",
+    "from": "sqm",
+    "to": "sqmi"
+  },
+  {
+    "categoryId": "area",
+    "from": "sqft",
+    "to": "sqkm"
+  },
+  {
+    "categoryId": "area",
+    "from": "sqft",
+    "to": "sqmi"
+  },
+  {
+    "categoryId": "area",
+    "from": "hectare",
+    "to": "sqmi"
   }
 ]
