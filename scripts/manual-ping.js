@@ -324,7 +324,8 @@ const NEW_URLS = [
   `${SITE_URL}/area/sqm-to-sqmi`,
   `${SITE_URL}/area/sqft-to-sqkm`,
   `${SITE_URL}/area/sqft-to-sqmi`,
-  `${SITE_URL}/area/hectare-to-sqmi`
+  `${SITE_URL}/area/hectare-to-sqmi`,
+  `${SITE_URL}/data/mb-to-kb`,
 ];
 
 
