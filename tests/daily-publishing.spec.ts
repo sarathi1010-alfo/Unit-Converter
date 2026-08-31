@@ -306,7 +306,8 @@ const newUrls = [
   '/area/sqm-to-sqmi',
   '/area/sqft-to-sqkm',
   '/area/sqft-to-sqmi',
-  '/area/hectare-to-sqmi'
+  '/area/hectare-to-sqmi',
+  '/data/mb-to-kb',
 ];
 
 
