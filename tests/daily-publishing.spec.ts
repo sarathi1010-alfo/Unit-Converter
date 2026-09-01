@@ -3,6 +3,17 @@ import { test, expect } from '@playwright/test';
 const SITE_URL = 'http://localhost:3000';
 
 const newUrls = [
+  '/blog/unit-conversions-for-software-developers',
+  '/volume/pt-to-l',
+  '/volume/l-to-pt',
+  '/volume/pt-to-ml',
+  '/volume/ml-to-pt',
+  '/volume/pt-to-gal',
+  '/volume/gal-to-pt',
+  '/volume/pt-to-cup',
+  '/volume/cup-to-pt',
+  '/volume/pt-to-floz',
+  '/volume/floz-to-pt',
   '/blog/unit-conversions-for-3d-printing',
   '/data/gb-to-kb',
   '/data/kb-to-gb',

@@ -140,6 +140,11 @@
       "name": "Fluid Ounce (US)",
       "symbol": "fl oz",
       "baseFactor": 0.0295735
+    },
+    "pt": {
+      "name": "Pint (US)",
+      "symbol": "pt",
+      "baseFactor": 0.473176
     }
   },
   "area": {
