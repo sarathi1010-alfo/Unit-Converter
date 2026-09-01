@@ -98,7 +98,7 @@ export default function Home() {
           <p className="text-sm text-slate-600">
             Want to learn how to convert faster? Master mental math and avoid common mistakes with our comprehensive guide on <Link href="/blog/quick-unit-conversion-guide-2026" className="text-primary font-bold hover:underline">How to Convert Units Quickly and Accurately</Link>.
             Also, be sure to read <Link href="/blog/the-complete-guide-to-length-conversion" className="text-primary font-bold hover:underline">The Complete Guide to Length Conversion</Link> to master metric and imperial distance measurements, and <Link href="/blog/the-complete-guide-to-pressure-conversions-for-mechanics" className="text-primary font-bold hover:underline">The Complete Guide to Pressure Conversions for Mechanics</Link> for mechanical conversions.
-            Engineers looking for advanced tips should check out our <Link href="/blog/conversion-hacks-for-engineers" className="text-primary font-bold hover:underline">Conversion Hacks for Engineers</Link>. (Last modified: August 30, 2026)
+            Engineers looking for advanced tips should check out our <Link href="/blog/conversion-hacks-for-engineers" className="text-primary font-bold hover:underline">Conversion Hacks for Engineers</Link>, and developers can read our guide on <Link href="/blog/unit-conversions-for-software-developers" className="text-primary font-bold hover:underline">Unit Conversions for Software Developers</Link>. (Last modified: September 01, 2026)
           </p>
         </div>
       </section>

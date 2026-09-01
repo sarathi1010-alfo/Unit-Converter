@@ -1368,5 +1368,55 @@
     "categoryId": "area",
     "from": "hectare",
     "to": "sqmi"
+  },
+  {
+    "categoryId": "volume",
+    "from": "pt",
+    "to": "l"
+  },
+  {
+    "categoryId": "volume",
+    "from": "l",
+    "to": "pt"
+  },
+  {
+    "categoryId": "volume",
+    "from": "pt",
+    "to": "ml"
+  },
+  {
+    "categoryId": "volume",
+    "from": "ml",
+    "to": "pt"
+  },
+  {
+    "categoryId": "volume",
+    "from": "pt",
+    "to": "gal"
+  },
+  {
+    "categoryId": "volume",
+    "from": "gal",
+    "to": "pt"
+  },
+  {
+    "categoryId": "volume",
+    "from": "pt",
+    "to": "cup"
+  },
+  {
+    "categoryId": "volume",
+    "from": "cup",
+    "to": "pt"
+  },
+  {
+    "categoryId": "volume",
+    "from": "pt",
+    "to": "floz"
+  },
+  {
+    "categoryId": "volume",
+    "from": "floz",
+    "to": "pt"
   }
 ]
