@@ -3,6 +3,17 @@ import { test, expect } from '@playwright/test';
 const SITE_URL = 'http://localhost:3000';
 
 const newUrls = [
+  '/length/ft-to-m',
+  '/weight/kg-to-lb',
+  '/temperature/c-to-f',
+  '/volume/l-to-gal',
+  '/area/sqft-to-sqm',
+  '/speed/kmh-to-mph',
+  '/data/mb-to-gb',
+  '/currency/usd-to-eur',
+  '/cooking/cups-to-ml',
+  '/clothing/us-to-eu',
+  '/blog/quick-unit-conversion-guide',
   '/blog/unit-conversions-for-software-developers',
   '/volume/pt-to-l',
   '/volume/l-to-pt',
@@ -24,8 +35,7 @@ const newUrls = [
   '/data/b-to-mb',
   '/data/mb-to-b',
   '/data/b-to-gb',
-  '/data/gb-to-b'
-,
+  '/data/gb-to-b',
   '/blog/everyday-unit-conversions-for-travelers',
   '/weight/mg-to-ton',
   '/weight/mg-to-stone',
@@ -77,15 +87,10 @@ const newUrls = [
   '/length/yd-to-m',
   '/weight/oz-to-lb',
   '/weight/lb-to-kg',
-  '/temperature/c-to-f',
   '/temperature/f-to-c',
-  '/speed/kmh-to-mph',
   '/speed/mph-to-kmh',
-  '/currency/usd-to-eur',
   '/currency/eur-to-usd',
-  '/clothing/us-to-eu',
   '/clothing/eu-to-us',
-  '/volume/l-to-gal',
   '/volume/gal-to-l',
   '/blog/essential-unit-conversions-for-diy',
   '/length/mm-to-in',
@@ -185,7 +190,6 @@ const newUrls = [
   '/weight/lb-to-ton',
   '/weight/mt-to-ton',
   '/weight/ton-to-mt',
-  '/blog/quick-unit-conversion-guide',
   '/convert/ft-to-m',
   '/convert/kg-to-lb',
   '/convert/c-to-f',
@@ -196,11 +200,6 @@ const newUrls = [
   '/convert/usd-to-eur',
   '/convert/cups-to-ml',
   '/convert/us-to-eu',
-  '/length/ft-to-m',
-  '/weight/kg-to-lb',
-  '/area/sqft-to-sqm',
-  '/data/mb-to-gb',
-  '/cooking/cups-to-ml',
   '/blog/the-complete-guide-to-length-conversion',
   '/length/nm-to-m',
   '/length/m-to-nm',
@@ -293,7 +292,6 @@ const newUrls = [
   '/area/sqkm-to-acre',
   '/energy/kwh-to-btu',
   '/energy/btu-to-kwh',
-
   '/blog/unit-conversions-for-agriculture-and-farming',
   '/weight/mcg-to-mt',
   '/weight/mcg-to-stone',
@@ -304,9 +302,7 @@ const newUrls = [
   '/weight/ton-to-stone',
   '/weight/stone-to-mcg',
   '/weight/stone-to-g',
-  '/weight/stone-to-mg'
-
-,
+  '/weight/stone-to-mg',
   '/blog/quick-unit-conversion-guide-2026',
   '/weight/stone-to-mt',
   '/weight/stone-to-oz',
@@ -318,7 +314,7 @@ const newUrls = [
   '/area/sqft-to-sqkm',
   '/area/sqft-to-sqmi',
   '/area/hectare-to-sqmi',
-  '/data/mb-to-kb',
+  '/data/mb-to-kb'
 ];
 
 
