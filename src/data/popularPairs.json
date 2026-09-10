@@ -1418,5 +1418,55 @@
     "categoryId": "volume",
     "from": "floz",
     "to": "pt"
+  },
+  {
+    "categoryId": "volume",
+    "from": "m3",
+    "to": "pt"
+  },
+  {
+    "categoryId": "volume",
+    "from": "pt",
+    "to": "m3"
+  },
+  {
+    "categoryId": "area",
+    "from": "sqkm",
+    "to": "sqm"
+  },
+  {
+    "categoryId": "area",
+    "from": "sqkm",
+    "to": "sqft"
+  },
+  {
+    "categoryId": "area",
+    "from": "sqmi",
+    "to": "sqm"
+  },
+  {
+    "categoryId": "area",
+    "from": "sqmi",
+    "to": "sqft"
+  },
+  {
+    "categoryId": "area",
+    "from": "sqmi",
+    "to": "hectare"
+  },
+  {
+    "categoryId": "data",
+    "from": "b",
+    "to": "tb"
+  },
+  {
+    "categoryId": "data",
+    "from": "tb",
+    "to": "b"
+  },
+  {
+    "categoryId": "currency",
+    "from": "eur",
+    "to": "usd"
   }
 ]

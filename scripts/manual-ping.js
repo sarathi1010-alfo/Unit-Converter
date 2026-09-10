@@ -348,6 +348,16 @@ const NEW_URLS = [
   `${SITE_URL}/area/sqft-to-sqmi`,
   `${SITE_URL}/area/hectare-to-sqmi`,
   `${SITE_URL}/data/mb-to-kb`,
+  `${SITE_URL}/volume/m3-to-pt`,
+  `${SITE_URL}/volume/pt-to-m3`,
+  `${SITE_URL}/area/sqkm-to-sqm`,
+  `${SITE_URL}/area/sqkm-to-sqft`,
+  `${SITE_URL}/area/sqmi-to-sqm`,
+  `${SITE_URL}/area/sqmi-to-sqft`,
+  `${SITE_URL}/area/sqmi-to-hectare`,
+  `${SITE_URL}/data/b-to-tb`,
+  `${SITE_URL}/data/tb-to-b`,
+  `${SITE_URL}/blog/si-units-explained`
 ];
 
 

@@ -314,7 +314,17 @@ const newUrls = [
   '/area/sqft-to-sqkm',
   '/area/sqft-to-sqmi',
   '/area/hectare-to-sqmi',
-  '/data/mb-to-kb'
+  '/data/mb-to-kb',
+  '/volume/m3-to-pt',
+  '/volume/pt-to-m3',
+  '/area/sqkm-to-sqm',
+  '/area/sqkm-to-sqft',
+  '/area/sqmi-to-sqm',
+  '/area/sqmi-to-sqft',
+  '/area/sqmi-to-hectare',
+  '/data/b-to-tb',
+  '/data/tb-to-b',
+  '/blog/si-units-explained'
 ];
 
 
