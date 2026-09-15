@@ -1156,11 +1156,6 @@
   },
   {
     "categoryId": "weight",
-    "from": "mt",
-    "to": "oz"
-  },
-  {
-    "categoryId": "weight",
     "from": "oz",
     "to": "ton"
   },
@@ -1190,16 +1185,6 @@
     "to": "acre"
   },
   {
-    "categoryId": "pressure",
-    "from": "bar",
-    "to": "kpa"
-  },
-  {
-    "categoryId": "pressure",
-    "from": "kpa",
-    "to": "bar"
-  },
-  {
     "categoryId": "energy",
     "from": "kwh",
     "to": "btu"
@@ -1208,16 +1193,6 @@
     "categoryId": "energy",
     "from": "btu",
     "to": "kwh"
-  },
-  {
-    "categoryId": "power",
-    "from": "w",
-    "to": "kw"
-  },
-  {
-    "categoryId": "power",
-    "from": "kw",
-    "to": "w"
   },
   {
     "categoryId": "data",
@@ -1468,5 +1443,55 @@
     "categoryId": "currency",
     "from": "eur",
     "to": "usd"
+  },
+  {
+    "categoryId": "length",
+    "from": "ly",
+    "to": "km"
+  },
+  {
+    "categoryId": "length",
+    "from": "km",
+    "to": "ly"
+  },
+  {
+    "categoryId": "length",
+    "from": "au",
+    "to": "km"
+  },
+  {
+    "categoryId": "length",
+    "from": "km",
+    "to": "au"
+  },
+  {
+    "categoryId": "length",
+    "from": "ly",
+    "to": "au"
+  },
+  {
+    "categoryId": "length",
+    "from": "au",
+    "to": "ly"
+  },
+  {
+    "categoryId": "length",
+    "from": "ly",
+    "to": "mi"
+  },
+  {
+    "categoryId": "length",
+    "from": "mi",
+    "to": "ly"
+  },
+  {
+    "categoryId": "length",
+    "from": "au",
+    "to": "mi"
+  },
+  {
+    "categoryId": "length",
+    "from": "mi",
+    "to": "au"
   }
 ]
