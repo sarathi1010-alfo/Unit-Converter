@@ -324,7 +324,18 @@ const newUrls = [
   '/area/sqmi-to-hectare',
   '/data/b-to-tb',
   '/data/tb-to-b',
-  '/blog/si-units-explained'
+  '/blog/si-units-explained',
+  '/blog/unit-conversions-for-astronomy-and-space',
+  '/length/ly-to-km',
+  '/length/km-to-ly',
+  '/length/au-to-km',
+  '/length/km-to-au',
+  '/length/ly-to-au',
+  '/length/au-to-ly',
+  '/length/ly-to-mi',
+  '/length/mi-to-ly',
+  '/length/au-to-mi',
+  '/length/mi-to-au'
 ];
 
 
