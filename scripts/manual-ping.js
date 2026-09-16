@@ -349,7 +349,18 @@ const NEW_URLS = [
   `${SITE_URL}/length/ly-to-mi`,
   `${SITE_URL}/length/mi-to-ly`,
   `${SITE_URL}/length/au-to-mi`,
-  `${SITE_URL}/length/mi-to-au`
+  `${SITE_URL}/length/mi-to-au`,
+  `${SITE_URL}/blog/understanding-galactic-scales`,
+  `${SITE_URL}/length/ly-to-m`,
+  `${SITE_URL}/length/m-to-ly`,
+  `${SITE_URL}/length/au-to-m`,
+  `${SITE_URL}/length/m-to-au`,
+  `${SITE_URL}/length/ly-to-ft`,
+  `${SITE_URL}/length/ft-to-ly`,
+  `${SITE_URL}/length/au-to-ft`,
+  `${SITE_URL}/length/ft-to-au`,
+  `${SITE_URL}/length/ly-to-yd`,
+  `${SITE_URL}/length/yd-to-ly`
 ];
 
 

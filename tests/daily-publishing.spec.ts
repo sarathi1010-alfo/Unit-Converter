@@ -335,7 +335,18 @@ const newUrls = [
   '/length/ly-to-mi',
   '/length/mi-to-ly',
   '/length/au-to-mi',
-  '/length/mi-to-au'
+  '/length/mi-to-au',
+  '/blog/understanding-galactic-scales',
+  '/length/ly-to-m',
+  '/length/m-to-ly',
+  '/length/au-to-m',
+  '/length/m-to-au',
+  '/length/ly-to-ft',
+  '/length/ft-to-ly',
+  '/length/au-to-ft',
+  '/length/ft-to-au',
+  '/length/ly-to-yd',
+  '/length/yd-to-ly'
 ];
 
 

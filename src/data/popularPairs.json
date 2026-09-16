@@ -1493,5 +1493,55 @@
     "categoryId": "length",
     "from": "mi",
     "to": "au"
+  },
+  {
+    "categoryId": "length",
+    "from": "ly",
+    "to": "m"
+  },
+  {
+    "categoryId": "length",
+    "from": "m",
+    "to": "ly"
+  },
+  {
+    "categoryId": "length",
+    "from": "au",
+    "to": "m"
+  },
+  {
+    "categoryId": "length",
+    "from": "m",
+    "to": "au"
+  },
+  {
+    "categoryId": "length",
+    "from": "ly",
+    "to": "ft"
+  },
+  {
+    "categoryId": "length",
+    "from": "ft",
+    "to": "ly"
+  },
+  {
+    "categoryId": "length",
+    "from": "au",
+    "to": "ft"
+  },
+  {
+    "categoryId": "length",
+    "from": "ft",
+    "to": "au"
+  },
+  {
+    "categoryId": "length",
+    "from": "ly",
+    "to": "yd"
+  },
+  {
+    "categoryId": "length",
+    "from": "yd",
+    "to": "ly"
   }
 ]
