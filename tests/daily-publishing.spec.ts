@@ -346,7 +346,18 @@ const newUrls = [
   '/length/au-to-ft',
   '/length/ft-to-au',
   '/length/ly-to-yd',
-  '/length/yd-to-ly'
+  '/length/yd-to-ly',
+  '/length/cm-to-ly',
+  '/length/cm-to-au',
+  '/length/mm-to-ly',
+  '/length/mm-to-au',
+  '/length/in-to-ly',
+  '/length/in-to-au',
+  '/length/yd-to-au',
+  '/length/nm-to-ly',
+  '/length/nm-to-au',
+  '/length/ly-to-cm',
+  '/blog/travelers-guide-to-everyday-unit-conversions'
 ];
 
 

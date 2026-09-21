@@ -1543,5 +1543,55 @@
     "categoryId": "length",
     "from": "yd",
     "to": "ly"
+  },
+  {
+    "categoryId": "length",
+    "from": "cm",
+    "to": "ly"
+  },
+  {
+    "categoryId": "length",
+    "from": "cm",
+    "to": "au"
+  },
+  {
+    "categoryId": "length",
+    "from": "mm",
+    "to": "ly"
+  },
+  {
+    "categoryId": "length",
+    "from": "mm",
+    "to": "au"
+  },
+  {
+    "categoryId": "length",
+    "from": "in",
+    "to": "ly"
+  },
+  {
+    "categoryId": "length",
+    "from": "in",
+    "to": "au"
+  },
+  {
+    "categoryId": "length",
+    "from": "yd",
+    "to": "au"
+  },
+  {
+    "categoryId": "length",
+    "from": "nm",
+    "to": "ly"
+  },
+  {
+    "categoryId": "length",
+    "from": "nm",
+    "to": "au"
+  },
+  {
+    "categoryId": "length",
+    "from": "ly",
+    "to": "cm"
   }
 ]
