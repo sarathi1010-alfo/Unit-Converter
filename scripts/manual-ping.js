@@ -360,7 +360,18 @@ const NEW_URLS = [
   `${SITE_URL}/length/au-to-ft`,
   `${SITE_URL}/length/ft-to-au`,
   `${SITE_URL}/length/ly-to-yd`,
-  `${SITE_URL}/length/yd-to-ly`
+  `${SITE_URL}/length/yd-to-ly`,
+  `${SITE_URL}/length/cm-to-ly`,
+  `${SITE_URL}/length/cm-to-au`,
+  `${SITE_URL}/length/mm-to-ly`,
+  `${SITE_URL}/length/mm-to-au`,
+  `${SITE_URL}/length/in-to-ly`,
+  `${SITE_URL}/length/in-to-au`,
+  `${SITE_URL}/length/yd-to-au`,
+  `${SITE_URL}/length/nm-to-ly`,
+  `${SITE_URL}/length/nm-to-au`,
+  `${SITE_URL}/length/ly-to-cm`,
+  `${SITE_URL}/blog/travelers-guide-to-everyday-unit-conversions`
 ];
 
 
