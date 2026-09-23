@@ -209,6 +209,11 @@
       "name": "Knot",
       "symbol": "kn",
       "baseFactor": 1.852
+    },
+    "mach": {
+      "name": "Mach",
+      "symbol": "M",
+      "baseFactor": 1225.04
     }
   },
   "data": {
@@ -248,6 +253,11 @@
       "name": "Euro",
       "symbol": "€",
       "baseFactor": 0.92
+    },
+    "gbp": {
+      "name": "British Pound",
+      "symbol": "£",
+      "baseFactor": 0.79
     }
   },
   "cooking": {
@@ -271,6 +281,11 @@
     "eu": {
       "name": "EU Size",
       "symbol": "EU",
+      "baseFactor": 1
+    },
+    "uk": {
+      "name": "UK Size",
+      "symbol": "UK",
       "baseFactor": 1
     }
   },

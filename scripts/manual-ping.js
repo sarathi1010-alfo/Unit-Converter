@@ -371,7 +371,16 @@ const NEW_URLS = [
   `${SITE_URL}/length/nm-to-ly`,
   `${SITE_URL}/length/nm-to-au`,
   `${SITE_URL}/length/ly-to-cm`,
-  `${SITE_URL}/blog/travelers-guide-to-everyday-unit-conversions`
+  `${SITE_URL}/blog/travelers-guide-to-everyday-unit-conversions`,
+  `${SITE_URL}/currency/usd-to-gbp`,
+  `${SITE_URL}/currency/gbp-to-usd`,
+  `${SITE_URL}/currency/eur-to-gbp`,
+  `${SITE_URL}/currency/gbp-to-eur`,
+  `${SITE_URL}/clothing/us-to-uk`,
+  `${SITE_URL}/clothing/uk-to-us`,
+  `${SITE_URL}/clothing/eu-to-uk`,
+  `${SITE_URL}/clothing/uk-to-eu`,
+  `${SITE_URL}/speed/mph-to-mach`
 ];
 
 

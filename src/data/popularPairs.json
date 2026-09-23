@@ -1593,5 +1593,55 @@
     "categoryId": "length",
     "from": "ly",
     "to": "cm"
+  },
+  {
+    "categoryId": "currency",
+    "from": "usd",
+    "to": "gbp"
+  },
+  {
+    "categoryId": "currency",
+    "from": "gbp",
+    "to": "usd"
+  },
+  {
+    "categoryId": "currency",
+    "from": "eur",
+    "to": "gbp"
+  },
+  {
+    "categoryId": "currency",
+    "from": "gbp",
+    "to": "eur"
+  },
+  {
+    "categoryId": "clothing",
+    "from": "us",
+    "to": "uk"
+  },
+  {
+    "categoryId": "clothing",
+    "from": "uk",
+    "to": "us"
+  },
+  {
+    "categoryId": "clothing",
+    "from": "eu",
+    "to": "uk"
+  },
+  {
+    "categoryId": "clothing",
+    "from": "uk",
+    "to": "eu"
+  },
+  {
+    "categoryId": "clothing",
+    "from": "eu",
+    "to": "us"
+  },
+  {
+    "categoryId": "speed",
+    "from": "mph",
+    "to": "mach"
   }
 ]

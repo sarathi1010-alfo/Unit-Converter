@@ -357,7 +357,16 @@ const newUrls = [
   '/length/nm-to-ly',
   '/length/nm-to-au',
   '/length/ly-to-cm',
-  '/blog/travelers-guide-to-everyday-unit-conversions'
+  '/blog/travelers-guide-to-everyday-unit-conversions',
+  '/currency/usd-to-gbp',
+  '/currency/gbp-to-usd',
+  '/currency/eur-to-gbp',
+  '/currency/gbp-to-eur',
+  '/clothing/us-to-uk',
+  '/clothing/uk-to-us',
+  '/clothing/eu-to-uk',
+  '/clothing/uk-to-eu',
+  '/speed/mph-to-mach'
 ];
 
 
