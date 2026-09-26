@@ -366,7 +366,18 @@ const newUrls = [
   '/clothing/uk-to-us',
   '/clothing/eu-to-uk',
   '/clothing/uk-to-eu',
-  '/speed/mph-to-mach'
+  '/speed/mph-to-mach',
+  '/blog/unit-conversions-for-culinary-arts',
+  '/length/ly-to-mm',
+  '/length/ly-to-in',
+  '/length/ly-to-nm',
+  '/length/au-to-cm',
+  '/length/au-to-mm',
+  '/length/au-to-in',
+  '/length/au-to-yd',
+  '/length/au-to-nm',
+  '/speed/kmh-to-mach',
+  '/speed/ms-to-mach'
 ];
 
 
