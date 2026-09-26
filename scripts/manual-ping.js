@@ -380,7 +380,18 @@ const NEW_URLS = [
   `${SITE_URL}/clothing/uk-to-us`,
   `${SITE_URL}/clothing/eu-to-uk`,
   `${SITE_URL}/clothing/uk-to-eu`,
-  `${SITE_URL}/speed/mph-to-mach`
+  `${SITE_URL}/speed/mph-to-mach`,
+  `${SITE_URL}/blog/unit-conversions-for-culinary-arts`,
+  `${SITE_URL}/length/ly-to-mm`,
+  `${SITE_URL}/length/ly-to-in`,
+  `${SITE_URL}/length/ly-to-nm`,
+  `${SITE_URL}/length/au-to-cm`,
+  `${SITE_URL}/length/au-to-mm`,
+  `${SITE_URL}/length/au-to-in`,
+  `${SITE_URL}/length/au-to-yd`,
+  `${SITE_URL}/length/au-to-nm`,
+  `${SITE_URL}/speed/kmh-to-mach`,
+  `${SITE_URL}/speed/ms-to-mach`
 ];
 
 
