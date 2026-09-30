@@ -67,5 +67,47 @@
       "Formula and derivation tooltips for educational AEO",
       "Offline service worker calculation support"
     ]
+  },
+  "eval_harness": {
+    "framework": "promptfoo",
+    "version": "0.98.0",
+    "suites": [
+      {
+        "name": "conversion_precision_harness",
+        "type": "deterministic_math_eval",
+        "description": "Validates mathematical floating-point accuracy across all 100+ unit pairs",
+        "metrics": [
+          "precision_error_rate",
+          "edge_case_resilience",
+          "latency_microseconds"
+        ],
+        "thresholds": {
+          "max_error_rate": 1e-06,
+          "max_latency_us": 150
+        },
+        "test_cases_path": "tests/evals/conversion_pairs_dataset.json"
+      },
+      {
+        "name": "answer_engine_optimization_eval",
+        "type": "search_engine_eval",
+        "description": "Tests AI snippet retrieval accuracy for conversational unit questions",
+        "metrics": [
+          "citation_density",
+          "groundedness",
+          "json_ld_schema_fidelity"
+        ],
+        "thresholds": {
+          "min_groundedness": 0.98
+        }
+      }
+    ],
+    "ci_cd": {
+      "run_on_pull_request": true,
+      "block_on_failure": true,
+      "report_format": [
+        "json",
+        "markdown"
+      ]
+    }
   }
 }
