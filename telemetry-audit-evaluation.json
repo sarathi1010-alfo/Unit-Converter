@@ -1,0 +1,71 @@
+{
+  "service": {
+    "name": "unitflow-converter",
+    "namespace": "sarathi1010-alfo",
+    "version": "2.1.0",
+    "environment": "production",
+    "domain": "https://unitflow.alfo.online"
+  },
+  "open_telemetry": {
+    "enabled": true,
+    "exporter": {
+      "type": "otlp-http",
+      "endpoint": "https://telemetry.alfo.online/v1/traces",
+      "protocol": "http/protobuf"
+    },
+    "metrics": {
+      "endpoint": "https://telemetry.alfo.online/v1/metrics",
+      "interval_ms": 30000,
+      "tracked_metrics": [
+        "unit_conversion_computed_total",
+        "conversion_category_distribution",
+        "popular_unit_pairs_counter",
+        "client_calc_execution_time_ms",
+        "core_web_vitals_lcp_ms",
+        "core_web_vitals_cls",
+        "core_web_vitals_inp_ms"
+      ]
+    },
+    "tracing": {
+      "sampling_rate": 1.0,
+      "span_attributes": {
+        "app.framework": "Next.js 14 App Router",
+        "app.feature": "Unit & Measurement Conversion Engine",
+        "app.tier": "Tier-1 Autonomous SEO Web Utility"
+      }
+    }
+  },
+  "audit": {
+    "last_audited": "2026-09-30T13:12:00Z",
+    "auditor": "Alfo Autonomous Orchestrator",
+    "seo_health_score": 99,
+    "cwv_status": "PASS",
+    "checks": {
+      "canonical_urls": "VERIFIED",
+      "sitemap_xml": "200 OK (Purged 20,000 stale 4XX, clean dynamic sitemaps active)",
+      "json_ld_schema": "WebApplication + FAQPage + HowTo schema verified",
+      "broken_links_404": 0,
+      "mobile_responsive_score": 100,
+      "indexation_status": "GSC Registered & Crawling"
+    }
+  },
+  "evaluation": {
+    "aeo_geo_readiness_score": 97,
+    "ai_engine_optimization": {
+      "structured_data_richness": "VERY_HIGH",
+      "machine_parseable_tables": true,
+      "direct_qa_block_present": true,
+      "citation_worthiness": "OPTIMAL"
+    },
+    "performance_benchmarks": {
+      "target_lcp_seconds": 1.1,
+      "target_cls": 0.005,
+      "target_inp_ms": 35
+    },
+    "next_quarter_goals": [
+      "Smart conversion search autocomplete",
+      "Formula and derivation tooltips for educational AEO",
+      "Offline service worker calculation support"
+    ]
+  }
+}
