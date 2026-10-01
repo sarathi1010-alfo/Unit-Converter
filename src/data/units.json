@@ -54,6 +54,11 @@
       "name": "Astronomical Unit",
       "symbol": "au",
       "baseFactor": 149600000000
+    },
+    "pc": {
+      "name": "Parsec",
+      "symbol": "pc",
+      "baseFactor": 30860000000000000
     }
   },
   "weight": {
@@ -155,6 +160,16 @@
       "name": "Pint (US)",
       "symbol": "pt",
       "baseFactor": 0.473176
+    },
+    "tbsp": {
+      "name": "Tablespoon (US)",
+      "symbol": "tbsp",
+      "baseFactor": 0.0147868
+    },
+    "tsp": {
+      "name": "Teaspoon (US)",
+      "symbol": "tsp",
+      "baseFactor": 0.00492892
     }
   },
   "area": {
