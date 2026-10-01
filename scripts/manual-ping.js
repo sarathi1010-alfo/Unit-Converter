@@ -391,7 +391,18 @@ const NEW_URLS = [
   `${SITE_URL}/length/au-to-yd`,
   `${SITE_URL}/length/au-to-nm`,
   `${SITE_URL}/speed/kmh-to-mach`,
-  `${SITE_URL}/speed/ms-to-mach`
+  `${SITE_URL}/speed/ms-to-mach`,
+  `${SITE_URL}/blog/imperial-vs-metric-systems-the-great-divide`,
+  `${SITE_URL}/length/m-to-pc`,
+  `${SITE_URL}/length/cm-to-pc`,
+  `${SITE_URL}/length/mm-to-pc`,
+  `${SITE_URL}/length/km-to-pc`,
+  `${SITE_URL}/length/in-to-pc`,
+  `${SITE_URL}/length/ft-to-pc`,
+  `${SITE_URL}/length/yd-to-pc`,
+  `${SITE_URL}/length/mi-to-pc`,
+  `${SITE_URL}/length/nm-to-pc`,
+  `${SITE_URL}/length/ly-to-pc`
 ];
 
 

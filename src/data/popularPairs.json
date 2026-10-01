@@ -1693,5 +1693,55 @@
     "categoryId": "speed",
     "from": "ms",
     "to": "mach"
+  },
+  {
+    "categoryId": "length",
+    "from": "m",
+    "to": "pc"
+  },
+  {
+    "categoryId": "length",
+    "from": "cm",
+    "to": "pc"
+  },
+  {
+    "categoryId": "length",
+    "from": "mm",
+    "to": "pc"
+  },
+  {
+    "categoryId": "length",
+    "from": "km",
+    "to": "pc"
+  },
+  {
+    "categoryId": "length",
+    "from": "in",
+    "to": "pc"
+  },
+  {
+    "categoryId": "length",
+    "from": "ft",
+    "to": "pc"
+  },
+  {
+    "categoryId": "length",
+    "from": "yd",
+    "to": "pc"
+  },
+  {
+    "categoryId": "length",
+    "from": "mi",
+    "to": "pc"
+  },
+  {
+    "categoryId": "length",
+    "from": "nm",
+    "to": "pc"
+  },
+  {
+    "categoryId": "length",
+    "from": "ly",
+    "to": "pc"
   }
 ]

@@ -377,7 +377,18 @@ const newUrls = [
   '/length/au-to-yd',
   '/length/au-to-nm',
   '/speed/kmh-to-mach',
-  '/speed/ms-to-mach'
+  '/speed/ms-to-mach',
+  '/blog/imperial-vs-metric-systems-the-great-divide',
+  '/length/m-to-pc',
+  '/length/cm-to-pc',
+  '/length/mm-to-pc',
+  '/length/km-to-pc',
+  '/length/in-to-pc',
+  '/length/ft-to-pc',
+  '/length/yd-to-pc',
+  '/length/mi-to-pc',
+  '/length/nm-to-pc',
+  '/length/ly-to-pc'
 ];
 
 
