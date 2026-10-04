@@ -388,7 +388,18 @@ const newUrls = [
   '/length/yd-to-pc',
   '/length/mi-to-pc',
   '/length/nm-to-pc',
-  '/length/ly-to-pc'
+  '/length/ly-to-pc',
+  '/blog/unit-conversions-for-renewable-energy',
+  '/power/w-to-mw',
+  '/power/mw-to-w',
+  '/power/w-to-gw',
+  '/power/gw-to-w',
+  '/power/kw-to-mw',
+  '/power/mw-to-kw',
+  '/power/kw-to-gw',
+  '/power/gw-to-kw',
+  '/power/mw-to-gw',
+  '/power/gw-to-mw'
 ];
 
 
