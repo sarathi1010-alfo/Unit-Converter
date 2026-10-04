@@ -402,7 +402,18 @@ const NEW_URLS = [
   `${SITE_URL}/length/yd-to-pc`,
   `${SITE_URL}/length/mi-to-pc`,
   `${SITE_URL}/length/nm-to-pc`,
-  `${SITE_URL}/length/ly-to-pc`
+  `${SITE_URL}/length/ly-to-pc`,
+  `${SITE_URL}/blog/unit-conversions-for-renewable-energy`,
+  `${SITE_URL}/power/w-to-mw`,
+  `${SITE_URL}/power/mw-to-w`,
+  `${SITE_URL}/power/w-to-gw`,
+  `${SITE_URL}/power/gw-to-w`,
+  `${SITE_URL}/power/kw-to-mw`,
+  `${SITE_URL}/power/mw-to-kw`,
+  `${SITE_URL}/power/kw-to-gw`,
+  `${SITE_URL}/power/gw-to-kw`,
+  `${SITE_URL}/power/mw-to-gw`,
+  `${SITE_URL}/power/gw-to-mw`
 ];
 
 

@@ -363,6 +363,16 @@
       "name": "Horsepower",
       "symbol": "hp",
       "baseFactor": 745.699872
+    },
+    "mw": {
+      "name": "Megawatt",
+      "symbol": "MW",
+      "baseFactor": 1000000
+    },
+    "gw": {
+      "name": "Gigawatt",
+      "symbol": "GW",
+      "baseFactor": 1000000000
     }
   }
 }

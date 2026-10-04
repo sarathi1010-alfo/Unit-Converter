@@ -1743,5 +1743,55 @@
     "categoryId": "length",
     "from": "ly",
     "to": "pc"
+  },
+  {
+    "categoryId": "power",
+    "from": "w",
+    "to": "mw"
+  },
+  {
+    "categoryId": "power",
+    "from": "mw",
+    "to": "w"
+  },
+  {
+    "categoryId": "power",
+    "from": "w",
+    "to": "gw"
+  },
+  {
+    "categoryId": "power",
+    "from": "gw",
+    "to": "w"
+  },
+  {
+    "categoryId": "power",
+    "from": "kw",
+    "to": "mw"
+  },
+  {
+    "categoryId": "power",
+    "from": "mw",
+    "to": "kw"
+  },
+  {
+    "categoryId": "power",
+    "from": "kw",
+    "to": "gw"
+  },
+  {
+    "categoryId": "power",
+    "from": "gw",
+    "to": "kw"
+  },
+  {
+    "categoryId": "power",
+    "from": "mw",
+    "to": "gw"
+  },
+  {
+    "categoryId": "power",
+    "from": "gw",
+    "to": "mw"
   }
 ]
