@@ -399,7 +399,8 @@ const newUrls = [
   '/power/kw-to-gw',
   '/power/gw-to-kw',
   '/power/mw-to-gw',
-  '/power/gw-to-mw'
+  '/power/gw-to-mw',
+  '/blog/unit-conversions-for-woodworking'
 ];
 
 
