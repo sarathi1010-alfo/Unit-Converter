@@ -415,16 +415,18 @@ const NEW_URLS = [
   `${SITE_URL}/power/mw-to-gw`,
   `${SITE_URL}/power/gw-to-mw`,
   `${SITE_URL}/blog/unit-conversions-for-woodworking`,
-  `${SITE_URL}/length/mm-to-in`,
-  `${SITE_URL}/length/in-to-mm`,
-  `${SITE_URL}/length/cm-to-ft`,
-  `${SITE_URL}/length/ft-to-cm`,
-  `${SITE_URL}/length/m-to-yd`,
   `${SITE_URL}/length/yd-to-m`,
-  `${SITE_URL}/length/km-to-ft`,
-  `${SITE_URL}/length/ft-to-km`,
-  `${SITE_URL}/length/mi-to-ft`,
-  `${SITE_URL}/length/ft-to-mi`
+  `${SITE_URL}/blog/unit-conversions-for-software-and-data`,
+  `${SITE_URL}/volume/l-to-tbsp`,
+  `${SITE_URL}/volume/tbsp-to-l`,
+  `${SITE_URL}/volume/l-to-tsp`,
+  `${SITE_URL}/volume/tsp-to-l`,
+  `${SITE_URL}/volume/ml-to-tbsp`,
+  `${SITE_URL}/volume/tbsp-to-ml`,
+  `${SITE_URL}/volume/ml-to-tsp`,
+  `${SITE_URL}/volume/tsp-to-ml`,
+  `${SITE_URL}/volume/gal-to-tbsp`,
+  `${SITE_URL}/volume/tbsp-to-gal`
 ];
 
 
