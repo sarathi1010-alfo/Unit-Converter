@@ -1793,5 +1793,55 @@
     "categoryId": "power",
     "from": "gw",
     "to": "mw"
+  },
+  {
+    "categoryId": "volume",
+    "from": "l",
+    "to": "tbsp"
+  },
+  {
+    "categoryId": "volume",
+    "from": "tbsp",
+    "to": "l"
+  },
+  {
+    "categoryId": "volume",
+    "from": "l",
+    "to": "tsp"
+  },
+  {
+    "categoryId": "volume",
+    "from": "tsp",
+    "to": "l"
+  },
+  {
+    "categoryId": "volume",
+    "from": "ml",
+    "to": "tbsp"
+  },
+  {
+    "categoryId": "volume",
+    "from": "tbsp",
+    "to": "ml"
+  },
+  {
+    "categoryId": "volume",
+    "from": "ml",
+    "to": "tsp"
+  },
+  {
+    "categoryId": "volume",
+    "from": "tsp",
+    "to": "ml"
+  },
+  {
+    "categoryId": "volume",
+    "from": "gal",
+    "to": "tbsp"
+  },
+  {
+    "categoryId": "volume",
+    "from": "tbsp",
+    "to": "gal"
   }
 ]

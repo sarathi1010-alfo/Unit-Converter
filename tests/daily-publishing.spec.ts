@@ -400,7 +400,18 @@ const newUrls = [
   '/power/gw-to-kw',
   '/power/mw-to-gw',
   '/power/gw-to-mw',
-  '/blog/unit-conversions-for-woodworking'
+  '/blog/unit-conversions-for-woodworking',
+  '/blog/unit-conversions-for-software-and-data',
+  '/volume/l-to-tbsp',
+  '/volume/tbsp-to-l',
+  '/volume/l-to-tsp',
+  '/volume/tsp-to-l',
+  '/volume/ml-to-tbsp',
+  '/volume/tbsp-to-ml',
+  '/volume/ml-to-tsp',
+  '/volume/tsp-to-ml',
+  '/volume/gal-to-tbsp',
+  '/volume/tbsp-to-gal'
 ];
 
 
