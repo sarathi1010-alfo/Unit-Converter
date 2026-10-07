@@ -427,6 +427,18 @@ const NEW_URLS = [
   `${SITE_URL}/volume/tsp-to-ml`,
   `${SITE_URL}/volume/gal-to-tbsp`,
   `${SITE_URL}/volume/tbsp-to-gal`
+,
+  `${SITE_URL}/blog/conversion-hacks-for-data-scientists`,
+  `${SITE_URL}/volume/cup-to-tbsp`,
+  `${SITE_URL}/volume/tbsp-to-cup`,
+  `${SITE_URL}/volume/cup-to-tsp`,
+  `${SITE_URL}/volume/tsp-to-cup`,
+  `${SITE_URL}/volume/floz-to-tbsp`,
+  `${SITE_URL}/volume/tbsp-to-floz`,
+  `${SITE_URL}/volume/floz-to-tsp`,
+  `${SITE_URL}/volume/tsp-to-floz`,
+  `${SITE_URL}/volume/pt-to-tbsp`,
+  `${SITE_URL}/volume/tbsp-to-pt`
 ];
 
 

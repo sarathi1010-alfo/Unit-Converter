@@ -412,6 +412,18 @@ const newUrls = [
   '/volume/tsp-to-ml',
   '/volume/gal-to-tbsp',
   '/volume/tbsp-to-gal'
+,
+  '/blog/conversion-hacks-for-data-scientists',
+  '/volume/cup-to-tbsp',
+  '/volume/tbsp-to-cup',
+  '/volume/cup-to-tsp',
+  '/volume/tsp-to-cup',
+  '/volume/floz-to-tbsp',
+  '/volume/tbsp-to-floz',
+  '/volume/floz-to-tsp',
+  '/volume/tsp-to-floz',
+  '/volume/pt-to-tbsp',
+  '/volume/tbsp-to-pt'
 ];
 
 
