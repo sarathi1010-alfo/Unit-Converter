@@ -1843,5 +1843,55 @@
     "categoryId": "volume",
     "from": "tbsp",
     "to": "gal"
+  },
+  {
+    "categoryId": "volume",
+    "from": "cup",
+    "to": "tbsp"
+  },
+  {
+    "categoryId": "volume",
+    "from": "tbsp",
+    "to": "cup"
+  },
+  {
+    "categoryId": "volume",
+    "from": "cup",
+    "to": "tsp"
+  },
+  {
+    "categoryId": "volume",
+    "from": "tsp",
+    "to": "cup"
+  },
+  {
+    "categoryId": "volume",
+    "from": "floz",
+    "to": "tbsp"
+  },
+  {
+    "categoryId": "volume",
+    "from": "tbsp",
+    "to": "floz"
+  },
+  {
+    "categoryId": "volume",
+    "from": "floz",
+    "to": "tsp"
+  },
+  {
+    "categoryId": "volume",
+    "from": "tsp",
+    "to": "floz"
+  },
+  {
+    "categoryId": "volume",
+    "from": "pt",
+    "to": "tbsp"
+  },
+  {
+    "categoryId": "volume",
+    "from": "tbsp",
+    "to": "pt"
   }
 ]
