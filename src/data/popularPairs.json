@@ -1893,5 +1893,55 @@
     "categoryId": "volume",
     "from": "tbsp",
     "to": "pt"
+  },
+  {
+    "categoryId": "length",
+    "from": "au",
+    "to": "pc"
+  },
+  {
+    "categoryId": "length",
+    "from": "pc",
+    "to": "m"
+  },
+  {
+    "categoryId": "length",
+    "from": "pc",
+    "to": "cm"
+  },
+  {
+    "categoryId": "length",
+    "from": "pc",
+    "to": "mm"
+  },
+  {
+    "categoryId": "length",
+    "from": "pc",
+    "to": "km"
+  },
+  {
+    "categoryId": "length",
+    "from": "pc",
+    "to": "in"
+  },
+  {
+    "categoryId": "length",
+    "from": "pc",
+    "to": "ft"
+  },
+  {
+    "categoryId": "length",
+    "from": "pc",
+    "to": "yd"
+  },
+  {
+    "categoryId": "length",
+    "from": "pc",
+    "to": "mi"
+  },
+  {
+    "categoryId": "length",
+    "from": "pc",
+    "to": "nm"
   }
 ]
