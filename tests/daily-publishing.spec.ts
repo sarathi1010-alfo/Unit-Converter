@@ -424,6 +424,18 @@ const newUrls = [
   '/volume/tsp-to-floz',
   '/volume/pt-to-tbsp',
   '/volume/tbsp-to-pt'
+,
+  '/length/au-to-pc',
+  '/length/pc-to-m',
+  '/length/pc-to-cm',
+  '/length/pc-to-mm',
+  '/length/pc-to-km',
+  '/length/pc-to-in',
+  '/length/pc-to-ft',
+  '/length/pc-to-yd',
+  '/length/pc-to-mi',
+  '/length/pc-to-nm',
+  '/blog/conversion-hacks-for-digital-nomads'
 ];
 
 

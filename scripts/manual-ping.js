@@ -439,6 +439,18 @@ const NEW_URLS = [
   `${SITE_URL}/volume/tsp-to-floz`,
   `${SITE_URL}/volume/pt-to-tbsp`,
   `${SITE_URL}/volume/tbsp-to-pt`
+,
+  `${SITE_URL}/length/au-to-pc`,
+  `${SITE_URL}/length/pc-to-m`,
+  `${SITE_URL}/length/pc-to-cm`,
+  `${SITE_URL}/length/pc-to-mm`,
+  `${SITE_URL}/length/pc-to-km`,
+  `${SITE_URL}/length/pc-to-in`,
+  `${SITE_URL}/length/pc-to-ft`,
+  `${SITE_URL}/length/pc-to-yd`,
+  `${SITE_URL}/length/pc-to-mi`,
+  `${SITE_URL}/length/pc-to-nm`,
+  `${SITE_URL}/blog/conversion-hacks-for-digital-nomads`
 ];
 
 
