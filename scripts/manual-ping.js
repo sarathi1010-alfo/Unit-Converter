@@ -8,6 +8,17 @@ const SITEMAP_URL = `${SITE_URL}/sitemap-index.xml`;
 const INDEXNOW_KEY = process.env.INDEXNOW_KEY || '2026_indexnow_key_alfo';
 
 const NEW_URLS = [
+    `${SITE_URL}/blog/conversion-hacks-for-architects`,
+  `${SITE_URL}/volume/gal-to-tsp`,
+  `${SITE_URL}/volume/tsp-to-gal`,
+  `${SITE_URL}/volume/m3-to-tbsp`,
+  `${SITE_URL}/volume/tbsp-to-m3`,
+  `${SITE_URL}/volume/m3-to-tsp`,
+  `${SITE_URL}/volume/tsp-to-m3`,
+  `${SITE_URL}/volume/pt-to-tsp`,
+  `${SITE_URL}/volume/tsp-to-pt`,
+  `${SITE_URL}/volume/tbsp-to-tsp`,
+  `${SITE_URL}/volume/tsp-to-tbsp`,
   `${SITE_URL}/length/ft-to-m`,
   `${SITE_URL}/weight/kg-to-lb`,
   `${SITE_URL}/temperature/c-to-f`,

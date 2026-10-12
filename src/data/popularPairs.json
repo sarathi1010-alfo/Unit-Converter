@@ -1943,5 +1943,55 @@
     "categoryId": "length",
     "from": "pc",
     "to": "nm"
+  },
+  {
+    "categoryId": "volume",
+    "from": "gal",
+    "to": "tsp"
+  },
+  {
+    "categoryId": "volume",
+    "from": "tsp",
+    "to": "gal"
+  },
+  {
+    "categoryId": "volume",
+    "from": "m3",
+    "to": "tbsp"
+  },
+  {
+    "categoryId": "volume",
+    "from": "tbsp",
+    "to": "m3"
+  },
+  {
+    "categoryId": "volume",
+    "from": "m3",
+    "to": "tsp"
+  },
+  {
+    "categoryId": "volume",
+    "from": "tsp",
+    "to": "m3"
+  },
+  {
+    "categoryId": "volume",
+    "from": "pt",
+    "to": "tsp"
+  },
+  {
+    "categoryId": "volume",
+    "from": "tsp",
+    "to": "pt"
+  },
+  {
+    "categoryId": "volume",
+    "from": "tbsp",
+    "to": "tsp"
+  },
+  {
+    "categoryId": "volume",
+    "from": "tsp",
+    "to": "tbsp"
   }
 ]
