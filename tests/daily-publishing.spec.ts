@@ -3,6 +3,17 @@ import { test, expect } from '@playwright/test';
 const SITE_URL = 'http://localhost:3000';
 
 const newUrls = [
+    '/blog/conversion-hacks-for-architects',
+  '/volume/gal-to-tsp',
+  '/volume/tsp-to-gal',
+  '/volume/m3-to-tbsp',
+  '/volume/tbsp-to-m3',
+  '/volume/m3-to-tsp',
+  '/volume/tsp-to-m3',
+  '/volume/pt-to-tsp',
+  '/volume/tsp-to-pt',
+  '/volume/tbsp-to-tsp',
+  '/volume/tsp-to-tbsp',
   '/length/ft-to-m',
   '/weight/kg-to-lb',
   '/temperature/c-to-f',
