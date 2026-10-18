@@ -2022,3 +2022,21 @@ Description: "No service? No problem. Discover why offline-capable unit conversi
 Link: https://unitflow.alfo.online/blog/conversion-hacks-for-architects
 
 ## Daily Execution: 2026-10-09
+
+### Campaign: Conversion Hacks for Makers (2026-10-10)
+
+#### Twitter/X (4 Posts)
+1. "Makers! Ever ruined a 3D print because of a unit conversion error? 1 inch is exactly 25.4 mm. Master the core conversion factors and save your filament. 🖨️📏 #3DPrinting #Makers #UnitFlow"
+2. "Woodworkers: Mental math hack! 1 meter is roughly 3 feet + 10%. Stop guessing at the lumber yard. For exact cuts, use a reliable converter. 🪵🪚 #Woodworking #DIY #UnitFlow"
+3. "Are you mixing resin or 2-part epoxy? Remember: you can't directly convert volume (mL) to weight (g) without knowing the density. Read the label! 🧪🔬 #ResinArt #MakersSpace"
+4. "From 3D printing to CNC machining, UnitFlow is the offline-capable, adjustable-precision conversion tool built for your workshop. Never miscalculate an imperial to metric dimension again. 🛠️⚙️ #CNC #Engineering"
+
+#### LinkedIn (3 Posts)
+1. "For engineers and professional makers, unit conversion isn't just about math—it's about material costs and tight tolerances. A tiny rounding error (using 2.5cm instead of 2.54cm for an inch) can compound into a ruined project. Check out our new guide on conversion hacks for makers. 🛠️📏 #Engineering #Manufacturing #UnitFlow"
+2. "Is your workshop offline? We built UnitFlow to be a fully offline-capable progressive web app so you can convert complex metrics right at the workbench without relying on spotty WiFi. Ideal for CNC operators, woodworkers, and 3D printing enthusiasts. #Productivity #Makers #Tech"
+3. "The metric system dominates digital fabrication, but the imperial system still rules hardware and lumber. Operating across these two paradigms requires precision tools. Learn the mental frameworks and digital workflows to bridge the gap in our latest guide. #DigitalFabrication #Hardware #UnitFlow"
+
+#### Pinterest (3 Posts)
+1. **Pin Title:** The Ultimate Maker's Conversion Cheat Sheet (Inches to mm). **Image Description:** A clean, workshop-themed infographic showing common fractions of an inch converted precisely to millimeters (e.g., 1/4" = 6.35mm, 1/2" = 12.7mm).
+2. **Pin Title:** 3D Printing Temperatures: C to F Quick Guide. **Image Description:** A visual thermometer graphic showing common 3D printing material extrusion temps (PLA, ABS, PETG) in both Celsius and Fahrenheit.
+3. **Pin Title:** Resin Mixing: Volume vs Weight Explained. **Image Description:** A side-by-side comparison of a beaker (volume) and a digital scale (weight), highlighting the difference in specific gravity when mixing epoxies.

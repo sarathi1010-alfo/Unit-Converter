@@ -461,7 +461,18 @@ const NEW_URLS = [
   `${SITE_URL}/length/pc-to-yd`,
   `${SITE_URL}/length/pc-to-mi`,
   `${SITE_URL}/length/pc-to-nm`,
-  `${SITE_URL}/blog/conversion-hacks-for-digital-nomads`
+  `${SITE_URL}/blog/conversion-hacks-for-digital-nomads`,
+  `${SITE_URL}/blog/conversion-hacks-for-makers`,
+  `${SITE_URL}/length/pc-to-ly`,
+  `${SITE_URL}/length/pc-to-au`,
+  `${SITE_URL}/speed/mach-to-kmh`,
+  `${SITE_URL}/speed/mach-to-mph`,
+  `${SITE_URL}/speed/mach-to-ms`,
+  `${SITE_URL}/speed/knot-to-mach`,
+  `${SITE_URL}/speed/mach-to-knot`,
+  `${SITE_URL}/power/hp-to-mw`,
+  `${SITE_URL}/power/mw-to-hp`,
+  `${SITE_URL}/power/hp-to-gw`
 ];
 
 

@@ -446,7 +446,18 @@ const newUrls = [
   '/length/pc-to-yd',
   '/length/pc-to-mi',
   '/length/pc-to-nm',
-  '/blog/conversion-hacks-for-digital-nomads'
+  '/blog/conversion-hacks-for-digital-nomads',
+  '/blog/conversion-hacks-for-makers',
+  '/length/pc-to-ly',
+  '/length/pc-to-au',
+  '/speed/mach-to-kmh',
+  '/speed/mach-to-mph',
+  '/speed/mach-to-ms',
+  '/speed/knot-to-mach',
+  '/speed/mach-to-knot',
+  '/power/hp-to-mw',
+  '/power/mw-to-hp',
+  '/power/hp-to-gw'
 ];
 
 

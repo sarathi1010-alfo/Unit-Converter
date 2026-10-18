@@ -1993,5 +1993,55 @@
     "categoryId": "volume",
     "from": "tsp",
     "to": "tbsp"
+  },
+  {
+    "categoryId": "length",
+    "from": "pc",
+    "to": "ly"
+  },
+  {
+    "categoryId": "length",
+    "from": "pc",
+    "to": "au"
+  },
+  {
+    "categoryId": "speed",
+    "from": "mach",
+    "to": "kmh"
+  },
+  {
+    "categoryId": "speed",
+    "from": "mach",
+    "to": "mph"
+  },
+  {
+    "categoryId": "speed",
+    "from": "mach",
+    "to": "ms"
+  },
+  {
+    "categoryId": "speed",
+    "from": "knot",
+    "to": "mach"
+  },
+  {
+    "categoryId": "speed",
+    "from": "mach",
+    "to": "knot"
+  },
+  {
+    "categoryId": "power",
+    "from": "hp",
+    "to": "mw"
+  },
+  {
+    "categoryId": "power",
+    "from": "mw",
+    "to": "hp"
+  },
+  {
+    "categoryId": "power",
+    "from": "hp",
+    "to": "gw"
   }
 ]
