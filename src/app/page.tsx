@@ -51,6 +51,12 @@ export default function Home() {
           <h2 className="text-2xl font-bold text-slate-900">Browse Categories</h2>
           <div className="flex flex-col items-end gap-1">
             <Link
+              href="/blog/conversion-hacks-for-travelers"
+              className="text-sm font-semibold text-primary hover:text-primary/80 flex items-center gap-1 transition-colors"
+            >
+              Guide: Conversion Hacks for Travelers →
+            </Link>
+            <Link
               href="/blog/quick-unit-conversion-guide-2026"
               className="text-sm font-semibold text-primary hover:text-primary/80 flex items-center gap-1 transition-colors"
             >
@@ -98,7 +104,7 @@ export default function Home() {
           <p className="text-sm text-slate-600">
             Want to learn how to convert faster? Master mental math and avoid common mistakes with our comprehensive guide on <Link href="/blog/quick-unit-conversion-guide-2026" className="text-primary font-bold hover:underline">How to Convert Units Quickly and Accurately</Link>.
             Also, be sure to read <Link href="/blog/the-complete-guide-to-length-conversion" className="text-primary font-bold hover:underline">The Complete Guide to Length Conversion</Link> to master metric and imperial distance measurements, and <Link href="/blog/the-complete-guide-to-pressure-conversions-for-mechanics" className="text-primary font-bold hover:underline">The Complete Guide to Pressure Conversions for Mechanics</Link> for mechanical conversions.
-            Engineers looking for advanced tips should check out our <Link href="/blog/conversion-hacks-for-engineers" className="text-primary font-bold hover:underline">Conversion Hacks for Engineers</Link>, and developers can read our guide on <Link href="/blog/unit-conversions-for-software-developers" className="text-primary font-bold hover:underline">Unit Conversions for Software Developers</Link>. For those who work on the move, we have compiled an extensive set of tools and tips. Managing cross-border travel requires immense adaptability. To ease the cognitive load of switching between metric and imperial units across various time zones, check out our newly published <Link href="/blog/conversion-hacks-for-digital-nomads" className="text-primary font-bold hover:underline">Conversion Hacks for Digital Nomads</Link>. This guide offers vital mental math techniques and explains why offline tools like UnitFlow are indispensable for professionals traveling the globe. (Last modified: October 08, 2026)
+            Engineers looking for advanced tips should check out our <Link href="/blog/conversion-hacks-for-engineers" className="text-primary font-bold hover:underline">Conversion Hacks for Engineers</Link>, and developers can read our guide on <Link href="/blog/unit-conversions-for-software-developers" className="text-primary font-bold hover:underline">Unit Conversions for Software Developers</Link>. For those who work on the move, we have compiled an extensive set of tools and tips. Managing cross-border travel requires immense adaptability. To ease the cognitive load of switching between metric and imperial units across various time zones, check out our newly published <Link href="/blog/conversion-hacks-for-digital-nomads" className="text-primary font-bold hover:underline">Conversion Hacks for Digital Nomads</Link>. This guide offers vital mental math techniques and explains why offline tools like UnitFlow are indispensable for professionals traveling the globe. Furthermore, for casual travelers exploring new countries or crossing borders for vacation, keeping up with local currencies, speed limits, and temperatures is essential. Our newest guide, <Link href="/blog/conversion-hacks-for-travelers" className="text-primary font-bold hover:underline">Conversion Hacks for Travelers</Link>, breaks down quick mental math strategies to help you estimate distances in kilometers or convert Celsius to Fahrenheit on the fly without needing a calculator. (Last modified: October 11, 2026)
           </p>
         </div>
       </section>

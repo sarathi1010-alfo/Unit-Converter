@@ -59,6 +59,11 @@
       "name": "Parsec",
       "symbol": "pc",
       "baseFactor": 30860000000000000
+    },
+    "fathom": {
+      "name": "Fathom",
+      "symbol": "ftm",
+      "baseFactor": 1.8288
     }
   },
   "weight": {
@@ -273,6 +278,21 @@
       "name": "British Pound",
       "symbol": "£",
       "baseFactor": 0.79
+    },
+    "jpy": {
+      "name": "Japanese Yen",
+      "symbol": "¥",
+      "baseFactor": 150
+    },
+    "aud": {
+      "name": "Australian Dollar",
+      "symbol": "A$",
+      "baseFactor": 1.5
+    },
+    "cad": {
+      "name": "Canadian Dollar",
+      "symbol": "C$",
+      "baseFactor": 1.35
     }
   },
   "cooking": {

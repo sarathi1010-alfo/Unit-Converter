@@ -472,7 +472,18 @@ const NEW_URLS = [
   `${SITE_URL}/speed/mach-to-knot`,
   `${SITE_URL}/power/hp-to-mw`,
   `${SITE_URL}/power/mw-to-hp`,
-  `${SITE_URL}/power/hp-to-gw`
+  `${SITE_URL}/power/hp-to-gw`,
+  `/blog/conversion-hacks-for-travelers`,
+  `/convert/usd-to-jpy`,
+  `/convert/jpy-to-usd`,
+  `/convert/usd-to-aud`,
+  `/convert/aud-to-usd`,
+  `/convert/usd-to-cad`,
+  `/convert/cad-to-usd`,
+  `/convert/eur-to-jpy`,
+  `/convert/jpy-to-eur`,
+  `/convert/gbp-to-jpy`,
+  `/convert/jpy-to-gbp`
 ];
 
 
