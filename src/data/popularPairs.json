@@ -2043,5 +2043,55 @@
     "categoryId": "power",
     "from": "hp",
     "to": "gw"
+  },
+  {
+    "categoryId": "currency",
+    "from": "usd",
+    "to": "jpy"
+  },
+  {
+    "categoryId": "currency",
+    "from": "jpy",
+    "to": "usd"
+  },
+  {
+    "categoryId": "currency",
+    "from": "usd",
+    "to": "aud"
+  },
+  {
+    "categoryId": "currency",
+    "from": "aud",
+    "to": "usd"
+  },
+  {
+    "categoryId": "currency",
+    "from": "usd",
+    "to": "cad"
+  },
+  {
+    "categoryId": "currency",
+    "from": "cad",
+    "to": "usd"
+  },
+  {
+    "categoryId": "currency",
+    "from": "eur",
+    "to": "jpy"
+  },
+  {
+    "categoryId": "currency",
+    "from": "jpy",
+    "to": "eur"
+  },
+  {
+    "categoryId": "currency",
+    "from": "gbp",
+    "to": "jpy"
+  },
+  {
+    "categoryId": "currency",
+    "from": "jpy",
+    "to": "gbp"
   }
 ]

@@ -2040,3 +2040,21 @@ Link: https://unitflow.alfo.online/blog/conversion-hacks-for-architects
 1. **Pin Title:** The Ultimate Maker's Conversion Cheat Sheet (Inches to mm). **Image Description:** A clean, workshop-themed infographic showing common fractions of an inch converted precisely to millimeters (e.g., 1/4" = 6.35mm, 1/2" = 12.7mm).
 2. **Pin Title:** 3D Printing Temperatures: C to F Quick Guide. **Image Description:** A visual thermometer graphic showing common 3D printing material extrusion temps (PLA, ABS, PETG) in both Celsius and Fahrenheit.
 3. **Pin Title:** Resin Mixing: Volume vs Weight Explained. **Image Description:** A side-by-side comparison of a beaker (volume) and a digital scale (weight), highlighting the difference in specific gravity when mixing epoxies.
+
+### Campaign: Conversion Hacks for Travelers (2026-10-11)
+
+#### Twitter/X (4 Posts)
+1. "Traveling internationally? Stop struggling with speed limits! The 60% rule makes km/h to mph conversion a breeze. Learn how here: https://unitflow.alfo.online/blog/conversion-hacks-for-travelers 🚗🌍"
+2. "Pack exactly what you need without paying overweight baggage fees! Remember: Double your kg and add 10% to find your pounds. More hacks in our new guide: https://unitflow.alfo.online/blog/conversion-hacks-for-travelers 🧳✈️"
+3. "Is it coat weather or t-shirt weather? Double the Celsius and add 30 for a quick Fahrenheit estimate. Never guess the weather abroad again: https://unitflow.alfo.online/blog/conversion-hacks-for-travelers 🧥🌡️"
+4. "Beware of Dynamic Currency Conversion (DCC) when traveling! Always pay in the local currency to avoid bad exchange rates and hidden fees. Learn more: https://unitflow.alfo.online/blog/conversion-hacks-for-travelers 💳💵"
+
+#### LinkedIn (3 Posts)
+1. "For international professionals traveling for work, mental math shouldn't slow you down. Knowing quick conversion hacks for currency, temperature, and distance keeps you focused on business. Explore our new traveler's guide here: https://unitflow.alfo.online/blog/conversion-hacks-for-travelers ✈️💼 #BusinessTravel #Productivity #MentalMath"
+2. "Spotty internet at a foreign airport? UnitFlow’s offline-capable Progressive Web App ensures you always have precise conversions at your fingertips, whether you're navigating currency or luggage weight limits. Read our latest guide on travel conversions: https://unitflow.alfo.online/blog/conversion-hacks-for-travelers #TravelTech #OfflineApp"
+3. "Digital nomads and global consultants: Don't let metric vs. imperial friction drain your energy. We've compiled the ultimate guide to the mental math tricks and tools every traveler needs to stay agile across borders. Check it out: https://unitflow.alfo.online/blog/conversion-hacks-for-travelers #GlobalBusiness #UnitFlow"
+
+#### Pinterest (3 Posts)
+1. **Pin Title:** The Ultimate Traveler’s Distance Cheat Sheet (Miles vs. Kilometers). **Image Description:** A minimalist infographic showing the Fibonacci sequence applied to miles-to-kilometers conversion (3mi=5km, 5mi=8km, 8mi=13km). https://unitflow.alfo.online/blog/conversion-hacks-for-travelers
+2. **Pin Title:** Travel Packing Hack: Kg to Lbs Quick Conversion. **Image Description:** A visual luggage graphic demonstrating the \"double and add 10%\" rule for quickly calculating baggage weight. https://unitflow.alfo.online/blog/conversion-hacks-for-travelers
+3. **Pin Title:** Weather Prep: Celsius to Fahrenheit Made Easy. **Image Description:** A thermometer visual showing the \"double and add 30\" estimation trick, helping travelers decide whether to pack a coat or a swimsuit. https://unitflow.alfo.online/blog/conversion-hacks-for-travelers
