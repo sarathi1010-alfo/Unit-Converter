@@ -1,44 +1,32 @@
 import { MetadataRoute } from 'next';
-import { classifyIntent, getIntentPriority } from '@/lib/intent';
+import { getAllCategories } from '@/lib/pairs';
 
 export const dynamic = 'force-static';
 
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, '') || 'https://unit-converter-kappa-nine.vercel.app';
 
-
-export async function generateSitemaps() {
-  return Array.from({ length: 1000 }, (_, i) => ({ id: i }));
-}
-
-export default async function sitemap({ id }: { id: number }): Promise<MetadataRoute.Sitemap> {
-   const resolvedId = await Promise.resolve(id);
-   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://unitflow.alfo.online';
-
-  const staticPages = ['/privacy-policy', '/terms-and-conditions', '/terms-of-service', '/contact', '/about'].map(path => ({
+  const staticPages = [
+    '',
+    '/privacy-policy',
+    '/terms-and-conditions',
+    '/terms-of-service',
+    '/contact',
+    '/about',
+    '/guides',
+  ].map((path) => ({
     url: `${baseUrl}${path}`,
     lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: getIntentPriority(classifyIntent(path)),
+    changeFrequency: 'weekly' as const,
+    priority: path === '' ? 1.0 : 0.8,
   }));
 
-  const pages = Array.from({ length: 20 }, (_, i) => ({
-    url: `${baseUrl}/sitemap-${resolvedId}-${i}`,
+  const categoryPages = getAllCategories().map((cat) => ({
+    url: `${baseUrl}/category/${cat.id}-converter`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
-    priority: 0.5,
+    priority: 0.8,
   }));
 
-  if (resolvedId === 0) {
-    return [
-      {
-        url: baseUrl,
-        lastModified: new Date(),
-        changeFrequency: 'weekly',
-        priority: getIntentPriority(classifyIntent('/')),
-      },
-      ...staticPages,
-      ...pages
-    ];
-  }
-
-  return pages;
+  return [...staticPages, ...categoryPages];
 }

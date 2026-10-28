@@ -6,19 +6,12 @@
  */
 
 // Fallback for local development if the env var isn't set
-const DEFAULT_URL = 'http://localhost:3000';
+const DEFAULT_URL = 'https://unit-converter-kappa-nine.vercel.app';
 
 export function getSiteUrl() {
-  // Always use the explicitly defined public site URL in production
   if (process.env.NEXT_PUBLIC_SITE_URL) {
-    return process.env.NEXT_PUBLIC_SITE_URL.replace(/\/$/, ""); // Strip trailing slash
+    return process.env.NEXT_PUBLIC_SITE_URL.replace(/\/$/, "");
   }
-
-  // Vercel deployment URLs (We DO NOT want these indexed, but we need them for branch previews)
-  if (process.env.VERCEL_URL) {
-    return `https://${process.env.VERCEL_URL}`;
-  }
-
   return DEFAULT_URL;
 }
 

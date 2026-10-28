@@ -13,11 +13,10 @@ export function Footer() {
         <div>
           <span className="font-semibold text-slate-900 block mb-4">Tools Hub</span>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li><a href="#" className="hover:text-primary">Resume Forge</a></li>
-            <li><a href="#" className="hover:text-primary">PDF Utility</a></li>
-            <li><a href="#" className="hover:text-primary">Palette Flow</a></li>
-            <li><a href="#" className="hover:text-primary">QR Generator</a></li>
-            <li><a href="#" className="hover:text-primary">EMI Calculator</a></li>
+            <li><a href="https://resumeforge.alfo.online/" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Resume Forge</a></li>
+            <li><a href="https://paletteflow.alfo.online/" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Palette Flow</a></li>
+            <li><a href="https://qr.alfo.online/" target="_blank" rel="noopener noreferrer" className="hover:text-primary">QR Generator</a></li>
+            <li><a href="https://emicalculatorpro.alfo.online/" target="_blank" rel="noopener noreferrer" className="hover:text-primary">EMI Calculator</a></li>
           </ul>
         </div>
         <div>
@@ -30,11 +29,11 @@ export function Footer() {
           </ul>
         </div>
         <div>
-          <span className="font-semibold text-slate-900 block mb-4">Social</span>
+          <span className="font-semibold text-slate-900 block mb-4">Ecosystem</span>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li><a href="https://twitter.com/alfo_online" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Twitter</a></li>
-            <li><a href="https://github.com/alfo-online" target="_blank" rel="noopener noreferrer" className="hover:text-primary">GitHub</a></li>
-            <li><a href="https://linkedin.com/company/alfo-online" target="_blank" rel="noopener noreferrer" className="hover:text-primary">LinkedIn</a></li>
+            <li><a href="https://fontfusion.alfo.online/" target="_blank" rel="noopener noreferrer" className="hover:text-primary">FontFusion</a></li>
+            <li><a href="https://packfit.alfo.online/" target="_blank" rel="noopener noreferrer" className="hover:text-primary">PackFit</a></li>
+            <li><a href="https://asciiforge.alfo.online/" target="_blank" rel="noopener noreferrer" className="hover:text-primary">ASCII Forge</a></li>
           </ul>
         </div>
       </div>

@@ -97,7 +97,7 @@ export function ConverterForm({
           </div>
           <button
             onClick={handleCopyLink}
-            className="flex items-center gap-2 text-sm text-slate-500 hover:text-primary transition-colors px-3 py-1.5 rounded-lg border border-slate-200 bg-slate-50 hover:bg-slate-100"
+            className="flex items-center gap-2 text-sm text-slate-500 hover:text-primary transition-colors px-3 py-1.5 min-h-[44px] rounded-lg border border-slate-200 bg-slate-50 hover:bg-slate-100"
             title="Copy link to this conversion"
           >
             {copied ? <Check className="w-4 h-4 text-green-500" /> : <Copy className="w-4 h-4" />}
@@ -110,7 +110,7 @@ export function ConverterForm({
         <div className="mb-6 flex justify-end">
           <button
             onClick={handleCopyLink}
-            className="flex items-center gap-2 text-sm text-slate-500 hover:text-primary transition-colors px-3 py-1.5 rounded-lg border border-slate-200 bg-slate-50 hover:bg-slate-100"
+            className="flex items-center gap-2 text-sm text-slate-500 hover:text-primary transition-colors px-3 py-1.5 min-h-[44px] rounded-lg border border-slate-200 bg-slate-50 hover:bg-slate-100"
             title="Copy link to this conversion"
           >
             {copied ? <Check className="w-4 h-4 text-green-500" /> : <Copy className="w-4 h-4" />}
@@ -151,7 +151,7 @@ export function ConverterForm({
         {/* Swap Button */}
         <button
           onClick={handleSwap}
-          className="p-3 bg-slate-50 border border-slate-200 rounded-full hover:bg-slate-100 hover:scale-105 transition-all focus:outline-none"
+          className="p-3 min-w-[44px] min-h-[44px] flex items-center justify-center bg-slate-50 border border-slate-200 rounded-full hover:bg-slate-100 hover:scale-105 transition-all focus:outline-none"
           aria-label="Swap units"
         >
           <ArrowRightLeft className="w-5 h-5 text-slate-500" />
