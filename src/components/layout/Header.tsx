@@ -29,7 +29,7 @@ export function Header() {
               </div>
             </div>
           </div>
-          <Link href="/guides" className="hover:text-primary transition-colors min-h-[44px] flex items-center">Blog</Link>
+          <Link href="/blog" className="hover:text-primary transition-colors min-h-[44px] flex items-center">Blog</Link>
           <Link href="/about" className="hover:text-primary transition-colors min-h-[44px] flex items-center">About</Link>
         </nav>
       </div>
