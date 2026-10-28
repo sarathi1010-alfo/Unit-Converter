@@ -5,21 +5,26 @@ import { AdBlock } from "@/components/ads/AdBlock";
 import { RecentlyLaunchedStrip } from "@/components/layout/RecentlyLaunchedStrip";
 import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 import "@/app/globals.css";
-import { METADATA_BASE } from "@/lib/seo";
 
 export const metadata: Metadata = {
-   metadataBase: METADATA_BASE,
-  title: "UnitConverter - Fast, Visual, SEO-First | alfo.online",
-  description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
+  metadataBase: new URL("https://unit-converter-kappa-nine.vercel.app"),
+  title: "Unit Converter - Free Online Unit Conversion Tool",
+  description:
+    "Convert length, weight, temperature, volume, area, and speed instantly. Free online unit converter with precise real-time calculations and conversion guides.",
   keywords: "free unit converter, visual unit converter, length converter, weight converter, custom conversions",
+  alternates: {
+    canonical: "https://unit-converter-kappa-nine.vercel.app/",
+  },
   openGraph: {
-    title: "UnitConverter - Fast, Visual, SEO-First",
-    description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
+    title: "Unit Converter - Free Online Unit Conversion Tool",
+    description:
+      "Convert length, weight, temperature, volume, area, and speed instantly. Free online unit converter with precise real-time calculations and conversion guides.",
+    url: "https://unit-converter-kappa-nine.vercel.app/",
     siteName: "UnitConverter",
     type: "website",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://unit-converter-kappa-nine.vercel.app/og-image.png",
         width: 1200,
         height: 630,
         alt: "UnitConverter Preview",
@@ -28,14 +33,15 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "UnitConverter - Fast, Visual, SEO-First | alfo.online",
-    description: "Convert any unit instantly with clean visuals, smart comparisons, and ready-to-use examples.",
-    images: ["/og-image.jpg"],
+    title: "Unit Converter - Free Online Unit Conversion Tool",
+    description:
+      "Convert length, weight, temperature, volume, area, and speed instantly. Free online unit converter with precise real-time calculations and conversion guides.",
+    images: ["https://unit-converter-kappa-nine.vercel.app/og-image.png"],
   },
   other: {
     "google-adsense-account": "ca-pub-6393936268623951",
-    "monetag": "86950f5308b2a836fd804730ef0e5e7d"
-  }
+    "monetag": "86950f5308b2a836fd804730ef0e5e7d",
+  },
 };
 
 export default function RootLayout({
@@ -50,6 +56,13 @@ export default function RootLayout({
         <meta name="monetag" content="86950f5308b2a836fd804730ef0e5e7d" />
       </head>
       <body className="min-h-screen flex flex-col bg-[#F8FAFC]">
+        <a
+          href="#main-content"
+          id="skip-link"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-primary focus:text-white focus:rounded-md focus:shadow-lg focus:outline-none"
+        >
+          Skip to main content
+        </a>
         {process.env.NEXT_PUBLIC_GTM_ID && (
           <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
         )}
@@ -59,7 +72,7 @@ export default function RootLayout({
 
         <RecentlyLaunchedStrip />
         <Header />
-        <main className="flex-1 max-w-5xl w-full mx-auto p-4 sm:p-6 lg:p-8">
+        <main id="main-content" className="flex-1 max-w-5xl w-full mx-auto p-4 sm:p-6 lg:p-8">
           <AdBlock type="leaderboard" />
           {children}
           <AdBlock type="footer" />
