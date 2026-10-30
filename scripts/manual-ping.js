@@ -8,7 +8,7 @@ const SITEMAP_URL = `${SITE_URL}/sitemap-index.xml`;
 const INDEXNOW_KEY = process.env.INDEXNOW_KEY || '2026_indexnow_key_alfo';
 
 const NEW_URLS = [
-    `${SITE_URL}/blog/conversion-hacks-for-architects`,
+  `${SITE_URL}/blog/conversion-hacks-for-architects`,
   `${SITE_URL}/volume/gal-to-tsp`,
   `${SITE_URL}/volume/tsp-to-gal`,
   `${SITE_URL}/volume/m3-to-tbsp`,
@@ -437,8 +437,7 @@ const NEW_URLS = [
   `${SITE_URL}/volume/ml-to-tsp`,
   `${SITE_URL}/volume/tsp-to-ml`,
   `${SITE_URL}/volume/gal-to-tbsp`,
-  `${SITE_URL}/volume/tbsp-to-gal`
-,
+  `${SITE_URL}/volume/tbsp-to-gal`,
   `${SITE_URL}/blog/conversion-hacks-for-data-scientists`,
   `${SITE_URL}/volume/cup-to-tbsp`,
   `${SITE_URL}/volume/tbsp-to-cup`,
@@ -449,8 +448,7 @@ const NEW_URLS = [
   `${SITE_URL}/volume/floz-to-tsp`,
   `${SITE_URL}/volume/tsp-to-floz`,
   `${SITE_URL}/volume/pt-to-tbsp`,
-  `${SITE_URL}/volume/tbsp-to-pt`
-,
+  `${SITE_URL}/volume/tbsp-to-pt`,
   `${SITE_URL}/length/au-to-pc`,
   `${SITE_URL}/length/pc-to-m`,
   `${SITE_URL}/length/pc-to-cm`,
@@ -483,7 +481,17 @@ const NEW_URLS = [
   `/convert/eur-to-jpy`,
   `/convert/jpy-to-eur`,
   `/convert/gbp-to-jpy`,
-  `/convert/jpy-to-gbp`
+  `/convert/jpy-to-gbp`,
+  `${SITE_URL}/convert/psi-to-torr`,
+  `${SITE_URL}/convert/torr-to-psi`,
+  `${SITE_URL}/convert/j-to-ev`,
+  `${SITE_URL}/convert/ev-to-j`,
+  `${SITE_URL}/convert/w-to-btuh`,
+  `${SITE_URL}/convert/btuh-to-w`,
+  `${SITE_URL}/convert/bar-to-torr`,
+  `${SITE_URL}/convert/torr-to-bar`,
+  `${SITE_URL}/convert/cal-to-ev`,
+  `${SITE_URL}/convert/ev-to-cal`
 ];
 
 

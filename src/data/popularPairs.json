@@ -2093,5 +2093,55 @@
     "categoryId": "currency",
     "from": "jpy",
     "to": "gbp"
+  },
+  {
+    "categoryId": "pressure",
+    "from": "psi",
+    "to": "torr"
+  },
+  {
+    "categoryId": "pressure",
+    "from": "torr",
+    "to": "psi"
+  },
+  {
+    "categoryId": "energy",
+    "from": "j",
+    "to": "ev"
+  },
+  {
+    "categoryId": "energy",
+    "from": "ev",
+    "to": "j"
+  },
+  {
+    "categoryId": "power",
+    "from": "w",
+    "to": "btuh"
+  },
+  {
+    "categoryId": "power",
+    "from": "btuh",
+    "to": "w"
+  },
+  {
+    "categoryId": "pressure",
+    "from": "bar",
+    "to": "torr"
+  },
+  {
+    "categoryId": "pressure",
+    "from": "torr",
+    "to": "bar"
+  },
+  {
+    "categoryId": "energy",
+    "from": "cal",
+    "to": "ev"
+  },
+  {
+    "categoryId": "energy",
+    "from": "ev",
+    "to": "cal"
   }
 ]
