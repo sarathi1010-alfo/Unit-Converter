@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 const SITE_URL = 'http://localhost:3000';
 
 const newUrls = [
-    '/blog/conversion-hacks-for-architects',
+  '/blog/conversion-hacks-for-architects',
   '/volume/gal-to-tsp',
   '/volume/tsp-to-gal',
   '/volume/m3-to-tbsp',
@@ -422,8 +422,7 @@ const newUrls = [
   '/volume/ml-to-tsp',
   '/volume/tsp-to-ml',
   '/volume/gal-to-tbsp',
-  '/volume/tbsp-to-gal'
-,
+  '/volume/tbsp-to-gal',
   '/blog/conversion-hacks-for-data-scientists',
   '/volume/cup-to-tbsp',
   '/volume/tbsp-to-cup',
@@ -434,8 +433,7 @@ const newUrls = [
   '/volume/floz-to-tsp',
   '/volume/tsp-to-floz',
   '/volume/pt-to-tbsp',
-  '/volume/tbsp-to-pt'
-,
+  '/volume/tbsp-to-pt',
   '/length/au-to-pc',
   '/length/pc-to-m',
   '/length/pc-to-cm',
@@ -468,7 +466,17 @@ const newUrls = [
   '/convert/eur-to-jpy',
   '/convert/jpy-to-eur',
   '/convert/gbp-to-jpy',
-  '/convert/jpy-to-gbp'
+  '/convert/jpy-to-gbp',
+  '/convert/psi-to-torr',
+  '/convert/torr-to-psi',
+  '/convert/j-to-ev',
+  '/convert/ev-to-j',
+  '/convert/w-to-btuh',
+  '/convert/btuh-to-w',
+  '/convert/bar-to-torr',
+  '/convert/torr-to-bar',
+  '/convert/cal-to-ev',
+  '/convert/ev-to-cal'
 ];
 
 

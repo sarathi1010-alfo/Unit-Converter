@@ -2058,3 +2058,21 @@ Link: https://unitflow.alfo.online/blog/conversion-hacks-for-architects
 1. **Pin Title:** The Ultimate Traveler’s Distance Cheat Sheet (Miles vs. Kilometers). **Image Description:** A minimalist infographic showing the Fibonacci sequence applied to miles-to-kilometers conversion (3mi=5km, 5mi=8km, 8mi=13km). https://unitflow.alfo.online/blog/conversion-hacks-for-travelers
 2. **Pin Title:** Travel Packing Hack: Kg to Lbs Quick Conversion. **Image Description:** A visual luggage graphic demonstrating the \"double and add 10%\" rule for quickly calculating baggage weight. https://unitflow.alfo.online/blog/conversion-hacks-for-travelers
 3. **Pin Title:** Weather Prep: Celsius to Fahrenheit Made Easy. **Image Description:** A thermometer visual showing the \"double and add 30\" estimation trick, helping travelers decide whether to pack a coat or a swimsuit. https://unitflow.alfo.online/blog/conversion-hacks-for-travelers
+
+### Campaign: Conversion Hacks for Engineers (2026-10-12)
+
+#### Twitter/X (4 Posts)
+1. "Engineers: Tired of context switching to calculate unit conversions? We built UnitFlow to live in your workflow. 🛠️ Check out our new guide to mental math tricks and digital tools for engineering accuracy. #Engineering #Productivity #UnitFlow"
+2. "Mental Math Hack for Engineers: 1 lb-ft of torque is roughly 4/3 N-m. When you need exact numbers, UnitFlow provides precision conversions instantly. Learn more in our latest guide: https://unitflow.alfo.online/blog/conversion-hacks-for-engineers 📐⚙️"
+3. "Did you know the most common error in CAD is decimal misplacement when jumping between Imperial and Metric? Always do a sanity check. 🧠 Use UnitFlow for deterministic accuracy. #CAD #EngineeringLife"
+4. "From thermodynamics to structural loads, a simple unit conversion mistake can be catastrophic. Learn the fail-safe workflow for converting units accurately every time. https://unitflow.alfo.online/blog/conversion-hacks-for-engineers 🚀🔧"
+
+#### LinkedIn (3 Posts)
+1. "For professional engineers, unit conversion isn't just about math—it's about mitigating risk. A misplaced decimal can ruin a manufacturing run or compromise structural integrity. We've compiled the ultimate guide to conversion hacks and fail-safe workflows for modern engineers. Learn how to combine mental math intuition with deterministic digital tools. #Engineering #RiskManagement #UnitFlow"
+2. "How do you handle unit conversions in your daily workflow? Relying on search engine calculators is a massive productivity drain. That's why we built UnitFlow with a Keyboard-First Command Palette. Check out our new guide for engineers looking to optimize their workflow: https://unitflow.alfo.online/blog/conversion-hacks-for-engineers #Productivity #TechTools"
+3. "When dealing with electrical or aerospace engineering, you are operating across immense orders of magnitude. The ability to mentally contextualize conversions is a superpower. Read our latest insights on developing an engineering 'sanity check' process for conversions. #Aerospace #ElectricalEngineering"
+
+#### Pinterest (3 Posts)
+1. **Pin Title:** The Engineer's Quick Conversion Cheat Sheet (Torque & Pressure). **Image Description:** A clean, blueprint-style infographic showing quick mental math approximations for lb-ft to N-m, and psi to bar. Link: https://unitflow.alfo.online/blog/conversion-hacks-for-engineers
+2. **Pin Title:** Fail-Safe Engineering Workflow. **Image Description:** A flowchart detailing the 4 steps to avoid conversion errors: Estimate -> Calculate -> Sanity Check -> Document. Link: https://unitflow.alfo.online/blog/conversion-hacks-for-engineers
+3. **Pin Title:** Power & Energy Conversions for Engineers. **Image Description:** A visual guide comparing Watts, kW, hp, Joules, and kWh, designed for electrical and mechanical engineers. Link: https://unitflow.alfo.online/blog/conversion-hacks-for-engineers

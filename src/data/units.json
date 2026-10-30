@@ -344,6 +344,11 @@
       "name": "Standard Atmosphere",
       "symbol": "atm",
       "baseFactor": 101325
+    },
+    "torr": {
+      "name": "Torr",
+      "symbol": "Torr",
+      "baseFactor": 133.322
     }
   },
   "energy": {
@@ -366,6 +371,11 @@
       "name": "British Thermal Unit",
       "symbol": "BTU",
       "baseFactor": 1055.05585
+    },
+    "ev": {
+      "name": "Electronvolt",
+      "symbol": "eV",
+      "baseFactor": 1.602e-19
     }
   },
   "power": {
@@ -393,6 +403,11 @@
       "name": "Gigawatt",
       "symbol": "GW",
       "baseFactor": 1000000000
+    },
+    "btuh": {
+      "name": "BTU per hour",
+      "symbol": "BTU/h",
+      "baseFactor": 0.293071
     }
   }
 }
