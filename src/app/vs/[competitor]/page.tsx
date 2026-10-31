@@ -1,9 +1,27 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/seo";
 
 export async function generateStaticParams() {
   return [
-    { competitor: "example-competitor" } // Add real competitors here in the future
+    { competitor: "example-competitor" },
+    { competitor: "google-converter" },
+    { competitor: "calculator-net" }
   ];
+}
+
+export async function generateMetadata(
+  props: { params: Promise<{ competitor: string }> }
+): Promise<Metadata> {
+  const params = await props.params;
+  const competitor = params.competitor.replace(/-/g, ' ');
+  return {
+    title: `UnitFlow vs. ${competitor} | Comparison & Review`,
+    description: `Compare UnitFlow vs ${competitor}. Discover why UnitFlow provides faster, ad-light client-side conversions.`,
+    alternates: {
+      canonical: `${SITE_URL}/vs/${params.competitor}`,
+    },
+  };
 }
 
 export default async function ComparisonPage(props: { params: Promise<{ competitor: string }> }) {
@@ -12,15 +30,15 @@ export default async function ComparisonPage(props: { params: Promise<{ competit
 
   return (
     <article className="prose prose-slate max-w-3xl mx-auto py-12">
-      <h1 className="capitalize">UnitConverter vs. {competitor}</h1>
+      <h1 className="capitalize">UnitFlow vs. {competitor}</h1>
       <p className="lead">
-        Trying to decide between UnitConverter and {competitor}? Here is a comprehensive
-        breakdown of why UnitConverter is built for speed and privacy.
+        Trying to decide between UnitFlow and {competitor}? Here is a comprehensive
+        breakdown of why UnitFlow is built for speed and privacy.
       </p>
 
       <h2>Speed and Performance</h2>
       <p>
-        Unlike {competitor}, UnitConverter calculates measurements instantly on the
+        Unlike {competitor}, UnitFlow calculates measurements instantly on the
         client-side. There are no API delays or page reloads required.
       </p>
 

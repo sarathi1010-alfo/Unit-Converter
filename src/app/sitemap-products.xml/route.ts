@@ -1,29 +1,24 @@
 import { NextResponse } from 'next/server';
 import { generateAllPairs, getAllCategories } from '@/lib/conversion_helpers';
 import { classifyIntent, getIntentPriority } from '@/lib/intent';
+import { SITE_URL } from '@/lib/seo';
 
 export const dynamic = 'force-static';
 
 export async function GET() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://unitflow.alfo.online';
+  const baseUrl = SITE_URL;
+  const lastmod = new Date().toISOString().split('T')[0];
 
-  // Get dynamic conversion pair routes
-  const pairRoutes = generateAllPairs().flatMap((pair) => {
-    // We support both /convert/slug and /category/slug
-    const paths = [
-      `/convert/${pair.slug}`,
-      `/${pair.categoryId}/${pair.slug}`
-    ];
-
-    return paths.map(routePath => {
-      const intent = classifyIntent(routePath);
-      return {
-        loc: `${baseUrl}${routePath}`,
-        lastmod: new Date().toISOString().split('T')[0],
-        changefreq: 'weekly',
-        priority: getIntentPriority(intent),
-      };
-    });
+  // Get dynamic conversion pair routes (canonical single source of truth: /convert/[slug])
+  const pairRoutes = generateAllPairs().map((pair) => {
+    const routePath = `/convert/${pair.slug}`;
+    const intent = classifyIntent(routePath);
+    return {
+      loc: `${baseUrl}${routePath}`,
+      lastmod,
+      changefreq: 'weekly',
+      priority: getIntentPriority(intent),
+    };
   });
 
   // Get dynamic category routes
@@ -32,21 +27,19 @@ export async function GET() {
     const intent = classifyIntent(routePath);
     return {
       loc: `${baseUrl}${routePath}`,
-      lastmod: new Date().toISOString().split('T')[0],
+      lastmod,
       changefreq: 'weekly',
       priority: getIntentPriority(intent),
     };
   });
 
   // Competitor comparison routes
-  // For now, we only have the example-competitor from EXISTING_PAGES.md
-  // In a real scenario, this would be dynamically generated
-  const vsRoutes = ['example-competitor'].map((comp) => {
+  const vsRoutes = ['google-converter', 'calculator-net', 'example-competitor'].map((comp) => {
     const routePath = `/vs/${comp}`;
     const intent = classifyIntent(routePath);
     return {
       loc: `${baseUrl}${routePath}`,
-      lastmod: new Date().toISOString().split('T')[0],
+      lastmod,
       changefreq: 'monthly',
       priority: getIntentPriority(intent),
     };

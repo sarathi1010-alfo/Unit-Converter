@@ -62,10 +62,10 @@ export default function BlogIndexPage() {
                 <Link href="/blog/what-is-an-si-unit" className="text-primary hover:underline font-medium">What is an SI Unit?</Link>
               </li>
               <li>
-                <Link href="/blog/what-is-dimensional-analysis" className="text-primary hover:underline font-medium">What is Dimensional Analysis?</Link>
+                <Link href="/blog/what-is-significant-figures" className="text-primary hover:underline font-medium">What are Significant Figures?</Link>
               </li>
               <li>
-                <Link href="/blog/what-is-a-unit-of-measurement" className="text-primary hover:underline font-medium">What is a Unit of Measurement?</Link>
+                <Link href="/blog/quick-unit-conversion-guide-2026" className="text-primary hover:underline font-medium">Quick Unit Conversion Guide 2026</Link>
               </li>
             </ul>
           </div>

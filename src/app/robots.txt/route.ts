@@ -55,6 +55,13 @@ Disallow: /temp/
 Disallow: /private/
 Allow: /
 
+User-agent: AhrefsBot
+Disallow: /admin/
+Disallow: /api/
+Disallow: /temp/
+Disallow: /private/
+Allow: /
+
 ------------------------------------------------------------------------------
 TIER 2 – REGIONAL & ALTERNATIVE SEARCH ENGINES
 ------------------------------------------------------------------------------
@@ -358,7 +365,6 @@ Disallow: /
 ------------------------------------------------------------------------------
 AGGRESSIVE SECURITY SCRAPERS (BLOCKED)
 ------------------------------------------------------------------------------
-User-agent: AhrefsBot
 User-agent: SemrushBot
 User-agent: MajesticBot
 User-agent: rogerbot

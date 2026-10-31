@@ -44,7 +44,7 @@ export function ConverterForm({
 
   const handleSwap = () => {
     if (isPairLocked) {
-      router.push(`/convert/${toUnit}-to-${fromUnit}?value=${value}`);
+      router.push(`/convert/${toUnit}-to-${fromUnit}`);
     } else {
       setFromUnit(toUnit);
       setToUnit(fromUnit);
