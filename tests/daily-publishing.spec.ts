@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 const SITE_URL = 'http://localhost:3000';
 
-const newUrls = [
+const newUrls = Array.from(new Set([
   '/blog/conversion-hacks-for-architects',
   '/volume/gal-to-tsp',
   '/volume/tsp-to-gal',
@@ -477,7 +477,7 @@ const newUrls = [
   '/convert/torr-to-bar',
   '/convert/cal-to-ev',
   '/convert/ev-to-cal'
-];
+]));
 
 
 test.describe('Daily Publishing Verification', () => {
