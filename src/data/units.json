@@ -144,7 +144,7 @@
     "gal": {
       "name": "Gallon (US)",
       "symbol": "gal",
-      "baseFactor": 3.78541
+      "baseFactor": 3.785411784
     },
     "m3": {
       "name": "Cubic Meter",

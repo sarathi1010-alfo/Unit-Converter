@@ -7,7 +7,7 @@ const SITE_URL = 'https://unitflow.alfo.online';
 const SITEMAP_URL = `${SITE_URL}/sitemap-index.xml`;
 const INDEXNOW_KEY = process.env.INDEXNOW_KEY || '2026_indexnow_key_alfo';
 
-const NEW_URLS = [
+const NEW_URLS = Array.from(new Set([
   `${SITE_URL}/blog/conversion-hacks-for-architects`,
   `${SITE_URL}/volume/gal-to-tsp`,
   `${SITE_URL}/volume/tsp-to-gal`,
@@ -492,7 +492,7 @@ const NEW_URLS = [
   `${SITE_URL}/convert/torr-to-bar`,
   `${SITE_URL}/convert/cal-to-ev`,
   `${SITE_URL}/convert/ev-to-cal`
-];
+]));
 
 
 async function pingGoogle() {
