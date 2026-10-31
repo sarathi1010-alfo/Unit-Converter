@@ -2076,3 +2076,21 @@ Link: https://unitflow.alfo.online/blog/conversion-hacks-for-architects
 1. **Pin Title:** The Engineer's Quick Conversion Cheat Sheet (Torque & Pressure). **Image Description:** A clean, blueprint-style infographic showing quick mental math approximations for lb-ft to N-m, and psi to bar. Link: https://unitflow.alfo.online/blog/conversion-hacks-for-engineers
 2. **Pin Title:** Fail-Safe Engineering Workflow. **Image Description:** A flowchart detailing the 4 steps to avoid conversion errors: Estimate -> Calculate -> Sanity Check -> Document. Link: https://unitflow.alfo.online/blog/conversion-hacks-for-engineers
 3. **Pin Title:** Power & Energy Conversions for Engineers. **Image Description:** A visual guide comparing Watts, kW, hp, Joules, and kWh, designed for electrical and mechanical engineers. Link: https://unitflow.alfo.online/blog/conversion-hacks-for-engineers
+
+### Campaign: Conversion Hacks for Photographers (2026-10-13)
+
+#### Twitter/X (4 Posts)
+1. "Photographers! Ever struggled with crop factors? A 50mm lens on an MFT sensor is exactly a 100mm equivalent. Use mental math to estimate and UnitFlow for precise conversions. 📷 #Photography #UnitFlow"
+2. "Preparing prints for an exhibition? Remember: 1 inch = 25.4 mm. A tiny rounding error can ruin a perfectly cut mat. Always use deterministic tools like UnitFlow. 🖼️ #PrintMaking #UnitFlow"
+3. "The Inverse Square Law is crucial for studio lighting. Double the distance = one-quarter of the light. For precise distance conversions between meters and feet, rely on UnitFlow! 💡 #StudioPhotography #UnitFlow"
+4. "Don't fall for the Megapixel Myth! Pixel pitch (measured in microns) matters more for low-light performance. Understand your sensor's actual size with our new guide! 🌌 #PhotographyGear #UnitFlow"
+
+#### LinkedIn (3 Posts)
+1. "For professional photographers and studio managers, unit conversion is essential. A misplaced decimal point when converting print sizes from inches to millimetres can lead to costly mistakes. Learn the fail-safe workflow for converting units accurately in our new guide. #Photography #Workflow #UnitFlow"
+2. "How do you handle unit conversions in your daily workflow? Relying on search engine calculators is a massive productivity drain. We built UnitFlow with a Keyboard-First Command Palette to streamline your creative process. Check out our new guide for photographers looking to optimize their workflow. #Productivity #TechTools #UnitFlow"
+3. "When dealing with international clients or overseas print labs, translating specs between metric and imperial systems requires absolute precision. Discover how to build a resilient conversion toolkit in our latest post on the UnitFlow blog. #PhotographyBusiness #UnitFlow"
+
+#### Pinterest (3 Posts)
+1. **Pin Title:** The Photographer's Quick Conversion Cheat Sheet (Crop Factors). **Image Description:** A clean infographic showing quick mental math approximations for crop factors on APS-C and MFT sensors. Link: https://unitflow.alfo.online/blog/conversion-hacks-for-photographers
+2. **Pin Title:** Print Sizes: Inches to Centimetres Made Easy. **Image Description:** A visual guide comparing common print sizes like 8x10 and 16x20 in inches to their exact centimetre equivalents. Link: https://unitflow.alfo.online/blog/conversion-hacks-for-photographers
+3. **Pin Title:** Studio Lighting Distances (Meters vs Feet). **Image Description:** A diagram illustrating the Inverse Square Law and showing quick conversions between meters and feet for lighting setups. Link: https://unitflow.alfo.online/blog/conversion-hacks-for-photographers

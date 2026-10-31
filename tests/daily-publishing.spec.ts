@@ -3,6 +3,18 @@ import { test, expect } from '@playwright/test';
 const SITE_URL = 'http://localhost:3000';
 
 const newUrls = Array.from(new Set([
+  '/blog/conversion-hacks-for-photographers',
+  '/length/fathom-to-m',
+  '/length/m-to-fathom',
+  '/length/fathom-to-ft',
+  '/length/ft-to-fathom',
+  '/length/fathom-to-in',
+  '/length/in-to-fathom',
+  '/length/fathom-to-cm',
+  '/length/cm-to-fathom',
+  '/length/fathom-to-mm',
+  '/length/mm-to-fathom',
+
   '/blog/conversion-hacks-for-architects',
   '/volume/gal-to-tsp',
   '/volume/tsp-to-gal',

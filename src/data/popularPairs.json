@@ -2143,5 +2143,55 @@
     "categoryId": "energy",
     "from": "ev",
     "to": "cal"
+  },
+  {
+    "categoryId": "length",
+    "from": "fathom",
+    "to": "m"
+  },
+  {
+    "categoryId": "length",
+    "from": "m",
+    "to": "fathom"
+  },
+  {
+    "categoryId": "length",
+    "from": "fathom",
+    "to": "ft"
+  },
+  {
+    "categoryId": "length",
+    "from": "ft",
+    "to": "fathom"
+  },
+  {
+    "categoryId": "length",
+    "from": "fathom",
+    "to": "in"
+  },
+  {
+    "categoryId": "length",
+    "from": "in",
+    "to": "fathom"
+  },
+  {
+    "categoryId": "length",
+    "from": "fathom",
+    "to": "cm"
+  },
+  {
+    "categoryId": "length",
+    "from": "cm",
+    "to": "fathom"
+  },
+  {
+    "categoryId": "length",
+    "from": "fathom",
+    "to": "mm"
+  },
+  {
+    "categoryId": "length",
+    "from": "mm",
+    "to": "fathom"
   }
 ]

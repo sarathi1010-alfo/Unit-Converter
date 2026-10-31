@@ -8,6 +8,18 @@ const SITEMAP_URL = `${SITE_URL}/sitemap-index.xml`;
 const INDEXNOW_KEY = process.env.INDEXNOW_KEY || '2026_indexnow_key_alfo';
 
 const NEW_URLS = Array.from(new Set([
+  `${SITE_URL}/blog/conversion-hacks-for-photographers`,
+  `${SITE_URL}/length/fathom-to-m`,
+  `${SITE_URL}/length/m-to-fathom`,
+  `${SITE_URL}/length/fathom-to-ft`,
+  `${SITE_URL}/length/ft-to-fathom`,
+  `${SITE_URL}/length/fathom-to-in`,
+  `${SITE_URL}/length/in-to-fathom`,
+  `${SITE_URL}/length/fathom-to-cm`,
+  `${SITE_URL}/length/cm-to-fathom`,
+  `${SITE_URL}/length/fathom-to-mm`,
+  `${SITE_URL}/length/mm-to-fathom`,
+
   `${SITE_URL}/blog/conversion-hacks-for-architects`,
   `${SITE_URL}/volume/gal-to-tsp`,
   `${SITE_URL}/volume/tsp-to-gal`,
