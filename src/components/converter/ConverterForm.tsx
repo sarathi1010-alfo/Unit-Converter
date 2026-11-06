@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { convert, formatConversionResult, getUnitsForCategory, type CategoryId } from "@/lib/conversion";
 import { ArrowRightLeft, Copy, Check } from "lucide-react";
+import { trackEvent } from "@/lib/gtag";
 
 interface ConverterProps {
   initialCategoryId?: CategoryId;
@@ -43,6 +44,13 @@ export function ConverterForm({
   }, [value, isPairLocked, initialValue, router, searchParams]);
 
   const handleSwap = () => {
+    trackEvent("convert_unit", {
+      action: "swap",
+      category: categoryId,
+      from: toUnit,
+      to: fromUnit,
+      value: value,
+    });
     if (isPairLocked) {
       router.push(`/convert/${toUnit}-to-${fromUnit}?value=${value}`);
     } else {
@@ -58,11 +66,24 @@ export function ConverterForm({
     const secondUnit = Object.keys(getUnitsForCategory(newCat))[1];
     setFromUnit(firstUnit);
     setToUnit(secondUnit);
+    trackEvent("convert_unit", {
+      action: "category_change",
+      category: newCat,
+      from: firstUnit,
+      to: secondUnit,
+    });
   };
 
   const handleCopyLink = () => {
     navigator.clipboard.writeText(window.location.href);
     setCopied(true);
+    trackEvent("convert_unit", {
+      action: "copy_link",
+      category: categoryId,
+      from: fromUnit,
+      to: toUnit,
+      value: value,
+    });
     setTimeout(() => setCopied(false), 2000);
   };
 
@@ -128,6 +149,17 @@ export function ConverterForm({
               name="value"
               value={value}
               onChange={(e) => setValue(e.target.value)}
+              onBlur={() => {
+                if (value && !isNaN(parseFloat(value))) {
+                  trackEvent("convert_unit", {
+                    action: "calculate",
+                    category: categoryId,
+                    from: fromUnit,
+                    to: toUnit,
+                    value: parseFloat(value),
+                  });
+                }
+              }}
               className="w-full text-2xl p-4 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary/20"
               placeholder="0"
             />

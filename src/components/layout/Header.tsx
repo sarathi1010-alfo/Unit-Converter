@@ -22,10 +22,10 @@ export function Header() {
             </span>
             <div className="absolute top-full right-0 mt-2 w-48 bg-white border border-slate-200 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
               <div className="py-2 flex flex-col">
-                <a href="https://resumeforge.alfo.online/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 hover:bg-slate-50 hover:text-primary">Resume Forge</a>
-                <a href="https://paletteflow.alfo.online/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 hover:bg-slate-50 hover:text-primary">Palette Flow</a>
-                <a href="https://qr.alfo.online/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 hover:bg-slate-50 hover:text-primary">QR Generator</a>
-                <a href="https://emicalculatorpro.alfo.online/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 hover:bg-slate-50 hover:text-primary">EMI Calculator</a>
+                <a href="https://resumeforge.alfo.online/" target="_blank" rel="noopener" className="px-4 py-2 hover:bg-slate-50 hover:text-primary">Resume Forge</a>
+                <a href="https://paletteflow.alfo.online/" target="_blank" rel="noopener" className="px-4 py-2 hover:bg-slate-50 hover:text-primary">Palette Flow</a>
+                <a href="https://qr.alfo.online/" target="_blank" rel="noopener" className="px-4 py-2 hover:bg-slate-50 hover:text-primary">QR Generator</a>
+                <a href="https://emicalculatorpro.alfo.online/" target="_blank" rel="noopener" className="px-4 py-2 hover:bg-slate-50 hover:text-primary">EMI Calculator</a>
               </div>
             </div>
           </div>

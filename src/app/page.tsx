@@ -13,18 +13,18 @@ export const metadata: Metadata = {
   description:
     "Convert length, weight, temperature, volume, area, and speed instantly. Free online unit converter with precise real-time calculations and conversion guides.",
   alternates: {
-    canonical: "https://unit-converter-kappa-nine.vercel.app/",
+    canonical: "https://unitflow.alfo.online/",
   },
   openGraph: {
     title: "Unit Converter - Free Online Unit Conversion Tool",
     description:
       "Convert length, weight, temperature, volume, area, and speed instantly. Free online unit converter with precise real-time calculations and conversion guides.",
-    url: "https://unit-converter-kappa-nine.vercel.app/",
+    url: "https://unitflow.alfo.online/",
     siteName: "UnitConverter",
     type: "website",
     images: [
       {
-        url: "https://unit-converter-kappa-nine.vercel.app/og-image.png",
+        url: "https://unitflow.alfo.online/og-image.png",
         width: 1200,
         height: 630,
         alt: "UnitConverter Preview",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: "Unit Converter - Free Online Unit Conversion Tool",
     description:
       "Convert length, weight, temperature, volume, area, and speed instantly. Free online unit converter with precise real-time calculations and conversion guides.",
-    images: ["https://unit-converter-kappa-nine.vercel.app/og-image.png"],
+    images: ["https://unitflow.alfo.online/og-image.png"],
   },
 };
 
@@ -53,7 +53,7 @@ export default function Home() {
       "@context": "https://schema.org",
       "@type": "WebApplication",
       name: "UnitConverter",
-      url: "https://unit-converter-kappa-nine.vercel.app/",
+      url: "https://unitflow.alfo.online/",
       description:
         "Free online unit conversion tool for instant calculations across length, mass, temperature, speed, volume, and digital units.",
       applicationCategory: "UtilityApplication",
@@ -151,7 +151,7 @@ export default function Home() {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://unit-converter-kappa-nine.vercel.app/",
+          item: "https://unitflow.alfo.online/",
         },
       ],
     },

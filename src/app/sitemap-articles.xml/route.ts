@@ -2,11 +2,12 @@ import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 import { classifyIntent, getIntentPriority } from '@/lib/intent';
+import { SITE_URL } from '@/lib/seo';
 
 export const dynamic = 'force-static';
 
 export async function GET() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://unitflow.alfo.online';
+  const baseUrl = SITE_URL;
 
   // Custom manual guides
   const guidesDir = path.join(process.cwd(), 'content/guides');

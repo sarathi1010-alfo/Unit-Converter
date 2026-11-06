@@ -5,14 +5,16 @@
  * Vercel deployment URLs from being indexed.
  */
 
-// Fallback for local development if the env var isn't set
-const DEFAULT_URL = 'https://unit-converter-kappa-nine.vercel.app';
+const PRODUCTION_URL = 'https://unitflow.alfo.online';
 
 export function getSiteUrl() {
+  // Always use the explicitly defined public site URL if set
   if (process.env.NEXT_PUBLIC_SITE_URL) {
     return process.env.NEXT_PUBLIC_SITE_URL.replace(/\/$/, "");
   }
-  return DEFAULT_URL;
+
+  // Hardcode fallback production domain to prevent Vercel preview domain hashes from leaking into canonical tags
+  return PRODUCTION_URL;
 }
 
 export const SITE_URL = getSiteUrl();

@@ -3,28 +3,28 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { AdBlock } from "@/components/ads/AdBlock";
 import { RecentlyLaunchedStrip } from "@/components/layout/RecentlyLaunchedStrip";
-import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
+import Script from "next/script";
 import "@/app/globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://unit-converter-kappa-nine.vercel.app"),
+  metadataBase: new URL("https://unitflow.alfo.online"),
   title: "Unit Converter - Free Online Unit Conversion Tool",
   description:
     "Convert length, weight, temperature, volume, area, and speed instantly. Free online unit converter with precise real-time calculations and conversion guides.",
   keywords: "free unit converter, visual unit converter, length converter, weight converter, custom conversions",
   alternates: {
-    canonical: "https://unit-converter-kappa-nine.vercel.app/",
+    canonical: "https://unitflow.alfo.online/",
   },
   openGraph: {
     title: "Unit Converter - Free Online Unit Conversion Tool",
     description:
       "Convert length, weight, temperature, volume, area, and speed instantly. Free online unit converter with precise real-time calculations and conversion guides.",
-    url: "https://unit-converter-kappa-nine.vercel.app/",
+    url: "https://unitflow.alfo.online/",
     siteName: "UnitConverter",
     type: "website",
     images: [
       {
-        url: "https://unit-converter-kappa-nine.vercel.app/og-image.png",
+        url: "https://unitflow.alfo.online/og-image.png",
         width: 1200,
         height: 630,
         alt: "UnitConverter Preview",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: "Unit Converter - Free Online Unit Conversion Tool",
     description:
       "Convert length, weight, temperature, volume, area, and speed instantly. Free online unit converter with precise real-time calculations and conversion guides.",
-    images: ["https://unit-converter-kappa-nine.vercel.app/og-image.png"],
+    images: ["https://unitflow.alfo.online/og-image.png"],
   },
   other: {
     "google-adsense-account": "ca-pub-6393936268623951",
@@ -63,12 +63,27 @@ export default function RootLayout({
         >
           Skip to main content
         </a>
-        {process.env.NEXT_PUBLIC_GTM_ID && (
-          <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
-        )}
-        {process.env.NEXT_PUBLIC_GA_ID && (
-          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
-        )}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-HZQ3QT11QC"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            if (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+              window['ga-disable-G-HZQ3QT11QC'] = true;
+            } else {
+              gtag('config', 'G-HZQ3QT11QC', {
+                cookie_domain: 'auto',
+                linker: { domains: ['alfo.online', 'sm-clinics.vercel.app', 'pdfutility.app'] },
+                cookie_flags: 'SameSite=None;Secure'
+              });
+            }
+          `}
+        </Script>
 
         <RecentlyLaunchedStrip />
         <Header />

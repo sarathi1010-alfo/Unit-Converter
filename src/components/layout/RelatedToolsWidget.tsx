@@ -6,25 +6,25 @@ export function RelatedToolsWidget() {
     {
       name: "Resume Forge",
       description: "Create professional resumes instantly.",
-      url: "#",
+      url: "https://resumeforge.alfo.online",
       tag: "productivity",
     },
     {
       name: "PDF Utility",
       description: "Compress, merge, and split PDFs.",
-      url: "#",
+      url: "https://pdfutility.app",
       tag: "document",
     },
     {
       name: "Palette Flow",
       description: "Generate and export beautiful brand colors.",
-      url: "#",
+      url: "https://paletteflow.alfo.online",
       tag: "design",
     },
     {
       name: "QR Generator",
       description: "Create free custom QR codes.",
-      url: "#",
+      url: "https://qr.alfo.online",
       tag: "marketing",
     },
   ];
@@ -33,7 +33,7 @@ export function RelatedToolsWidget() {
     <section className="mt-16 border-t border-slate-200 pt-12">
       <div className="flex items-center justify-between mb-8">
         <h2 className="text-2xl font-bold text-slate-900">You might also need:</h2>
-        <a href="#" className="text-sm font-medium text-primary hover:underline hidden sm:block">
+        <a href="https://alfo.online" target="_blank" rel="noopener" className="text-sm font-medium text-primary hover:underline hidden sm:block">
           View all tools →
         </a>
       </div>

@@ -43,4 +43,5 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://unit-converter-kappa-nine.vercel.app/sitemap.xml
+Sitemap: https://unitflow.alfo.online/sitemap.xml
+Sitemap: https://unitflow.alfo.online/sitemap-index.xml
