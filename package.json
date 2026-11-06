@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "validate:seo": "npx --yes tsx scripts/validate-seo.ts"
+    "validate:seo": "npx --yes tsx scripts/validate-seo.ts",
+    "postbuild": "node scripts/indexnow-ping.mjs",
+    "test": "playwright test"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.1",

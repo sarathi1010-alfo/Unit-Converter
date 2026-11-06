@@ -52,7 +52,7 @@ export function ConverterForm({
       value: value,
     });
     if (isPairLocked) {
-      router.push(`/convert/${toUnit}-to-${fromUnit}?value=${value}`);
+      router.push(`/convert/${toUnit}-to-${fromUnit}`);
     } else {
       setFromUnit(toUnit);
       setToUnit(fromUnit);
